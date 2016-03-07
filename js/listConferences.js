@@ -5,7 +5,7 @@
     "description": "10 days of mission-driven open source conferences",
     "camp": "open",
     "dates": "Jul 8 to 17, 2016 in NYC",
-    "icon": "icon-oc-horz.png",
+    "icon": "icon-open.png",
     "website": "http://opencamps.org",
     "twitter": "http://twitter/opencamps",
     "facebook": "http://facebook/opencamps",
