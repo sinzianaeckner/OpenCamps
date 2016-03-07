@@ -1,0 +1,25 @@
+  function getConferences(conferences) {
+    var outputConferences = "";
+    var i;
+    for(i = 0; i<conferences.length; i++) {
+      outputConferences +=
+				'<div class="conference ' + conferences[i].camp + '">'+
+				   '<div class="inner ' + conferences[i].camp + '">'+
+				     '<div class="icon">'+
+						   '<div class="icon-inner"><img src="images/' + conferences[i].icon + '" class="icon"/></div>'+
+						 '</div>'+
+						 '<div class="name">' + conferences[i].name + '</div>'+
+						 '<div class="date">' + conferences[i].dates + '</div>'+
+						 '<div class="description">' + conferences[i].description + '</div>'+
+						 '<div class="links">'+
+							 '<div class="link"><a href="' + conferences[i].website + '" target="_blank" class="website"><i class="fa fa-globe"></i></a></div>'+
+							 '<div class="link"><a href="' + conferences[i].twitter + '" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>'+    
+							 '<div class="link"><a href="' + conferences[i].facebook + '" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></div>'+
+							 '<div class="link"><a href="' + conferences[i].github + '" target="_blank" class="github"><i class="fa fa-github"></i></a></div>'+
+						 '</div>'+
+					'</div>'+
+				'</div>'+
+        '</div>';
+    }
+    document.getElementById("conferences").innerHTML = outputConferences;
+  }
