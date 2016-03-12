@@ -4,6 +4,41 @@
 
 
 
+/* General */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+}
+
+
+div,
+a {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	color: gray;
+}
+
+p {
+	font-size: .9em;
+	color: #595959;
+}
+
+a {
+	color: #181818;
+	text-decoration: none;
+}
+
+ @font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+
+
+
+
 /* Layout */
 
 html, 
@@ -12,7 +47,10 @@ body {
 }
 
 #page {
-	_padding: 90px 0 0;
+	  padding-top: 0;
+}
+
+body.conferences #page {
 	padding: 90px 0 0;
 	position: absolute;
 	top: 0;
@@ -22,7 +60,22 @@ body {
 	height: 100%;
 }
 
+
+.slogan-short {
+	display: block;
+}
+
+.slogan-long {
+  display: none;
+}
+
 #header {
+  background-color: white;
+	position: fixed;
+	border-bottom: 1px solid #dedede;
+}
+
+body.conferences #header {
   margin-top: -90px;
   height: 90px;
   background-color: white;
@@ -41,36 +94,8 @@ body {
 	right: 0;
 	width: 20px;
 	height: 20px;
-	background-color: pink;
 }
 
-
-#partners {
-  margin-bottom: -50px;
-  height: 50px;
-  background-color: white;
-  display: none;
-}
-
-
-
-
-/* General */
-
-body {
-	margin: 0;
-	padding: 0;
-	background-color: #e9e9e9;
-}
-
-
-div,
-a {
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-}
-
-
- @font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
 
 
 
@@ -92,6 +117,9 @@ a {
 	padding: 0;
 	opacity: 1;
 	z-index: 1;
+	clear: both;
+	display: block;
+	height: 90px;
 }
 
 #header .inner {
@@ -125,7 +153,7 @@ a {
 	padding: 0;
 }
 
-#header .oc {
+#header .oc a {
 	font: 1.7em/1em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	text-align: left;
 	font-weight: 900;
 	color: #a4a4a4;
@@ -133,7 +161,7 @@ a {
 	padding: 0;
 }
 
-#header .dates {
+#header .dates a {
 	font: .86em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #a4a4a4;
   font-weight: 400;
@@ -143,9 +171,6 @@ a {
 }
 
 #header .slogan {
-	font: 11px 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: white;
-	font-weight: 500;
 	background-color: #a4a4a4;
 	padding: 4px 4px 4px 6px;
 	margin-bottom: 10px;
@@ -153,8 +178,26 @@ a {
 	text-align: left;
 }
 
-#header .slogan .slogan-short {
-  display: none;
+
+#header .slogan p,
+#header .slogan a {
+	font: 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: white;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+
+#header .slogan a {
+	text-decoration: underline;
+}
+
+#header .slogan-short {
+	font-size: 9.75px;
+}
+
+#header .slogan-long {
+	font-size: 12px;
 }
 
 #header .links {
@@ -175,34 +218,7 @@ a {
 	color: white;
 }
 
-#header .links .github {
-	display: none;
-}
 
-#menu {
-	position: absolute;
-	display: block;
-	z-index: 1;
-	z-index: 2;
-	right: 10px;
-	top: 30px;
-}
-
-#menu a {
-	color: #a4a4a4;
-}
-
-
-
-
-
-/* Open Camps */
-
-}
-
-#menu a {
-	color: #a4a4a4;
-}
 
 
 /* Open Camps */
@@ -291,9 +307,12 @@ a {
 
 /* CONFERENCES - Layout */
 
+#main-menu ul#menu {
+	width: 33.3333%;
+}
 
 .conference {
-  width: 33.333%;
+  width: 33.3333%;
 	max-height: 33%;
 	display: inline-block;
 	margin: 0;
@@ -409,9 +428,45 @@ a {
 
 
 
+/* PAGES - About */
+
+body.about .content {
+	padding-top: 90px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+
+
 
 
 @media only screen and (min-width: 560px) {
+
+  .slogan-short {
+  	display: none;
+  }
+
+  .slogan-long {
+	  display: block;
+  }
+
+
+  #main-menu ul#menu {
+	  width: 25%;
+  }
+
+  _ul li a {
+  	width: 100%;
+  	display:block;
+  	text-align: center;
+  	line-height: 1em;
+  	font: 1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	color: #fff;
+  	background: #a4a4a4;
+  	text-decoration: none;
+  	padding: 4em 0;
+  }
+
 
   .conference {
     width: 25%;
@@ -447,6 +502,15 @@ a {
 
 
 @media only screen and (min-width: 768px) {
+  
+  #main-menu ul#menu {
+	  width: 25%;
+	  margin-top: 79px;
+  }
+
+  body.conferences #page {
+	padding: 0;
+  }
 
   .conference {
     width: 25%;
@@ -469,22 +533,8 @@ a {
 	  padding-top: .25em;
   }	
 
-  #header {
+  body.conferences #header {
   	display: none;
-  }
-
-  #menu {
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	display: block;
-  	z-index: 1;
-  	padding-left: 10px;
-  	padding-top: 10px;
-  }
-
-  #page {
-	  padding-top: 0;
   }
 
   .conference.open {
@@ -621,6 +671,10 @@ a {
 
 @media only screen and (min-width: 1280px) {
 	
+	#main-menu ul#menu {
+		width: 20%;
+	}
+	
 	.conference {
 	  width: 20%;  /* 5col */
 	  _width: 16.666666%;  /* 6-col */
@@ -670,6 +724,10 @@ a {
 
 @media only screen and (min-width: 1600px) {	
 
+  #main-menu ul#menu {
+	  width: 16.666666%;
+  }
+
   .conference {
 	  _width: 20%;  /* 6-col */
 	  width: 16.666666%;  /* 6-col */
@@ -709,47 +767,6 @@ a {
 
 
 
-/* PARTNERS */
-
-.partners {
-	background-color: #c0c0c0;
-	padding: 1em;
-}
-
-.partners .row {
-	margin-bottom: 1em;
-}
-
-.partners div div {
-  display: inline-block;
-}
-
-.partners div a img {
-	width: 100%;
-  height: auto;
-	padding: 3em;
-	opacity: 0.7;
-}
-
-.partners div a:hover img {
-	opacity: 1;
-}
-
-.partners .platinum div {
-  width: 33%;
-}
-
-.partners .gold div {
-  width: 25%;
-}
-
-.partners .silver div {
-  width: 20%;
-}
-
-.partners .bronze div {
-  width: 15%;
-}
 
 
 
@@ -757,105 +774,15 @@ a {
 
 
 
-/* CONFERENCES - Colors */
-
-.angular {
-	background: #DD1B16;
-}
-
-.apps {
-	background-color: teal;
-}
-
-.civic {
-	background-color: pink;
-}
-
-.community {
-  background: #3FA652;
-}
-
-.dataviz {
-	background: #F89B46;
-}
-
-.database {
-	background-color: navy;
-}
-
-.devops {
-	background-color: #a06bd0;
-}
-
-.drupal {
-	background: #04639d;
-}
-
-.elixir {
-  background: #4e2a8e;
-}
-
-.frontend {
-  background: purple;
-}
-
-.go {
-  background: #B7937F;
-}
-
-.maker {
-	background-color: blue ;
-}
-
-.meteor {
-  background: #333333;	
-}
-
-.nextgen {
-	background-color: #f029e0;
-}
-
-.node {
-	background-color: #80BD01;	
-}
-
-.open {
-	background-color: white;
-}
-
-.phoenix {
-	background: #F15523;
-}
-
-.rails {
-	background: #A62C39;
-}
-
-.react {
-	background: #00D8FF;
-}
-
-.search {
-	background: #FF8066  ;
-}
-
-.maps,
-.osm {
-	background: #a0c598;
-}
-
-.conference.un {
-	background: #4B92DB;
-}
 
 
 
 
-/* TEMP */
 
-#menu {
-	display: none;
-}
+
+
+
+
 
 
 

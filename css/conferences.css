@@ -1,0 +1,95 @@
+/* CONFERENCES - Colors */
+
+.angular {
+	background: #DD1B16;
+}
+
+.apps {
+	background-color: teal;
+}
+
+.civic {
+  background-color: #d04e4e;
+	_p_
+}
+
+.community {
+  background: #3FA652;
+}
+
+.dam {
+	background: #F89B46;
+}
+
+.dataviz {
+	background: #F89B46;
+}
+
+.database {
+	background-color: navy;
+}
+
+.devops {
+	background-color: #a06bd0;
+}
+
+.drupal {
+	background: #04639d;
+}
+
+.elixir {
+  background: #4e2a8e;
+}
+
+.frontend {
+  background: purple;
+}
+
+.go {
+  background: #B7937F;
+}
+
+.maker {
+	background-color: blue ;
+}
+
+.meteor {
+  background: #333333;	
+}
+
+.nextgen {
+	background-color: #f029e0;
+}
+
+.node {
+	background-color: #80BD01;	
+}
+
+.open {
+	background-color: white;
+}
+
+.phoenix {
+	background: #F15523;
+}
+
+.rails {
+	background: #A62C39;
+}
+
+.react {
+	background: #00D8FF;
+}
+
+.search {
+	background: #FF8066  ;
+}
+
+.maps,
+.osm {
+	background: #a0c598;
+}
+
+.conference.un {
+	background: #4B92DB;
+}
