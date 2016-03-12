@@ -24,6 +24,11 @@ h3 {
 	color: gray;
 }
 
+h1 {
+	font-size: 1.9em;
+	font-weight: bold;
+}
+	
 p {
 	font-size: .9em;
 	color: #595959;
@@ -193,7 +198,7 @@ body.conferences #header {
 }
 
 #header .slogan-short {
-	font-size: 9.25px;
+	font-size: .55em;
 }
 
 #header .slogan-long {
@@ -204,12 +209,13 @@ body.conferences #header {
 	position: absolute;
 	right: 0;
 	top: 0;
-	padding: 1px 9px 1px 2px;
+	padding: 1px 5px 1px 2px;
 	_margin-top: 20px;
 }
 
 #header .links .link {
 	display: inline-block;
+	padding-right: 0px;
 }
 
 #header .links a {
@@ -431,9 +437,7 @@ body.conferences #header {
 /* PAGES - About */
 
 body.about .content {
-	padding-top: 90px;
-	padding-right: 10%;
-	padding-left: 10%;
+	padding: 90px 5% 3em;
 }
 
 
