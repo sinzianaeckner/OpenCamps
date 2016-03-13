@@ -154,4 +154,8 @@ input[type=checkbox]:checked ~ #menu{
 	  border-right: none;
    }
 
+  body.conferences #main-menu ul#menu {
+  	top:  0;
+  }
+
 }
