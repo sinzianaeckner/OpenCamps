@@ -126,8 +126,9 @@ input[type=checkbox]:checked ~ #menu{
 
 /*Responsive Styles*/
 
+
+
 @media screen and (min-width : 768px){
-	/*Make all menu links full width*/
 
   body.conferences .show-menu {
 	  padding: 10px 0;
@@ -137,6 +138,9 @@ input[type=checkbox]:checked ~ #menu{
 	  left: 10px;
   }
 
+  #main-menu ul#menu {
+	  margin-top: 0px;
+  }
 
   body.conferences #main-menu ul#menu {
 	  margin-top: 47px;
