@@ -4,7 +4,7 @@
     "name": "Open Camps",
     "description": "10 days of mission-driven open source conferences",
     "camp": "open",
-    "dates": "Jul 8 to 17, 2016 in NYC",
+    "dates": "@ UN Jul 8 to 17, 2016",
     "icon": "icon-open.png",
     "website": "http://opencamps.org",
     "twitter": "http://twitter.com/opencamps",
