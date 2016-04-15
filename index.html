@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
   <link rel="stylesheet" type="text/css" href="css/conferences.css">
+  <link rel="stylesheet" type="text/css" href="css/open.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu:700,500,400italic,300,300italic,400' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +26,11 @@
 					<ul class="hidden">
 						<li><a href="about.html">About</a></li>
 						<li><a href="about.html#initiatives">Initiatives</a></li>
+						<li><a href="about.html#venue">Venue</a></li>
+						<li><a href="about.html#lodging">Lodging</a></li>
+						<li><a href="about.html#food">Food</a></li>
 						<li><a href="about.html#team">Team</a></li>
+						<li><a href="about.html#contact">Contact</a></li>
 						<!-- <li><a href="about.html">Calendar</a></li> -->
 						<!-- <li><a href="about.html#news">News</a></li> -->
 					</ul>
@@ -41,39 +47,77 @@
 		</div>
 		
 		<div id="header">
-			<div class="links">
-				<div class="link twitter"><a href="http://twitter.com/opencamps" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>
-				<div class="link facebook"><a href="http://facebook.com/opencamps" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></div>
-				<div class="link github"><a href="http://github.org/opencamps" target="_blank" class="github"><i class="fa fa-github"></i></a></div>
-				<div class="link email"><a href="mailto:info@opencamps.org" target="_blank" class="email"><i class="fa fa-envelope"></i></a></div>
-			</div>
-	
-			<div class="slogan">
-			  <p class="slogan-short">10 days of mission-driven open source conferences</p>
-			  <p class="slogan-long">10 days of free mission-driven open source conferences - <a href="about.html">find out more here</a></p>
-			</div>
+		  <div class="fixed">
 
-			<div class="inner">				
-				<div class="logo">
-					<a href="index.html"><img src="images/icon-open.png"></a>
+				<div class="links">
+					<div class="link twitter"><a href="http://twitter.com/opencamps" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>
+					<div class="link facebook"><a href="http://facebook.com/opencamps" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></div>
+<!--			<div class="link github"><a href="http://github.org/opencamps" target="_blank" class="github"><i class="fa fa-github"></i></a></div> -->
+					<div class="link email"><a href="mailto:info@opencamps.org" target="_blank" class="email"><i class="fa fa-envelope"></i></a></div>
 				</div>
-				<div class="text">
-					<div class="oc"><a href="index.html">Open Camps</a></div>
-					<div class="dates"><a href="index.html">@ UN July 8 to 17, 2016</a></div>
+	
+				<div id="tagline">
+  				<div class="inner">
+  					<p class="short">25+ Mission-Driven Open Source Conferences & 6000+ attendees</p>
+	  				<p class="long">25+ Mission-Driven Open Source Conferences & Events, 6000+ attendees - <a href="about.html">Find Out More</a></p>
+		  			<p class="longer">25+ Mission-Driven Open Source Conferences & Events, 6000+ Attendees, 400+ Presentations, 15+ Trainings - <a href="about.html">Find Out More</a></p>
+  				</div>
 				</div>
-			</div>
-		</div>		
-		<div id="conferences">
-  		<div id="promo">
+
+				<div class="nav">				
+					<div class="logo">
+						<a href="index.html"><img src="images/icons/icon-open-wh.png"></a>
+					</div>
+					<div class="text">
+						<div class="oc"><a href="index.html">Open Camps</a></div>
+						<div class="dates"><a href="index.html">@ UN July 8 to 17, 2016</a></div>
+					</div>
+				</div>
+
 		  </div>
+      
+      <div class="promo">
+        <div class="inner">
+    		<p>
+      		Open Camps will be the largest mission-driven open source conference in the world,
+      		with 6,000+ attendees joining for 25+ conferences & events, featuring 400+ sessions on dozens of open source technologies.
+   		  </p>
+        </div>
+      </div>
+		  
+		  <div id="broadcast">
+				<p>
+				  Registration is open for PyGotham, Drupal NYC Camp & Next Gen Camp.
+				  Registration for all other conferences will open by late Apr.
+				  Please <a href="about.html#contact">contact us</a> with any questions or to get involved.
+				</p>
+      </div>						
+		</div>
+		
+		<div id="conferences">
 		</div>
 		<div id="partners">
+      <div class="inner">
+      
+      </div>		
 		</div>
+		<div id="footer">
+      <div id="unite">
+        <div class="inner">
+          <p class="short">Organized in collaboration w/UN's <a href="https://unite.un.org/opensource" target="_blank">Unite Open Source Initiative</a></p>
+          <p class="long">Open Camps is organized in collaboration with the UN's <a href="https://unite.un.org/opensource" target="_blank">Unite Open Source Initiative</a></p>
+          <p class="longer">Open Camps is organized in collaboration with the United Nations's <a href="https://unite.un.org/opensource" target="_blank">Open Source Innovation Initiative (Unite Open Source) - Find Out More</a></p>
+        </div>
+      </div>
+		</div>
+
+
 	</div>
 
   <script src="js/getConferences.js"></script>
   <script src="js/listConferences.js"></script>
-
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/oc.js"></script>
 </body>
 </html>
 

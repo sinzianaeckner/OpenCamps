@@ -1,6 +1,15 @@
 /* Open Camps */
 
 
+@font-face {
+    font-family: 'FuturaT';
+    src: url('../fonts/futura/FuturaT_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura Extra Bold';
+    src: url('../fonts/futura/FuturaExtraBold.ttf') format('truetype');
+}
 
 
 
@@ -15,8 +24,11 @@ body {
 
 div,
 a {
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	_font-family: Quicksand, sans-serif;
+	font-family: Ubuntu, sans-serif;
 }
+
+
 
 h1,
 h2,
@@ -35,9 +47,23 @@ p {
 
 }
 
-a {
-	color: #181818;
+a,
+a:visited {
+  color: #424242;
 	text-decoration: none;
+}
+
+a {
+	border-bottom: 1px dotted gray;
+}
+
+a:hover {
+	color: #181818;
+	border-bottom: none;
+}
+
+#header a {
+	border-bottom: none;
 }
 
  @font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
@@ -53,11 +79,10 @@ body {
 }
 
 #page {
-	  padding-top: 0;
+	padding: 0px 0 23px;
 }
 
-body.conferences #page {
-	padding: 90px 0 0;
+_body.conferences #page {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -66,27 +91,23 @@ body.conferences #page {
 	height: 100%;
 }
 
+#tagline .inner {
+	display: none;
+}
 
-.slogan-short {
+#tagline .short,
+#unite .short {
 	display: block;
 }
 
-.slogan-long {
+
+#tagline long,
+#unite .long,
+#tagline .longer,
+#unite .longer {
   display: none;
 }
 
-#header {
-  background-color: white;
-	position: fixed;
-	border-bottom: 1px solid #dedede;
-}
-
-body.conferences #header {
-  margin-top: -90px;
-  height: 90px;
-  background-color: white;
-	position: fixed;
-}
 
 #conferences {
   min-height: 100%;
@@ -94,16 +115,26 @@ body.conferences #header {
   background-color: white;
 }
 
-#conferences #promo {
-	position: absolute;
-	left: 0;
-	right: 0;
-	width: 20px;
-	height: 20px;
+.promo {
+	text-align: center;
+	padding: 0;
+  _background:rgba(180,180,180,0.35);
+}
+
+#header .promo p .inner {
+	text-align: center;
+}
+
+#unite .short {
+	display: block;
+	font-size: 10px;
 }
 
 
-
+#unite .long,
+#unite .longer {
+  display: none;
+}
 
 
 
@@ -115,17 +146,28 @@ body.conferences #header {
 /* HEADER */
 
 #header {
+	background: url(../images/photos/un-header-sm2.jpg) center center no-repeat white;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 1px solid #424242;
 	width: 100%;
 	text-align: center;
-	background-color: white;
 	font: 1em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: silver;
+	_color: #424242;
 	padding: 0;
-	opacity: 1;
-	z-index: 1;
 	clear: both;
 	display: block;
-	height: 90px;
+	height:300px;
+	position: relative;
+}
+
+#header .fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	opacity: 1;
+	padding-bottom: .4em;
+
 }
 
 #header .inner {
@@ -137,16 +179,14 @@ body.conferences #header {
 	display: inline-block;
 	text-align: left;
   vertical-align: top;
-  width: 75px;
-	background-color: white;
-	margin-left: 5px;
+  width: 87px;
+	margin-left: 10px;
 	margin-right:3px;
 }
 
 #header .logo img {
   width: 100%;
   height: auto;
-	background-color: white;
 }
 
 #header.active {
@@ -160,33 +200,37 @@ body.conferences #header {
 }
 
 #header .oc a {
-	font: 1.7em/1em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	text-align: left;
+	_font: 1.7em/1em 'FuturaT', sans-serif;
+	font: 1.9em/1em 'Ubuntu', sans-serif;
+	text-align: left;
+  letter-spacing: -.05em;
 	font-weight: 900;
-	color: #a4a4a4;
+	color: white;
+	_color: #424242;
 	margin: 0;
 	padding: 0;
 }
 
 #header .dates a {
 	font: .86em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #a4a4a4;
+	color: white;
+	_color: #424242;
   font-weight: 400;
 	padding-bottom: 0;
 	padding-left: 3px;
 	padding-top: 2px;
 }
 
-#header .slogan {
-	background-color: #a4a4a4;
+#header #tagline {
+	_background-color: #424242;
 	padding: 4px 4px 4px 6px;
 	margin-bottom: 10px;
-	height: 14px;
+	height: 16px;
 	text-align: left;
 }
 
-
-#header .slogan p,
-#header .slogan a {
+#header #tagline p,
+#header #tagline a {
 	font: 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: white;
 	font-weight: 500;
@@ -194,23 +238,27 @@ body.conferences #header {
 	padding: 0;
 }
 
-#header .slogan a {
+#header #tagline a {
 	text-decoration: underline;
 }
 
-#header .slogan-short {
-	font-size: .55em;
+#header #tagline .short {
+	font-size: 8.5px;
 }
 
-#header .slogan-long {
-	font-size: 12px;
+#header di.link.email {
+	display: none;
+}
+
+#tagline .long {
+	display: none;
 }
 
 #header .links {
 	position: absolute;
 	right: 0;
 	top: 0;
-	padding: 1px 5px 1px 2px;
+	padding: 2px 7px 1px 2px;
 	_margin-top: 20px;
 }
 
@@ -225,550 +273,301 @@ body.conferences #header {
 	color: white;
 }
 
-
-
-
-/* Open Camps */
-
-.conference.open {
-  display: none;
+#header .nav {
+	text-align: left;
+  vertical-align: top;
 }
 
-.conference.open .inner {
-	padding-top: .5em;
-}
+  #header .promo {
+    width: 100%;
+  	padding-top: 90px;
+  	position: relative;
 
-.conference .open .icon {
-	width: 50%;
-	vertical-align: middle;
-	padding-bottom: 0;
-	font-size: 1em;
+  }
+
+  #header .promo .inner p {
+  	padding: .5em 1.25em 0;
+  	vertical-align: middle;
+	  font: .75em Georgia, "Times New Roman", Times, serif;
+  	line-height: 1.5em;
+  	color: white;
+  	text-align: center;
+  	font-weight: normal;
+  }
+
+#broadcast {
+	text-align: center;
+	_background-color: #a4a4a4;
+  background:rgba(200,200,200,0.30);
 	margin: 0;
-}
-
-.conference .open .icon img {
-	height: auto;
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
-.conference .open:hover .description {
-  display: block;
+
+#broadcast p {
+	padding: .5em .35em;
+	line-height: 1.4em;
+	font-size: .75em;
+	color: white;
+	margin: 0 auto;
 }
 
-.conference .open .name {
+#broadcast p a {
+	color: white;
+	border-bottom: 1px dotted white;
+}
+
+
+
+
+
+/* FOOTER */
+
+#footer {
+	width: 100%;
+	text-align: center;
+	font: 1em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: white;
+	padding: 0;
+	opacity: 1;
+	z-index: 1;
+	clear: both;
+	display: block;
+	_height: 60px;
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	border-top: 1px solid #424242;
+}
+
+#footer p {
+	font-size: .9em;
+	line-height: 1.4em;
+}
+
+#footer a {
+	color: white;
+	border-bottom: 1px dotted white;
+}
+
+#footer a:hover {
+	border-bottom: none;	
+}
+
+#footer #unite {
+	width: 100%;
+	background-color: #4b92db;
+
+}
+
+#footer #unite .inner {
+	padding: .25em;	
+}
+
+#footer #unite p {
 	margin: 0;
 	padding: 0;
-	display: inline-block;
-}
-
-.conference .open .name,
-.conference .open .name a {
-	font-size: 1em;
-	font-weight: 700;
-	color: #a4a4a4;
-	line-height: 1em;
-}
-
-.conference .open .date {
-	color: #a4a4a4;
-	font-size: .8em;
-	font-weight: 700;
-	padding-top: 0em;
-	padding-bottom: .25em;
-}
-
-.conference .open .description {
-	color: #a4a4a4;
-	padding-right: .25em;
-	padding-left: .25em;
-	display: block;
-	font-size: .85em;
-}
-
-.conference .open .inner {
-	position: relative;
-}
-
-.conference .open .links {
-  display: block!important;
-  color: #a4a4a4;
-	float: right;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-.conference .open .links a {
-  color: #a4a4a4;
-}
-
-.conference .open .link .website {
- display: none;
-}
-
-
-
-
-
-
-
-/* CONFERENCES - Layout */
-
-#main-menu ul#menu {
-	width: 33.3333%;
-}
-
-.conference {
-  width: 33.3333%;
-	max-height: 33%;
-	display: inline-block;
-	margin: 0;
-	color: white;
 	text-align: center;
-	vertical-align: top;
-	display: inline-block;
-	-webkit-box-flex: 1; /* OLD - iOS 6-, Safari 3.1-6 */
-	-moz-box-flex: 1;    /* OLD - Firefox 19- */                /* For old syntax, otherwise collapses. */
-	-webkit-flex: 1;     /* Chrome */
-	-ms-flex: 1;         /* IE 10 */
-	flex: 1;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-}
-
-
-.conference .inner {
-  height:100%;
-	padding: 1em .25em 1.5em;
-	position: relative;
-  top: 50%;  
-  _-webkit-transform: translateY(-50%);
-  _-ms-transform: translateY(-50%);
-  _xtransform: translateY(-50%);
-}
-
-.conference .icon {
-	text-align: center;
-	vertical-align: middle;
-	display: inline-block;
-  width: 50%;
-	padding: 0 0 .1em;
-	margin: 0;
-}
-
-.conference .icon .inner {
-	text-align: center;
-	vertical-align: middle;
-}
-
-.conference .icon .icon-inner {
-	text-align: center;
-	vertical-align: middle;
-}
-
-.conference .icon img {
-	width: 100%;
-  height: auto;
-	opacity: 0.6;
-}
-
-.conference .name {
- 	font: .7em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: .65em;
 	font-weight: 500;
-	text-align: center;
-	padding-bottom: .5em;
-	padding-top: .75em;
 }
 
-.conference .name,
-.conference .name a {
- 	font: .7em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-weight: 500;
-	text-align: center;
+#footer p {
 	color: white;
-	text-decoration: none;
-	opacity: 0.8;
-}
-
-.conference .date {
- 	font: .65em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-weight: 400;
-	padding-bottom: 0em;
-	text-align: center;
-	opacity: 0.75;
-}
-
-.conference .details {
-	vertical-align: top;
-	display: inline-block;
-	width: 63%;
-  padding: 0;
-  margin: 0;
-}
-
-.conference .details .links {
-  float: right;
-	padding-right: .25em;
-	padding-bottom: .5em;
-}
-
-.conference .links {
-	display: none;
-}
-
-
-.conference .links .link {
-	padding: 0 .2em;
-}
-
-.conference .links a {
-	color: white;
-	opacity: 0.8;
-	font-size: .9em;
-	line-height: 1em;
-}
-
-.conference .description {
-  display: none;
-  font: .9em/1.3em 'Ubuntu', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: left;
 }
 
 
 
 
 
-/* PAGES - About */
+@media only screen and (min-width: 375px) {
 
-body.about .content {
-	padding: 90px 5% 3em;
+  #header #tagline .short {
+	  font-size: .55em;
+  }
+
+  #header .promo .inner p {
+  	padding: 1em 1.25em 0;
+  	font: .85em Georgia, "Times New Roman", Times, serif;
+  	line-height: 1.5em;
+  }
+
 }
 
-body.about a.about {
-	display: none;
+@media only screen and (min-width: 480px) {
+
+#header .promo .inner p {
+	padding: 1.25em 2em 0;
+	font-size: .95em;
+	line-height: 1.5em;
+}
+
+  #broadcast p {
+  	padding-right: 2em;
+  	padding-left: 2em;
+  }
+
+  body.about #header #tagline {
+	  text-align: center;
+  }
+
+  body.about #tagline .short,
+  #unite .short {
+  	display: none;
+  }
+
+  body.about #tagline .long,
+  #unite .long {
+	  display: block;
+	font-size: 12px;
+  }
+
+  body.about #tagline .longer,
+  #unite .longer {
+	  display: none;
+  }
+
+
 }
 
 
 
 @media only screen and (min-width: 560px) {
 
-  .slogan-short {
+  #header .promo p {
+	  padding: 2em;
+	  font: 1em Georgia, "Times New Roman", Times, serif;
+	  line-height: 1.5em;
+  }
+
+  body.about #header #tagline p {
+	  text-align: center;
+ 	  padding-right: 12px;
+  }
+
+  body.about #tagline .short,
+  #unite .short {
   	display: none;
   }
 
-  .slogan-long {
+  body.about #tagline .long,
+  #unite .long {
 	  display: block;
+	font-size: 12px;
   }
 
-
-  #main-menu ul#menu {
-	  width: 25%;
+  body.about #tagline .longer,
+  #unite .longer {
+	  display: none;
   }
 
-  _ul li a {
-  	width: 100%;
-  	display:block;
-  	text-align: center;
-  	line-height: 1em;
-  	font: 1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	color: #fff;
-  	background: #a4a4a4;
-  	text-decoration: none;
-  	padding: 4em 0;
+  #header .promo .inner {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
-  .conference {
-    width: 25%;
+  #header .promo p {
+  	vertical-align: middle;
+	  font: 1.1em Georgia, "Times New Roman", Times, serif;
+  	line-height: 1.5em;
+  	margin: 0;
   }
 
-  .conference .icon {
-  	width: 45%;  
+  #broadcast p {
+  	padding: 1em;
+  	line-height: 1.4em;
+  	width: 500px;
+  	color: white;
   }
-
-  .conference .icon img {
-	  margin-top: .5em;
-  }
-
-  .conference .name {
- 	  padding-bottom: .5em;
-  }
- 
-  .conference .name,
-  .conference .name a {
-  	font-size: .95em;
-  }
-
-  .conference .date {
-    font-size: .85em;
-	  font-weight: 400;
-	  padding-bottom: .65em;
-  }	
 
 }
-
-
 
 
 
 @media only screen and (min-width: 768px) {
-  
-  #main-menu ul#menu {
-	  width: 25%;
-	  margin-top: 79px;
-  }
 
-  body.conferences #page {
-	padding: 0;
-  }
-
-  .conference {
-    width: 25%;
-  }
-	
-  .conference .name {
- 	  padding-bottom: .5em;
-	  padding-top: 1em;
-  }
-
-  .conference .name,
-  .conference .name a {
-	  font: 1.5em;
-  }
-
-  .conference .date {
-    font-size: 1em;
-	  font-weight: 400;
-	  padding-bottom: .65em;
-	  padding-top: .25em;
+  #header {
+  	height:300px;
   }	
 
-  body.conferences #header {
+  #tagline .short,
+  #unite .short {
   	display: none;
   }
 
-  .conference.open {
-	  display: inline-block;
+  #tagline .long,
+  #unite .long {
+	  display: none;
   }
 
-
-  .conference .open .link {
-    color: #a4a4a4;
-  	padding-bottom: 1px;
+  #tagline .longer,
+  #unite .longer { 
+	  display: block;
+  	padding: .25em;
+  	font-size: .7em!important;
   }
 
-  .conference .open {
-  	padding-bottom: .5em;
-  	padding-top: .75em;
+  #header .promo .inner {
+  	width: 600px;
   }
 
-  .conference .open .icon {
-	  width: 65%;
+  #header .promo .inner p {
+  	font-size: 1em;
+  	line-height: 1.5em;
+  	padding: 1.25em;
+  	max-width: 40rem;
+  	margin-right: auto;
+  	margin-left: auto;
+  	font-weight: normal;
+  	font-style: normal;
   }
 
-  .conference .open .links {
-  	padding-right: .2em;
-  	padding-top: .2em;
+  #header #broadcast p {
+  	font-size: .9em;
   }
-
-  .conference .open .icon {
-  	padding-top: .35em;
-  }
-
-  .conference .open img {
-    width: 100%;
-    height: auto;
-  	margin-top: .5em;
-  	padding: 0;
-  }
-
-  .conference .open .name {
-    font-size: 1.65em;
-  }
-
-  .conference .open .date {
-    font-size: .9em;
-  	margin-top: 0;
-  	padding-top: .35em;
-  	padding-bottom: .75em;
-  	font-weight: 700;
-  }
-
-  .conference .open .description {
-    font-size: .85em;
-  	padding-right: .6em;
-  	padding-left: .6em;
-  }
-
+  
 }
-
-
-
 
 @media only screen and (min-width: 1024px) {
 
-  .conference {
-    width: 25%;
-    height: 25%;
+  #page {
+  	padding: 0px 0 44px;
   }
 
-  .conference .inner {
-  	padding: 1em;
+  #header {
+	  height:360px;
+  	background: url(../images/photos/un-header4.jpg) center center no-repeat white;
   }	
   
-	.conference .icon {
-		width: 35%;
-		padding: 1em 0 1.75em;
-	}
-	
-	.conference .icon .inner {
-		text-align: center;
-		vertical-align: middle;
-  }
-	
-	.conference .icon img {
-	  width: 100%;
-	  height: auto;
-		padding-bottom: 0;
-	}
-
-	.conference div {
-		display: block;
-		clear: both;
-		vertical-align: top;
-	}
-	
-  .conference .name {
- 	  padding-bottom: .25em;
-	  padding-top: 0em;
-  }
-
-  .conference .name,
-  .conference .name a {
-  	font-size: 1.2em;
-  }
-
-  .conference .date {
-    font-size: 1em;
-	  font-weight: 400;
-	  padding-bottom: .65em;
-	  padding-top: .25em;
-  }	
-
-  .conference .open .name {
-    font-size: 2.3em;
-  	padding-bottom: .2em;
-  }
-
-  .conference .open .date {
-    font-size: 1.2em;
-  	margin-top: 0;
-  	padding-top: 0em;
-  	padding-bottom: .35em;
-  }
-
-  .conference .open .description {
-    font-size: 1em;
-  	padding-right: .7em;
-  	padding-left: .7em;
-  	line-height: 1.3em;
-  }
-
-}
-
-
-
-
-@media only screen and (min-width: 1280px) {
-	
-	#main-menu ul#menu {
-		width: 20%;
-	}
-	
-	.conference {
-	  width: 20%;  /* 5col */
-	  _width: 16.666666%;  /* 6-col */
-	}
-
-  .conference .icon {
-  	width: 50%;
-  }
-
-  .conference .open .icon {
-	  width: 80%;
-  	padding-top: .5em;
-  	padding-bottom: .3em;
-  }
-
-  .conference .date {
-    font-size: 1em;
-	  font-weight: 400;
-	  padding-bottom: .65em;
-	  padding-top: .25em;
-  }	
-
-  .conference .open .name {
-    font-size: 2.3em;
-  	padding-bottom: .2em;
-  }
-
-  .conference .open .date {
-    font-size: 1.2em;
-  	margin-top: 0;
-  	padding-top: 0em;
-  	padding-bottom: .35em;
-  }
-
-  .conference .open .description {
-    font-size: 1.09em;
-  	padding-right: .7em;
-  	padding-left: .7em;
-  	line-height: 1.3em;
-  }
-
-}
-
-
-
-
-
-@media only screen and (min-width: 1600px) {	
-
-  #main-menu ul#menu {
-	  width: 16.666666%;
-  }
-
-  .conference {
-	  _width: 20%;  /* 6-col */
-	  width: 16.666666%;  /* 6-col */
-	  _width: 14.28571%; /* 7-col */
-    height: 25%;
-  }
-
-}
-
-
-
-
-
-@media only screen and (min-width: 1800px) {	
-
-  .conference {
-	  width: 16.666666%;  /* 6-col */
-  	height: 33%;
-  }
-
-  .conference .inner {
-  	padding-top: 1em;
-  	padding-bottom: 1em;
-  }
-
-  .conference .name,  
-  .conference .name a {
-	  font-size: 1.25rem;
-  }
+  #header #tagline p {
+	  text-align: center;
+  }  
   
-  .conference .date {
-  	font-size: 1em;
+  #tagline .longer,
+  #unite .longer { 
+  	font-size: .85em!important;
   }
 
+  #unite {
+  	padding: .5em;
+  }
+
+  #header .promo .inner p {
+  	font-size: 1.3em;
+  	line-height: 1.5em;
+  }
+
+
+
 }
+
+
+
+
 
 
 
