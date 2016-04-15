@@ -221,6 +221,18 @@
   },
 
   {
+    "name": "PyGotham",
+    "description": "PyGotham is an eclectic Py-centric conference covering many topics. There's a diverse speaker list, and some things which will be quite different.",
+    "camp": "pygotham",
+    "dates": "Jul 16-17",
+    "icon": "icon-pygotham.svg",
+    "website": "https://2016.pygotham.org",
+    "twitter": "https://twitter.com/pygotham",
+    "github": "http://github.com/pygotham",
+    "email": "organizers@pygotham.org"
+  },
+
+  {
     "name": "Rails Camp",
     "description": "A single-day single-track ...",
     "camp": "rails",

@@ -73,6 +73,14 @@
 	background: #F15523;
 }
 
+.pygotham {
+    background: #3F6B9D;
+}
+
+.pygotham img.icon {
+    opacity: 1;
+}
+
 .rails {
 	background: #A62C39;
 }
