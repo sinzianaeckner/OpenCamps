@@ -44,7 +44,7 @@
     "description": "Civic Camp is a a community-run single day, single track conference focused on the use of open source technology for civic purposes ",
     "camp": "civic",
     "dates": "Sun Jul 10",
-    "icon": "icon-civic.svg",
+    "icon": "icon-civic-camp.svg",
     "website": "http://Civic.Camp",
     "twitter": "http://twitter.com/Civic_Camp",
     "facebook": "https://www.facebook.com/Civic-Camp-1062624427127104/",
