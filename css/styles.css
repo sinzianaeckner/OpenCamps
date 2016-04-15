@@ -614,7 +614,7 @@ body.about a.about {
   
 	.conference .icon {
 		width: 35%;
-		padding: 1em 1em 1.75em;
+		padding: 1em 0 1.75em;
 	}
 	
 	.conference .icon .inner {
