@@ -140,6 +140,17 @@ body.partnerships li {
 	overflow: hidden;
 }
 
+.content-row.intro h1 {
+	color: #424242;
+	text-align: center;
+}
+
+.content-row.intro p {
+	text-align: center;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 .content-row.founding {
 	margin-top: 2em;
