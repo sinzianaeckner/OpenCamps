@@ -48,7 +48,7 @@ body.partnerships li {
 }
 
 
-.lodging ul {
+.lead ul {
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 0;
@@ -107,11 +107,11 @@ body.partnerships li {
 
 
 .content-row {
-	width: 100%;
-	background-color: white;
+	width: 90%;
 	overflow: hidden;
-	border-bottom: 1px solid #424242;
-
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 1.5rem;
 }
 
 	
@@ -123,12 +123,104 @@ body.partnerships li {
 }
 
 .content-row h2 {
-	font: 2em/1em "FuturaT", sans-serif;
-	color: #424242;
-	font-weight: 900;
-  letter-spacing: -.06em;
+	font: 2em/1em "Ubuntu", sans-serif;
+  color: white;
+	font-weight: 600;
 	padding: .5rem 1rem .25rem;
+
 }
+
+.content-row .wrapper {
+	background-color: white;
+	overflow: hidden;
+}
+
+.founding .wrapper {
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+
+.content-row.founding {
+	margin-top: 2em;
+	overflow: hidden;
+}
+
+.content-row.founding .inner{
+	padding-left: 0;
+}
+
+.content-row.founding .col-text {
+  display: inline-block;
+	width: 45%;
+}
+
+.content-row.founding .col-img {
+  display: inline-block;
+	width: 53.5%;
+	overflow: hidden;
+}
+
+
+.content-row.founding h2 {
+  background-color: #000;
+	color: white;
+}
+
+.content-row.founding .wrapper {
+	border: 1px solid #000;
+	margin: 0;
+}
+
+.content-row.lead .wrapper {
+	border: 1px solid #424242;
+	margin: 0;
+	overflow: hidden;
+}
+
+.content-row.lead h2 {
+  background-color: #424242;
+	color: white;
+}
+
+
+.gold h2 {
+  background-color: #black;		
+}
+
+.gold .wrapper {
+	border: 1px solid #e7c303;
+}
+
+.gold h2 {
+  background-color: #e7c303;		
+}
+
+.silver .wrapper {
+	border: 1px solid #c0c0c0;
+}
+
+.silver h2 {
+  background-color: #c0c0c0;		
+}
+
+.bronze .wrapper {
+	border: 1px solid #cd7f32;
+}
+
+.bronze h2 {
+  background-color: #cd7f32;		
+}
+
+.community .wrapper {
+	border: 1px solid #21aa21;
+}
+
+.community h2 {
+  background-color: #21aa21;		
+}
+
+
 
 .content-row h2 {
 	margin-top: 0;
@@ -150,7 +242,7 @@ body.about li {
 	font-weight: 300;
 }
 
-.col-image {
+.col-img {
   float: right;
   display: inline-block;		
   width: 45%;
@@ -158,9 +250,10 @@ body.about li {
   vertical-align: middle;
 	margin-left: 1rem;
 	margin-bottom: 1rem;
+	overflow: hidden;
 }
 
-.col-image img {
+.col-img img {
   width: 100%;
   height: auto;
 	margin: 0;
@@ -175,29 +268,46 @@ body.about li {
 @media only screen and (min-width: 768px) {
 
   .col-image {
-    width: 45%;
+    width: 40%;
   	margin-bottom: 3rem;
   }
+
+	.content-row.gold,
+	.content-row.silver,
+	.content-row.bronze,
+	.content-row.community {
+		width: 46.5%;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
+	}
 
 }
 
 
 @media only screen and (min-width: 1024px) {
 	
+	
+	
 	.content-row {
 		padding-left: 0;
 	}
+
+	.content-row .wrapper {
+  	margin: 2rem;
+  }
+
+	.content-row .inner {
+  	padding: 0 0 0 2em;
+  }
 	
 	.col-text {
 	  vertical-align: top;
 	  _display: inline-block;	
-	  width: 44.6%;
+	  width: 44%;
 	}
-	
-	.col-text .inner {
-		padding: 0 2em 2.25px;
-	}
-	
+		
 	.col-text h2 {
 		font: bolder 3em;
 		color: #424242;
@@ -266,14 +376,16 @@ body.about li {
 @media only screen and (min-width: 1200px) {
 	
 .content-row h2 {
-	font-size: 3.25rem;
-  padding-top: .5rem;
-  padding-bottom: .25rem;
-
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 0;
 }
 
 .content-row h3 {
-	font: 1.25rem Ubuntu, sans-serif;
+	font: 1.5rem Ubuntu, sans-serif;
+	padding-right: 5rem;
+	padding-top: .5rem;
+	padding-left: 1rem;
 }
 
 body.partnerships p,
@@ -291,18 +403,7 @@ body.partnerships li {
 
 
 @media only screen and (min-width: 1600px) {	
-	
-.content-row h2 {
-	font-size: 5rem;
-	padding: 5rem 5rem 1rem;
-	margin: 0;
-}
 
-.content-row h3 {
-	font: 1.5rem Ubuntu, sans-serif;
-	padding-right: 5rem;
-	padding-left: 5rem;
-}
 
 body.about p {
 	font-size: 1.1rem;

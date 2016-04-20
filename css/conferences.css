@@ -318,110 +318,105 @@
 
 /* CONFERENCES - Colors */
 
-.angular {
+.conference .angular {
 	background: #DD1B16;
 }
 
-.apps {
+.conference .apps {
 	background-color: teal;
 }
 
-.a4h {
+.conference .a4h {
   background-color: #00dc00;
 }
 
-.civic {
+.conference .civic {
   background-color: #d04e4e;
- 	_background-color: #deb200;
 }
 
-.community {
+.conference .community {
   background: #3FA652;
 }
 
-.dam {
+.conference .dataviz {
 	background: #F89B46;
 }
 
-.dataviz {
-	background: #F89B46;
-}
-
-.database {
+.conference .database {
 	background-color: navy;
 }
 
-.devops {
+.conference .devops {
 	background-color: #a06bd0;
 }
 
-.drupal {
+.conference .drupal {
 	background: #04639d;
 }
 
-.elixir {
+.conference .elixir {
   background: #4e2a8e;
 }
 
-.frontend {
+.conference .frontend {
   _background: purple;
   background: #deb200;
 
 }
 
-.go {
+.conference .go {
   background: #B7937F;
 }
 
-.maker {
+.conference .maker {
 	background-color: blue ;
 }
 
-.maps {
+.conference .maps {
 	background: #a0c598;
 }
 
-.meteor {
+.conference .meteor {
   background: #333333;	
 }
 
-.nextgen {
+.conference .nextgen {
 	background-color: #f029e0;
 }
 
-.node {
+.conference .node {
 	background-color: #80BD01;	
 }
 
-.open {
+.conference .open {
 	background-color: white;
 }
 
-.phoenix {
+.conference .phoenix {
 	background: #F15523;
 }
 
-.pygotham {
+.conference .pygotham {
 	background: #3f6b9d;
 }
 
-.rails {
+.conference .rails {
 	background: #A62C39;
 }
 
-.react {
+.conference .react {
 	background: #00D8FF;
 }
 
-.search {
+.conference .search {
 	background: #FF8066  ;
 }
 
-.wordpress {
+.conference .wordpress {
 	background: #21759b  ;
 }
 
-.webperf {
+.conference .webperf {
 	background: #800080;
 }
 
