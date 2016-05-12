@@ -137,11 +137,11 @@
     "camp": "frontend",
     "dates": "Sun Jul 17",
     "icon": "icon-frontend.png",
-    "website": "http://FrontEnd.Camp",
+    "website": "http://FrontEndCamp.io",
     "twitter": "http://twitter.com/FrontEndCamp",
     "facebook": "https://www.facebook.com/Front-End-Camp-1010842225663786/",
     "github": "http://github.com/FrontEndCamp",
-    "email": "info@frontend.camp"
+    "email": "info@frontendcamp.io"
   },
 
   {
