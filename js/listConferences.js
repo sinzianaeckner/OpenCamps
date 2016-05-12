@@ -56,7 +56,7 @@
     "name": "Community Camp",
     "description": "Community Camp is a conference focused on open source community governance, contribution and best practices on",
     "camp": "community",
-    "dates": "Sun Jul 10 & Sun Jul 17",
+    "dates": "Jul 10 & Jul 17",
     "icon": "icon-community.png",
     "website": "http://Community.Camp",
     "twitter": "http://twitter.com/OSCommunityCamp",
