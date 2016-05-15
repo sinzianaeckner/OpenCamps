@@ -27,16 +27,16 @@
   },
 
   {
-    "name": "Apps for Humanity",
-    "description": "Apps for Humanity is a community-run conference & hackathon focused on using open source tech to help achieve the",
-    "camp": "a4h",
+    "name": "Hack for Humanity",
+    "description": "Hack for Humanity is a community-run conference & hackathon focused on using open source tech to help achieve the",
+    "camp": "h4h",
     "dates": "Jul 9, 10 & 17",
     "icon": "icon-a4h.png",
-    "website": "http://appsforhumanity.org",
-    "twitter": "https://twitter.com/Apps4Humanity",
-    "facebook": "https://www.facebook.com/Apps-for-Humanity-1033421186725103",
-    "github": "http://github.com/appsforhumanity",
-    "email": "info@appsforhumanity.org"
+    "website": "",
+    "twitter": "",
+    "facebook": "",
+    "github": "",
+    "email": ""
   },
 
   {

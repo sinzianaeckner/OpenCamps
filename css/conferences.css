@@ -326,8 +326,12 @@
 	background-color: teal;
 }
 
-.conference .a4h {
+.conference .h4h {
   background-color: #00dc00;
+}
+
+.conference .h4h .links a {
+  color: #00dc00;
 }
 
 .conference .civic {
@@ -361,7 +365,6 @@
 .conference .frontend {
   _background: purple;
   background: #deb200;
-
 }
 
 .conference .go {
