@@ -247,19 +247,27 @@ body.about li {
 	}
 
 	.content-row.initiatives .col-image,
-	.content-row.lodging .col-image,
 	.content-row.team .col-image {
 		float: left;
 		margin: 0 1rem 0 0;
 	}
 
-.content-row.about .col-image,
-.content-row.venue .col-image,
-.content-row.food .col-image,
-.content-row.contact .col-image {
-	margin: 0 0 0 1rem;
-}
+  .content-row.about .col-image,
+  .content-row.venue .col-image,
+  .content-row.food .col-image,
+  .content-row.contact .col-image {
+  	margin: 0 0 0 1rem;
+  }
 
+  .content-row.lodging {
+  	display: block;
+  }
+
+  .content-row.lodging img {
+  	float: right;
+  	height: auto;
+    display: block;  	
+  }
 
 }
 
@@ -321,13 +329,12 @@ body.about li {
 
 .content-row.about .col-image,
 .content-row.venue .col-image,
-.content-row.food .col-image,
 .content-row.contact .col-image {
 	margin: 0 0 0 5rem;
 }
 
 .content-row.initiatives .col-image,
-.content-row.lodging .col-image,
+.content-row.food .col-image,
 .content-row.team .col-image {
 	margin: 0 5rem 0 0;
 }
