@@ -1,5 +1,17 @@
 /* CONFERENCES - Colors */
 
+.conference .agency {
+	background: #0d66f2;
+}
+
+.conference .ai {
+	background: #7B93A5;
+}
+
+.conference .android {
+	background: #A4C63A;
+}
+
 .conference .angular {
 	background: #DD1B16;
 }
@@ -44,6 +56,10 @@
   background: #4e2a8e;
 }
 
+.conference .erlang {
+  background: #9A0000;
+}
+
 .conference .frontend {
   _background: purple;
   background: #deb200;
@@ -63,6 +79,10 @@
 
 .conference .meteor {
   background: #333333;	
+}
+
+.conference .nerves {
+	background-color: #676961;
 }
 
 .conference .nextgen {
@@ -97,8 +117,12 @@
 	background: #FF8066  ;
 }
 
+.conference .swift {
+	background: #ef5238;
+}
+
 .conference .wordpress {
-	background: #21759b  ;
+	background: #21759b;
 }
 
 .conference .webperf {

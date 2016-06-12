@@ -29,6 +29,8 @@
   _-webkit-transform: translateY(-50%);
   _-ms-transform: translateY(-50%);
   _xtransform: translateY(-50%);
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
 }
 
 .conference .icon {
@@ -130,7 +132,7 @@
 @media only screen and (min-width: 560px) {
 
   .conference {
-    width: 25%;
+    width: 20%;
   }
 
   .conference .icon {
@@ -147,11 +149,11 @@
  
   .conference .name,
   .conference .name a {
-  	font-size: .925em;
+  	font-size: .85em;
   }
 
   .conference .date {
-    font-size: .85em;
+    font-size: .8rem;
 	  font-weight: 400;
 	  padding-bottom: .65em;
   }	
@@ -168,7 +170,11 @@
   }
 
   .conference {
-    width: 25%;
+    width: 20%;
+  }
+
+  .conference .inner {
+  	margin-bottom: 1px;
   }
 	
   .conference .name {
@@ -178,7 +184,7 @@
 
   .conference .name,
   .conference .name a {
-	  font-size: 1.1rem;
+	  font-size: 1.05rem;
   }
 
   .conference .date {
@@ -206,13 +212,14 @@
 @media only screen and (min-width: 1024px) {
 
   .conference {
-    width: 25%;
+    width: 20%;
     height: 25%;
   }
 
   .conference .inner {
   	padding: 0 1em 1em;
-  }	
+   	margin-bottom: 0px;
+  }
   
 	.conference .icon {
 		width: 50%;
@@ -300,6 +307,7 @@
   .conference .inner {
   	padding-top: 1em;
   	padding-bottom: 1em;
+  	margin-bottom: 1px;
   }
 
   .conference .name,  
@@ -311,4 +319,15 @@
   	font-size: 1em;
   }
 
+}
+
+
+/* TEMP */
+
+.conference.design {
+	display: none;
+}
+
+.conference .links .facebook {
+	display: none!important;
 }

@@ -1,6 +1,44 @@
 ﻿getConferences([
 
   {
+    "name": "AI Camp",
+    "description": "A community-run conference focused on the us of open source by digital agencies ",
+    "camp": "ai",
+    "dates": "Tue Jul 12",
+    "icon": "icon-ai.svg",
+    "website": "http://ai.camp",
+    "twitter": "http://twitter.com/ai_camp_nyc",
+    "facebook": "",
+    "github": "http://github.com/AICamp",
+    "email": "info@agency.camp"
+  },
+  
+  {
+    "name": "Agency Camp",
+    "description": "A community-run conference focused on the us of open source by digital agencies ",
+    "camp": "agency",
+    "dates": "Wed Jul 13",
+    "icon": "icon-agency.svg",
+    "website": "http://agency.camp",
+    "twitter": "http://twitter.com/agency_camp",
+    "facebook": "",
+    "github": "http://github.com/AgencyCamp",
+    "email": "info@agency.camp"
+  },
+  
+  {
+    "name": "Android Camp",
+    "description": "A community-run conference focused on the open source AngularJS framework",
+    "camp": "android",
+    "dates": "Tue Jul 12",
+    "icon": "icon-android.svg",
+    "website": "http://androidcamp.io",
+    "twitter": "http://twitter.com/AndroidCampNYC",
+    "facebook": "",
+    "github": "http://github.com/AndroidCamp",
+    "email": "info@androidcamp.io"
+  },
+  {
     "name": "Angular Camp",
     "description": "A community-run conference focused on the open source AngularJS framework",
     "camp": "angular",
@@ -31,7 +69,7 @@
     "description": "Hack for Humanity is a community-run conference & hackathon focused on using open source tech to help achieve the",
     "camp": "h4h",
     "dates": "Jul 9, 10 & 17",
-    "icon": "icon-a4h.png",
+    "icon": "icon-h4h.png",
     "website": "",
     "twitter": "",
     "facebook": "",
@@ -44,7 +82,7 @@
     "description": "Civic Camp is a a community-run single day, single track conference focused on the use of open source technology for civic purposes ",
     "camp": "civic",
     "dates": "Sun Jul 10",
-    "icon": "icon-civic-camp.svg",
+    "icon": "icon-civic.svg",
     "website": "http://Civic.Camp",
     "twitter": "http://twitter.com/Civic_Camp",
     "facebook": "https://www.facebook.com/Civic-Camp-1062624427127104/",
@@ -92,6 +130,19 @@
   },
 
   {
+    "name": "Design Camp",
+    "description": "A community-run single day, single track conference focused on open source design tools",
+    "camp": "design",
+    "dates": "Tue Jul 12",
+    "icon": "icon-design.svg",
+    "website": "http://DevOpsCamp.nyc",
+    "twitter": "https://twitter.com/Dev_Ops_Camp",
+    "facebook": "https://www.facebook.com/Dev-Ops-Camp-1708307602775959",
+    "github": "http://github.com/DevOpsCamp",
+    "email": "info@devopscamp.nyc"
+  },
+
+  {
     "name": "Dev Ops Camp",
     "description": "A community-run single day, single track conference focused on open source (mostly backend) dev ops",
     "camp": "devops",
@@ -119,8 +170,21 @@
   },
 
   {
+    "name": "Erlang Camp",
+    "description": "Erlang Camp is a community-run single day, single track open source focused on the Erlang language",
+    "camp": "erlang",
+    "dates": "Sat 16",
+    "icon": "icon-erlang.svg",
+    "website": "http://Erlang.camp",
+    "twitter": "http://twitter.com/ErlangCamp",
+    "facebook": "",
+    "github": "http://github.com/ErlangCamp",
+    "email": "info@erlang.camp"
+  },
+
+  {
     "name": "Elixir Camp",
-    "description": "Elixir Camp is a community-run single day, single track open source focused on the Elixir language",
+    "description": "Elixir Camp is a community-run multi day, single track open source focused on the Elixir language",
     "camp": "elixir",
     "dates": "Jul 15-17",
     "icon": "icon-elixir.png",
@@ -197,6 +261,19 @@
   },
 
   {
+    "name": "Nerves Camp",
+    "description": "A community-run single day, single track open source conference on the Nerves Project for crafting craft bulletproof firmware",
+    "camp": "nerves",
+    "dates": "Sun Jul 17",
+    "icon": "icon-nerves.svg",
+    "website": "http://nerves.camp",
+    "twitter": "http://twitter.com/nervescamp",
+    "facebook": "",
+    "github": "http://github.com/NervesCamp",
+    "email": "info@nerves.camp"
+  },
+
+  {
     "name": "Next Gen Camp",
     "description": "A community-run single day, single track pen source conference for young developers",
     "camp": "nextgen",
@@ -240,7 +317,7 @@
     "description": "PyGotham is an eclectic Py-centric conference covering many topics. There's a diverse speaker list, and some things which will be quite different.",
     "camp": "pygotham",
     "dates": "Jul 16-17",
-    "icon": "icon-pygotham.svg",
+    "icon": "icon-pygotham.png",
     "website": "https://2016.pygotham.org/",
     "twitter": "https://twitter.com/pygotham",
     "facebook": "",
@@ -272,6 +349,19 @@
     "facebook": "https://www.facebook.com/React-Camp-952898308139084/",
     "github": "http://github.com/reactcamp",
     "email": "info@reactcamp.io"
+  },
+
+  {
+    "name": "Swift Camp",
+    "description": "Search Camp is a community-run single day, single track conference focused on open source search technologies, including Apache Solr and ElasticSearch",
+    "camp": "swift",
+    "dates": "Wed Jul 13",
+    "icon": "icon-swift.svg",
+    "website": "http://swiftcamp.io",
+    "twitter": "https://twitter.com/swiftcamo",
+    "facebook": "",
+    "github": "http://github.com/swiftcamp",
+    "email": "info@swiftcamp.io"
   },
 
   {
