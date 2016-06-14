@@ -236,6 +236,7 @@
 	  width: 100%;
 	  height: auto;
 		padding-bottom: 0;
+		display: block;
 	}
 
 	.conference div {

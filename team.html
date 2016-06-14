@@ -6,16 +6,22 @@
   <link rel="stylesheet" type="text/css" href="css/menu.css">
   <link rel="stylesheet" type="text/css" href="css/conferences-colors.css">
   <link rel="stylesheet" type="text/css" href="css/conferences-layout.css">
-  <link rel="stylesheet" type="text/css" href="css/open.css">
-  <link rel="stylesheet" type="text/css" href="css/about.css">
+  <link rel="stylesheet" type="text/css" href="css/team.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu:700,500,400italic,300,300italic,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="conferences">
+<body class="team">
 
 	<div id="page">  
+
+
+		
+		<div id="header">
+		  <div class="fixed">
 
 		<div id="main-menu">
 			<label for="show-menu" class="show-menu"><i class="fa fa-bars fa-2x"></i></label>
@@ -47,9 +53,6 @@
 				<li><a href="about.html#contact">Contact</a></li>
 			</ul>
 		</div>
-		
-		<div id="header">
-		  <div class="fixed">
 
 				<div class="links">
 					<div class="link twitter"><a href="http://twitter.com/opencamps" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>
@@ -61,8 +64,8 @@
 				<div id="tagline">
   				<div class="inner">
   					<p class="short">25+ Mission-Driven Open Source Conferences & 6000+ attendees</p>
-	  				<p class="long">25+ Mission-Driven Open Source Conferences & Events, 6000+ attendees - <a href="about.html">Find Out More</a></p>
-		  			<p class="longer">25+ Mission-Driven Open Source Conferences & Events, 6000+ Attendees, 400+ Presentations, 15+ Trainings - <a href="about.html">Find Out More</a></p>
+	  				<p class="long">25+ Mission-Driven Open Source Conferences & Events, 6000+ attendees</p>
+  					<p class="longer">25+ Mission-Driven Open Source Conferences & Events, 6000+ Attendees, 400+ Presentations, 15+ Trainings</p>
   				</div>
 				</div>
 
@@ -80,25 +83,40 @@
       
       <div class="promo">
         <div class="inner">
-    		<p>The world's largest mission-driven open source conference, with 6,000+ attendees joining for 25+ conferences & events, featuring 400+ sessions on dozens of open source technologies.</p>
+    		<p>
+      		Open Camps will be the largest mission-driven open source conference in the world,
+      		with 6,000+ attendees joining for 25+ conferences & events, featuring 400+ sessions on dozens of open source technologies.
+   		  </p>
         </div>
       </div>
 		  
 		  <div id="broadcast">
-				<p>
-				  Registration for all  conferences is now open, please visit the relevant conference site below in order to register.
-				  Please <a href="about.html#contact">contact us</a> with any questions or to get involved.
-				</p>
+
       </div>						
-		</div>
-		
-		<div id="conferences">
-		</div>
-		<div id="partners">
-      <div class="inner">
+		</div>	
+			
+		<div class="content">
+     
+      <div class="content-row team">
+        <a name="team"></a> 
+        <div class="inner">
+          <!-- <div class="col-image"><img src ="images/photos/team.jpg"></div> -->
+  			  <h2>Team</h2>
+        	<h3>A grassroots volunteer-driven conference</h3>
+      	  <p class="intro">Open Camps and each participating conference & event is run by a wonderful team of dozens of volunteers.  Their effort allow us to keep the conference open to all and run on a not-for-profit basis.</p>        
+          <div>
+
+          </div>
+        </div>
+      </div>
       
-      </div>		
+
+	</div>
+	
+		<div id="team">
 		</div>
+	
+
 		<div id="footer">
       <div id="unite">
         <div class="inner">
@@ -109,11 +127,8 @@
       </div>
 		</div>
 
-
-	</div>
-
-  <script src="js/getConferences.js"></script>
-  <script src="js/listConferences.js"></script>
+  <script src="js/getOrganizers.js"></script>
+  <script src="js/listOrganizers.js"></script>
   <script src="js/jquery-2.2.1.min.js"></script>
   <script src="js/oc.js"></script>
 
@@ -148,7 +163,6 @@
 					else {window.attachEvent('onload', _onload)}
 			}());
 	</script>
-
 
 </body>
 </html>
