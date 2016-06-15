@@ -34,7 +34,7 @@
 
 	{
 		"camp":"Apps Camp",
-		"teach":"apps",
+		"tech":"apps",
 		"date":"2016-07-09",
 		"timeStart":"13:30",
 		"timeStop":"14:15",
@@ -65,7 +65,7 @@
 
 	{
 		"camp":"Apps Camp",
-		"teach":"apps",
+		"tech":"apps",
 		"date":"2016-07-09",
 		"timeStart":"13:30",
 		"timeStop":"14:15",
@@ -96,7 +96,7 @@
 
 	{
 		"camp":"Apps Camp",
-		"teach":"apps",
+		"tech":"apps",
 		"date":"2016-07-09",
 		"timeStart":"13:30",
 		"timeStop":"14:15",
