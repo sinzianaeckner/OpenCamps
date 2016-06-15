@@ -5,7 +5,7 @@
 	padding: 2%;
 	margin: 2%;
 	border: 1px solid gray;
-	min-width: 500px;
+	min-width: 480px;
 }
 
 #opencamps-embed p {
@@ -14,7 +14,7 @@
 }
 
 #opencamps-embed .oc-intro {
-    width: 500px;
+    width: 480px;
     margin: 0 auto;
     padding: 0 1em;
     padding: 0 1rem;
