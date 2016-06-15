@@ -303,6 +303,10 @@
 
 /* TEMP */
 
+.opencamps-embed .oc-logo {
+	display: none;
+}
+
 .conference.design {
 	display: none;
 }
