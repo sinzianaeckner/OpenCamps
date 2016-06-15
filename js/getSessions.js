@@ -42,7 +42,7 @@ var sessions = sessions.filter(sessionsFilter);
 					'</div>'+
         '</div>';
     }
-    document.getElementById("sessions2").innerHTML = outputSessions;
+    document.getElementById("sessions").innerHTML = outputSessions;
   }
   
   
