@@ -17,7 +17,7 @@ function getSessions(sessions) {
 						'<div class="speakers">'+
 							'<div class="speaker">'+
 								'<div class="speaker-inner">'+
-									'<div class="photo"><img src="images/speakers/' + sessions[i].speakers.speaker[0].photo + '"></div>'+
+									'<div class="photo"><img src="http://opencamps.org/images/speakers/' + sessions[i].speakers.speaker[0].photo + '"></div>'+
 									'<div class="details">'+
 										'<div class="name"><h5 class="speaker-name">' + sessions[i].speakers.speaker[0].nameFirst + ' ' + sessions[i].speakers.speaker[0].nameLast + '</h5></div>'+
 				    				'<div class="organization">' + sessions[i].speakers.speaker[0].organization + '</div>'+
