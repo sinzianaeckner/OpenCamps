@@ -21,6 +21,7 @@
 }
 
 #opencamps-embed .oc-intro .oc-logo {
+  display: none;
   width: 75px;
   display: inline-block;
   vertical-align: top;
