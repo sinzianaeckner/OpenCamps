@@ -33,7 +33,8 @@
   background-color: #d04e4e;
 }
 
-.conference.community {
+.conference.community,
+.conference.community a.button {
   background: #3FA652;
 }
 
@@ -61,8 +62,8 @@
   background: #9A0000;
 }
 
-.conference.frontend {
-  _background: purple;
+.conference.frontend,
+.conference.frontend a.button {
   background: #deb200;
 }
 
@@ -111,15 +112,18 @@
 	background: #A62C39;
 }
 
-.conference.react {
+.conference.react,
+.conference.react a.button {
 	background: #00D8FF;
 }
 
-.conference.search {
+.conference.search,
+.conference.search a.button {
 	background: #FF8066  ;
 }
 
-.conference.swift {
+.conference.swift,
+.conference.swift a.button {
 	background: #ef5238;
 }
 
