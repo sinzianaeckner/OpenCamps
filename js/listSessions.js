@@ -105,9 +105,9 @@
 		"date":"2016-07-09",
 		"timeStart":"13:30",
 		"timeStop":"14:15",
-		"sessionTitle":"Firebase for Fun & Profit: Mobile, Responsivee & Cross-Platform App Development",
+		"sessionTitle":"Firebase for Fun & Profit",
 		"sessionSubTitle":"",		
-		"sessionSummary":"",
+		"sessionSummary":"Real-time, reactive, responsive and cross-platform mobile-friendly apps are now the norm, not the exception. As mobile web developers, this creates a huge burden on us to learn disparate technologies and cobble together a complex architecture that can tackle our authentication, analytics, data storage and monetization needs. And that can take away valuable time and effort from focusing on what matters to our customers -- the front-end UX.   Enter Firebase. Firebase is a \"back-end as a service\" platform that works with a wide array of front-end technologies (web, Android, iOS) and has built-in support for these core requirements. And in 2016, it has evolved further to put growth, testing and monetization needs into the spotlight, allowing front-end developers to create modern, cross-platform apps and deploy them with minimal effort.",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -124,7 +124,7 @@
 				  "website":"",
 				  "organization":"Digital HV",
 				  "role":"Owner",
-				  "bio":""
+				  "bio":"Nitya has 20+ years of software research&development experience in mobile, web and distributed systems. After completing her PhD in distributed systems, she worked as a Distinguished Staff Member at Motorola Research for 12 years before starting a consultancy to build mobile and web product for early-stage startups. She organizes Google Developer Group (NYC & Hudson Valley) and Meteor (Hudson Valley) meetups and is passionate about education technology and entrepreneurism in her local community. Talk to her about {Android, React, Meteor, Firebase, Polymer or Blockly}."
         }
       ]
     }  
