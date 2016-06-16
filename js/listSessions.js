@@ -755,13 +755,13 @@
 				  "github":"https://github.com/timotius02",
 				  "facebook":"",
 				  "website":"",
-				  "organization":"NYHackathons",
-				  "role":"Designer, Developer, and Hackathon Hacker. Web Developer at NYHackathons.com.",
+				  "organization":"NYHackathons.com",
+				  "role":"Designer, Developer, and Hackathon Hacker.",
 				  "bio":""
         }
       ]
     }  
-	}
+	},
 
 
 
@@ -776,8 +776,129 @@
 
 
   // SEARCH CAMP
+	{
+		"camp":"Search Camp",
+		"tech":"search",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Improving Search: A/B Test & See",
+		"sessionSubTitle":"",
+		"sessionSummary":"Making the right decisions for your products is tough let alone search changes. They can be tough, complex decisions that affect all of your users or they can be small, simple changes that only a handful of users that will notice. But you ask yourself, \"What if our users don't like this change? What if this change results in loss of revenue?\". Well, luckily your answer to handling this is A/B testing to see before rolling out a full-fledged platform change.",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Adrian",
+				  "nameLast":"Cruz",
+				  "photo":"speaker-adrian-cruz.jpg",
+				  "linkedin":"https://www.linkedin.com/in/adriancruz",
+				  "twitter":"https://twitter.com/drincruz",
+				  "github":"https://github.com/drincruz",
+				  "facebook":"",
+				  "website":"",
+				  "organization":"Teachers Pay Teachers",
+				  "role":"Software Engineer",
+				  "bio":"A software engineer who has worked on web applications and data pipelines. Currently a software engineer on the search & discovery team at Teachers Pay Teachers; we're responsible for improving information retrieval by looking at data, making changes by testing them, looking at more data, and rolling out changes. Currently improving search utilizing Sphinx Search, but utilizing a lot of in-house and third-part tools to make data-driven decisions."
+        }
+      ]
+    }  
+	},
+	
+	{
+		"camp":"Search Camp",
+		"tech":"search",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"It's Just Search",
+		"sessionSubTitle":"",
+		"sessionSummary":"Think *inside* the box. Inside the *search* box, that is.<br><br>The \"best\"* search results incorporate many more factors than (just) textual matching and relevancy. Search experience owners manage query context _rules_, signals automatically feed back machine learned factors, users implicit and explicit behaviors filter and weight future interactions. Synergy emerges with several cooperating (just) searches.<br><br>This talk will showcase and detail several (just) search examples including rules, typeahead/suggest, signals, and location awareness, bringing them all together into a cohesive search experience.",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Erik",
+				  "nameLast":"Hatcher",
+				  "photo":"speaker-erik-hatcher.jpg",
+				  "linkedin":"https://www.linkedin.com/in/erik-hatcher-94820",
+				  "twitter":"https://twitter.com/erikhatcher",
+				  "github":"https://github.com/erikhatcher",
+				  "facebook":"",
+				  "website":"",
+				  "organization":"Lucidworks",
+				  "role":"Sr. Solutions Architect",
+				  "bio":"Erik Hatcher co-authored \"Lucene in Action\" asnd \"Java Development with Ant\". He has been an active member of the Lucene community - a leading Lucene and Solr committer, member of the Lucene Project Management Committee, member of the Apache Software Foundation as well as a frequent invited speaker at various industry events. Erik co-founded and works as a Senior Solutions Architect at Lucidworks."
+        }
+      ]
+    }  
+	},
 
-
+	{
+		"camp":"Search Camp",
+		"tech":"search",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Searching Encrypted Data on HDFS with Elasticsearch and Solr",
+		"sessionSubTitle":"",
+		"sessionSummary":"The paradigm of trust in computing changes with new methods to search encrypted data with standard search platforms and Hadoop.  Sensitive information can be computed in untrusted environments wherein the hosting provider has zero knowledge.  Learn how enterprises from insurance companies to healthcare providers are finding a secure path to scale in the public cloud for storage and analytics.",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Ivan",
+				  "nameLast":"Panushev",
+				  "photo":"speaker-ivan-panushev.jpg",
+				  "linkedin":"https://www.linkedin.com/in/panushev",
+				  "twitter":"https://twitter.com/inpher_io",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "organization":"Inpher, Inc.",
+				  "role":"Co-founder and Chief Product Officer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+	
+	{
+		"camp":"Search Camp",
+		"tech":"search",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Using OpenNLP with Solr to improve search relevance and to extract named entities",
+		"sessionSubTitle":"",
+		"sessionSummary":"Apache OpenNLP can be used with Apache Solr to produce lemmas (words’ base forms), and to extract named entities. I’ll demonstrate how to configure these capabilities in Solr for two languages: English and Spanish.  I’ll compare search relevance using lemmatization versus Solr’s out-of-the-box stemming capabilities in the two languages, and how to facet on extracted named entities.",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Steve",
+				  "nameLast":"Rowe",
+				  "photo":"speaker-steve-rowe.jpg",
+				  "linkedin":"https://www.linkedin.com/in/steven-rowe-b9201316",
+				  "twitter":"https://twitter.com/steven_a_rowe",
+				  "github":"https://github.com/sarowe",
+				  "facebook":"",
+				  "website":"",
+				  "organization":"Lucid Works",
+				  "role":"Sr. Software Engineer",
+				  "bio":"Steve is a Lucene/Solr committer and works on Lucene and Solr at Lucidworks. Previously he worked at the Center for Natural Language Processing at Syracuse University."
+        }
+      ]
+    }  
+	},
 
 
 
