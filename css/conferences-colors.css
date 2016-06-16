@@ -1,131 +1,132 @@
 /* CONFERENCES - Colors */
 
-.conference .agency {
+.conference.agency {
 	background: #0d66f2;
 }
 
-.conference .ai {
+.conference.ai {
 	background: #7B93A5;
 }
 
-.conference .android {
+.conference.android {
 	background: #A4C63A;
 }
 
-.conference .angular {
+.conference.angular {
 	background: #DD1B16;
 }
 
-.conference .apps {
+.conference.apps,
+.conference.apps a.button {
 	background-color: teal;
 }
 
-.conference .h4h {
+.conference.h4h {
   background-color: #00dc00;
 }
 
-.conference .h4h .links a {
+.conference.h4h .links a {
   color: #00dc00;
 }
 
-.conference .civic {
+.conference.civic {
   background-color: #d04e4e;
 }
 
-.conference .community {
+.conference.community {
   background: #3FA652;
 }
 
-.conference .dataviz {
+.conference.dataviz {
 	background: #F89B46;
 }
 
-.conference .database {
+.conference.database {
 	background-color: navy;
 }
 
-.conference .devops {
+.conference.devops {
 	background-color: #a06bd0;
 }
 
-.conference .drupal {
+.conference.drupal {
 	background: #04639d;
 }
 
-.conference .elixir {
+.conference.elixir {
   background: #4e2a8e;
 }
 
-.conference .erlang {
+.conference.erlang {
   background: #9A0000;
 }
 
-.conference .frontend {
+.conference.frontend {
   _background: purple;
   background: #deb200;
 }
 
-.conference .go {
+.conference.go {
   background: #B7937F;
 }
 
-.conference .maker {
+.conference.maker {
 	background-color: blue ;
 }
 
-.conference .maps {
+.conference.maps {
 	background: #a0c598;
 }
 
-.conference .meteor {
+.conference.meteor {
   background: #333333;	
 }
 
-.conference .nerves {
+.conference.nerves {
 	background-color: #676961;
 }
 
-.conference .nextgen {
+.conference.nextgen {
 	background-color: #f029e0;
 }
 
-.conference .node {
+.conference.node {
 	background-color: #80BD01;	
 }
 
-.conference .open {
+.conference.open {
 	background-color: white;
 }
 
-.conference .phoenix {
+.conference.phoenix {
 	background: #F15523;
 }
 
-.conference .pygotham {
+.conference.pygotham {
 	background: #3f6b9d;
 }
 
-.conference .rails {
+.conference.rails {
 	background: #A62C39;
 }
 
-.conference .react {
+.conference.react {
 	background: #00D8FF;
 }
 
-.conference .search {
+.conference.search {
 	background: #FF8066  ;
 }
 
-.conference .swift {
+.conference.swift {
 	background: #ef5238;
 }
 
-.conference .wordpress {
+.conference.wordpress {
 	background: #21759b;
 }
 
-.conference .webperf {
+.conference.webperf {
 	background: #800080;
 }
 

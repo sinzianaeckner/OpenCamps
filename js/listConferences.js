@@ -38,6 +38,7 @@
     "github": "http://github.com/AndroidCamp",
     "email": "info@androidcamp.io"
   },
+  
   {
     "name": "Angular Camp",
     "description": "A community-run conference focused on the open source AngularJS framework",
@@ -53,14 +54,17 @@
 
   {
     "name": "Apps Camp",
-    "description": "A community-run single day, single track conference focused on open source apps technologies",
     "camp": "apps",
+    "description": "A community-run single day, single track conference focused on open source apps technologies",
     "dates": "Sat Jul 9",
+    "times": "9am to 5:30pm",
     "icon": "icon-apps.svg",
     "website": "http://AppsCamp.io",
     "twitter": "http://twitter.com/AppsCamp",
     "facebook": "https://www.facebook.com/Apps-Camp-774489922605046",
     "github": "http://github.com/AppsCamp",
+    "cfp": "http://goo.gl/forms/sNykM4pDpS",
+    "tickets": "<tito-widget event=\"apps-camp/apps-camp-2016\"></tito-widget>",
     "email": "info@appscamp.io"
   },
 
@@ -104,6 +108,19 @@
   },
 
   {
+    "name": "Data Viz Camp",
+    "description": "A community-run multi-day, single track conference focused on open source data visualization technologies",
+    "camp": "dataviz",
+    "dates": "Jul 9 & 10",
+    "icon": "icon-dataviz.png",
+    "website": "http://DataViz.Camp",
+    "twitter": "http://twitter.com/DataVizCamp",
+    "facebook": "http://facebook.com/datavizcamp",
+    "github": "http://github.com/DataVizCamp",
+    "email": "info@dataviz.camp"
+  },
+
+  {
     "name": "Database Camp",
     "description": "Database Camp is a free community-run single day, single track conference focused on open source database technologies",
     "camp": "database",
@@ -116,18 +133,6 @@
     "email": "info@database.camp"
   },
 
-  {
-    "name": "Data Viz Camp",
-    "description": "A community-run multi-day, single track conference focused on open source data visualization technologies",
-    "camp": "dataviz",
-    "dates": "Jul 9 & 10",
-    "icon": "icon-dataviz.png",
-    "website": "http://DataViz.Camp",
-    "twitter": "http://twitter.com/DataVizCamp",
-    "facebook": "http://facebook.com/datavizcamp",
-    "github": "http://github.com/DataVizCamp",
-    "email": "info@dataviz.camp"
-  },
 
   {
     "name": "Design Camp",
@@ -170,19 +175,6 @@
   },
 
   {
-    "name": "Erlang Camp",
-    "description": "Erlang Camp is a community-run single day, single track open source focused on the Erlang language",
-    "camp": "erlang",
-    "dates": "Sat 16",
-    "icon": "icon-erlang.svg",
-    "website": "http://Erlang.camp",
-    "twitter": "http://twitter.com/ErlangCamp",
-    "facebook": "",
-    "github": "http://github.com/ErlangCamp",
-    "email": "info@erlang.camp"
-  },
-
-  {
     "name": "Elixir Camp",
     "description": "Elixir Camp is a community-run multi day, single track open source focused on the Elixir language",
     "camp": "elixir",
@@ -193,6 +185,19 @@
     "facebook": "https://www.facebook.com/Elixir-Camp-1051659851560763/",
     "github": "http://github.com/ElixirCamp",
     "email": "info@elixircamp.io"
+  },
+
+  {
+    "name": "Erlang Camp",
+    "description": "Erlang Camp is a community-run single day, single track open source focused on the Erlang language",
+    "camp": "erlang",
+    "dates": "Sat 16",
+    "icon": "icon-erlang.svg",
+    "website": "http://Erlang.camp",
+    "twitter": "http://twitter.com/ErlangCamp",
+    "facebook": "",
+    "github": "http://github.com/ErlangCamp",
+    "email": "info@erlang.camp"
   },
 
   {

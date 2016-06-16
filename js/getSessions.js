@@ -1,10 +1,12 @@
 
-  function getSessions(sessions) {
+function getSessions(sessions) {
 
+  var sessions = sessions.filter(sessionsFilter);
 
-var sessions = sessions.filter(sessionsFilter);
-
-    var outputSessions = "";
+    var outputSessions = 
+      '<div id=\"sessions-inner\">'+
+        '<h2 class=\"speakers\">Speakers</h2>'
+      ;
 
     var i;
     for(i = 0; i<sessions.length; i++) {
@@ -42,7 +44,9 @@ var sessions = sessions.filter(sessionsFilter);
 					'</div>'+
         '</div>';
     }
-    document.getElementById("sessions-inner").innerHTML = outputSessions;
+      outputSessions += '</div>';
+      
+    document.getElementById("sessions").innerHTML = outputSessions;
   }
   
   
