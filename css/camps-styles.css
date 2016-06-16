@@ -1,0 +1,212 @@
+/* Camp Styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: teal;
+}
+
+	
+
+p {
+  color: white;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-weight: 200;
+	 font-size: 1.25em;
+}
+
+p a {
+	color: white;
+	border-bottom: 1px dotted white;
+	text-decoration: none;
+} 
+
+
+.body {
+	text-align: center;
+	display: block;
+	margin-top: 1%;
+}
+
+
+p.name {
+  color: white;
+  font-weight: 100;
+ 	font-size: 2.5em;
+	margin-top: 33%;
+	margin: 0;
+	padding: 0;
+}
+
+p.date {
+  color: white;
+  font-weight: 100;
+ 	font-size: 2em;
+	margin: 1em 0 .5em;
+	padding: 0;
+}
+
+p.venue {
+  color: white;
+  font-weight: 100;
+ 	font-size: 1.5em;
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+p.updates {
+  color: white;
+  font-weight: 300;
+ 	font-size: 1em;
+	margin: 1em 0;
+	padding: 0;
+}
+
+ 
+#logo {
+	width: 120px;
+	height: auto;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+
+.header {
+	width: 100%;
+	text-align: center;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: 300;
+	padding: 1em;
+}
+
+
+.header .icon-links {
+	float: right;
+	padding-right: 2em;
+}
+
+.header .icon-links a {
+	padding: .25em;
+	display: inline-block;
+	color: white;
+}
+
+#updated {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	padding: .75em;
+	font: 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+
+
+/* BLOCKS */
+
+#blocks {
+	margin-top: 1em;
+	clear: both;
+}
+
+#blocks p {
+	color: #fff;
+	font-size: .95rem;
+}
+
+#blocks a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+
+
+h4,
+h4 a {
+	color: #FFF;
+  font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+#register p,
+#register a {
+	color: #FFF;
+	font-size: .85rem;
+}
+
+#register a {
+	border-bottom: 1px dotted #fff;	
+}
+
+/* BLOCKS - Newsletter */
+
+.block {
+	width: 400px;
+	margin: 2em auto 1em;
+  background: rgba(25, 152, 171, 0.5);
+	border: 1px solid #179494;
+	padding: 1em;
+}
+
+
+.block h2 {
+	color: teal;
+  font: normal .85rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+#newsletter {
+	padding-bottom: 0;
+}
+
+#community h4 {
+	text-align: center;
+}
+
+#community p {
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	text-align: center;
+}
+
+h4.block-title {
+	color: white;
+	font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0;
+	padding-left: .5em;
+	text-align: center;
+}
+
+
+
+.row.white {
+	background-color: white;
+	padding: 1.5em;
+}
+
+.row.white p,
+.row.white a {
+  color: teal;
+  font-size: .95rem;
+	text-align: center;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#sessions {
+  background-color: teal;
+}
+
+body.conference a.button {
+	padding: .35em 1em;
+	border: 1px solid black;
+	line-height: 2em;
+	font-size: .85em;
+	font-weight: bold;
+	color: white;
+}
+
+
