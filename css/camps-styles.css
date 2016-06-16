@@ -207,4 +207,9 @@ body.conference a.button {
 	color: white;
 }
 
+p.coc {
+	text-align: center;
+	font-size: .9rem;
+}
+
 
