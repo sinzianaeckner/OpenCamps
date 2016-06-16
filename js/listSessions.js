@@ -76,7 +76,7 @@
 		"timeStop":"14:15",
 		"sessionTitle":"HorizonJS: An Open-Source Backend for Real Time Apps",
 		"sessionSubTitle":"",		
-		"sessionSummary":"A deep dive discussion into how to rapidly build & deploy web or mobile apps using the <a href=\"http://horizon.io\">HorizonJS</a> a simple JavaScript API. Scale your apps to millions of users without any backend code. We'll also discuss how to build sophisticated apps with lightning speed with Horizon, built by the RethinkDB team and an open-source community, .",
+		"sessionSummary":"A deep dive discussion into how to rapidly build & deploy web or mobile apps using the <a href=\"http://horizon.io\">HorizonJS</a> a simple JavaScript API. Scale your apps to millions of users without any backend code. We'll also discuss how to build sophisticated apps with lightning speed with Horizon, built by the RethinkDB team and an open-source community.",
 		"sessionType":"Morning Keynote",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -311,7 +311,7 @@
 				  "github":"https://github.com/e2tha-e",
 				  "facebook":"",
 				  "website":"",
-				  "organization":"RethinkDB",
+				  "organization":"Major League Baseball Advanced Media",
 				  "role":"Software Engineer",
 				  "bio":""
         }
@@ -436,7 +436,7 @@
 		"timeStop":"",
 		"sessionTitle":"Using StrongLoop to build an API application",
 		"sessionSubTitle":"",		
-		"sessionSummary":"Adding User Management, an API layer, and custom data models to a Node.js application with StrongLoop. ",
+		"sessionSummary":"Adding User Management, an API layer, and custom data models to a Node.js application with StrongLoop.",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -459,6 +459,36 @@
     }  
 	},
 
+	{
+		"camp":"Node Camp",
+		"tech":"node",
+		"date":"2016-07-16",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"The Node Version of Pattern Lab ",
+		"sessionSubTitle":"",		
+		"sessionSummary":"A discussion on the <a href=\"https://github.com/pattern-lab/patternlab-node\" target=\"_blank\">Node version</a> of <a href=\"http://patternlab.io/\" target=\"_blank\">Pattern Lab</a> is, which at its core, a static site generator. It combines platform-agnostic assets, like the Mustache-based patterns, the JavaScript-based viewer, and the self-contained webserver, with a Node-based \"builder\" that transforms and dynamically builds the Pattern Lab site.",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Hyunho",
+				  "nameLast":"Ee",
+				  "photo":"speaker-hyunho-ee.jpg",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"https://github.com/e2tha-e",
+				  "facebook":"",
+				  "website":"",
+				  "organization":"Major League Baseball Advanced Media",
+				  "role":"Software Engineer",
+				  "bio":"I have been a full-stack developer for 15+ years at Yale Medical School, Microsoft, Reed Elsevier, GTNexus, HP. Currently I am a developer evangelist for IBM Cloud."
+        }
+      ]
+    }  
+	},
 
 
   // PHOENIX CAMP NYC
