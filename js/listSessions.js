@@ -319,6 +319,38 @@
     }  
 	},
 
+	{
+		"camp":"Front End Camp",
+		"tech":"frontend",
+		"date":"2016-07-17",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Angular 2 vs. React vs. Ember 2",
+		"sessionSubTitle":"If frameworks were gladiators who would die first?",
+		"sessionSummary":"Have you ever banged your head against the wall trying to figure out which library or framework would be best for your situation and your team? Given the current climate of front-end JS frameworks you probably found that a few of the 293,113 npm packages suited your needs, but aren't sure which to choose because most things sound like they can all do the same thing. Maybe you sort them by the highest number of downloads to weed out the libraries with the least support, and then maybe you want to make sure anything left has great tooling and community-built packages that will give your small team a leg up when necessary.<br><br>You almost certainly landed in between the three largest frameworks/libraries in the JS community: Angular, Ember, and React. I, personally, cried myself to sleep with huge tears of regret after I realized I chose the wrong one and would have to spend months dealing with such a decision...Don\'t follow in my footsteps!<br><br>This talk is going to examine the three major players in the JavaScript community and try to elucidate their similarities, but more important their salient differences. We will talk about their technical differences while taking into accound the practical reality of web development. We'll also create pretend gladiator situations out of your developer woes and see which dies first. Because this is JSPARTA!",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Lerenzo",
+				  "nameLast":"Malcom",
+				  "photo":"speaker-lerenzo-malcom.jpg",
+				  "linkedin":"https://www.linkedin.com/in/lerenzo-tolbert-malcom-87669612",
+				  "twitter":"https://twitter.com/lerenzom",
+				  "github":"https://github.com/lmalcom",
+				  "facebook":"https://www.facebook.com/lerenzo.tolbertmalcom",
+				  "website":"",
+				  "organization":"Recombine Genomics",
+				  "role":"Software Engineer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+
 
 
 
