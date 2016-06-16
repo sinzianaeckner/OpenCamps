@@ -90,7 +90,8 @@
 	background-color: #f029e0;
 }
 
-.conference.node {
+.conference.node,
+.conference.node a.button {
 	background-color: #80BD01;	
 }
 
