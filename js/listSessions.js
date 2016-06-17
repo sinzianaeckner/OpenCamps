@@ -42,7 +42,7 @@
 		"date":"2016-07-09",
 		"timeStart":"11:30",
 		"timeStop":"12:15",
-		"sessionTitle":"Beyond MVP: Driving continuous value deliver post product launch",
+		"sessionTitle":"The State of Real-Time Apps",
 		"sessionSubTitle":"",
 		"sessionSummary":"A discussion of the state of realtime, answering questions such as: Should everybody be adding real-time features to their apps? What has become established as the norm when building real-time features; both practice & patterns and the solutions used? What are the go-to open source solutions? Where will real-time go in the future; evolution, use cases, innovation?",
 		"sessionType":"Afternoon Keynote",
