@@ -143,8 +143,7 @@ h4 a {
 .block {
 	width: 400px;
 	margin: 2em auto 1em;
-  background: rgba(25, 152, 171, 0.5);
-	border: 1px solid #179494;
+	border: 1px solid gray;
 	padding: 1em;
 }
 
