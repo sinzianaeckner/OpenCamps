@@ -197,7 +197,7 @@
 			  {
  				  "nameFirst":"Jody",
 				  "nameLast":"Hamilton",
-				  "photo":"speaker-jacob-redding.jpg",
+				  "photo":"speaker-jody-hamilton.jpg",
 				  "linkedin":"https://www.linkedin.com/in/jody-hamilton-54169228",
 				  "twitter":"https://twitter.com/JodyHamilton",
 				  "github":"https://github.com/jodyHamilton",
@@ -218,7 +218,7 @@
 		"date":"2016-07-10",
 		"timeStart":"13:30",
 		"timeStop":"14:15",
-		"sessionTitle":"Next Wave of Open Source'",
+		"sessionTitle":"Next Wave of Open Source",
 		"sessionSubTitle":"",		
 		"sessionSummary":"In the past decade Open Source has grown to become the de facto standard and preferred software for Enterprise businesses, government agencies, small businesses and non-profits. Now we are entering a new era where not only are these organizations adopting the use of Open Source, but they are actively participating in and contributing back to the projects. This is a large shift that requires change both within the Enterprise organization and in the open source project to welcome these new contributors. In this session we'll discuss the changes we all need to make within our companies and the shifts we'll see within our open source communities.",
 		"sessionType":"Keynote",
@@ -248,8 +248,8 @@
 		"camp":"Community Camp",
 		"tech":"community",
 		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"14:30",
+		"timeStop":"15:15",
 		"sessionTitle":"Building an Accessible Community",
 		"sessionSubTitle":"",		
 		"sessionSummary":"We talk about accessibility a lot when we write code, whether that is writing good documentation, comment blocks or creating a good user experience. When it comes to our user groups and events, accessibility is not usually on the forefront of our minds.  At WordCamp London, the organising team ensured that accessibility was a key goal of the event. We wanted to see how far we could push being accessible and how much effort it would take.  This talk is about the challenges of organising an accessible event, including how we degendered content, added child care facilities and helped the hard of hearing. We will look at the cost of each accessible feature, explore the unexpected benefits of an accessible event and discuss the lessons were learnt on the way.",
@@ -611,6 +611,38 @@
     }  
 	},
 
+	{
+		"camp":"Front End Camp",
+		"tech":"frontend",
+		"date":"2016-07-17",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Code at the Center: Front-end Prototype for Great Experiences",
+		"sessionSubTitle":"",
+		"sessionSummary":"Wireframes and mockups often fail to demonstrate the actual experience of a product. More often than not, the final product doesn\'t look anything like the mockups that were approved. This happens because the final deliverables weren\'t tested and iterated on. Another reason is that static deliverables are hard for teammates who aren\'t designers to collaborate on. During this process the interaction design & animation is often neglected, making the experience very flat & static. So are there ways we can create designs quickly, collaborate with others and test out our application without disrupting the design process?<br>Enter the front-end prototype, a sample application in the browser where designers can create features based on user needs and validates them with the stakeholders/clients, developers and other designers. Speed is very important when prototyping and the tools we use need to be efficient enough to design in a short amount of time. The great thing about a front-end prototype is that you can iterate further once designs are concrete, making it a great UX deliverable to dev. Another benefit is that it\'s an artifact that others outside of the product team can see and interact with. By just creating a front-end prototype, it breaks down the silos and improves communication and collaboration.<br>Before I started prototyping, my deliverables were static mockups the dev often needed me to walk through to understand what's going on. We sometimes spent hours going each of the mockups which is inefficient and stopped us from actually building the designs. Sometimes close deadlines wouldn't allow for a design review session, which would put pressure on developers to make their own design decisions that might hurt the overall experience. But once I was able to produce front-end prototypes, it strengthen the dialog between me and the developers and also made it a great tool in selling solutions to clients. But the thing I found most helpful was being able to iterate quickly. Over time I've learned some front-end techniques that made it easier for me to design in code rather than Photoshop, Sketch and/or Illustrator. Being able to wireframe and design in browser made me a better designer and collaborator.<br>The audience will learn:<ul><li>Simple techniques to wireframe in the browser</li><li>The process of creating high fidelity prototype</li><li>How front-end prototypes can be use in production</li><li>How a prototype can improve collaboration & communication in a team</li></ul>",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Adekunle",
+				  "nameLast":"Oduye",
+				  "photo":"speaker-adekunle-oduye.jpg",
+				  "linkedin":"https://www.linkedin.com/in/adekunleoduye",
+				  "twitter":"https://twitter.com/adekunleoduye",
+				  "github":"https://github.com/adekunleoduye",
+				  "facebook":"",
+				  "facebook":"",
+				  "website":"http://www.adekunleoduye.com/",
+				  "openSourceRole":"",
+				  "organization":"NASDAQ OMX",
+				  "role":"Product Designer",
+				  "bio":"Adekunle Oduye is a Product Designer at Nasdaq OMX, where he’s part of a 30 person team designing web-based products that serve communications, public relations, and investor relations professionals. Adekunle main skill-set includes interaction/user interface design and front-end development….making him the ultimate weapon! Outside of Nasdaq, Adekunle is a co-organizer for SassConf and GothamSass Meetup, which serves front-end developers, CSS ninjas, UX mavens, and lovers for the best css-preprocessor. When he’s not creating cool software you can probably find him traveling the world or exploring the streets of New York City."
+        }
+      ]
+    }  
+	},
 
 
 
