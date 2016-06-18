@@ -1,15 +1,20 @@
 /* Open Camps - Sessions */
 
+/* SESSIONS */
+
 #sessions {
   width: 100%;
 	text-align: center;
+	background-color: #f2f2f2;
 }
 
-#sessions h2.speakers {
-	color: white;
+#sessions h2.sessions {
 	font-weight: bold;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
+
+
+/* SESSION */
 
 .session {
 	width: 480px;
@@ -22,22 +27,22 @@
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
-
-.session a {
-	color: black;
-	border-bottom: 1px dotted black;
-}
-
 .session .session-inner {
 	width: 480px;
 	height: auto;
 	display: inline-block;
 	vertical-align: top;
-	border: 1px solid gray;
+	border: 1px solid #d0d0d0;
 	margin: 1rem 10px;
 	padding: 0;
 	background-color: white;
 	text-align: left;
+}
+
+.session a,
+.session p {
+	color: black;
+	border-bottom: 1px dotted black;
 }
 
 .session .icon {
@@ -45,15 +50,32 @@
 }
 
 
-.session h4 {
-	font-weight: bold;
-	font-size: 1rem;
-	line-height: 1.6rem;
-	padding-left: 1rem;
-	margin-bottom: .5rem;
-	color: black;
-	padding-right: 1rem;
-	margin-top: 1rem;
+
+
+/* SCHEDULING */
+
+.session .scheduling {
+	font-size: .8rem;
+	position: relative;
+	display: block;
+	margin-bottom: .75rem;
+}
+
+.session .scheduling .slot {
+	text-align: right;
+	font-size: .75rem;
+	padding: .5rem .5rem .5rem 1rem;
+	left: 0;
+	position: absolute;
+	color: gray;
+}
+
+.session .scheduling .event {
+	color: white;
+	font-size: .75rem;
+	right: 0;
+	position: absolute;
+	padding: .35rem .5rem;
 }
 
 .session .camp {
@@ -62,16 +84,36 @@
 	padding: .35rem;
 }
 
-.session .slot {
-	text-align: right;
-	font-size: .85em;
-	padding: .35rem;
+
+
+
+/* PRESENTATION */
+
+.session .presentation {
+	padding: 1rem;
 }
 
-.session p.summary {
+.session .title h4 {
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 1.6rem;
+	color: black;
+	margin: .5rem 0;
+}
+
+.session .summary .summary-wrapper-closed {
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.session .summary .summary-wrapper-open {
+	height: auto;
+}
+
+
+.session .summary p {
 	font-weight: 300;
-	padding-right: 1rem;
-	padding-left: 1rem;
 	text-align: left;
 	line-height: 1.6em;
 	font-size: .85rem;
@@ -79,19 +121,40 @@
 	color: #404040;
 }
 
-
-.session inner {
+.sessions p.intro {
+	padding-left: 1rem;
+	
 }
 
-.session img {
-	width: 100%;
-	height: auto;
-	display: block;
-  vertical-align:top;
-	margin: 0;
-	padding: 0;
-	line-height: 0;
+.session .summary {
+	text-align: right;
 }
+
+
+.session .links {
+	display: inline-block;
+}
+
+
+.session .links a.color {
+	text-decoration: none;
+	border-bottom-style: none;
+	font-size: .8rem;
+	color: #595959;
+	display: inline-block;
+}  
+
+.session links . {
+	
+}
+
+
+.session links .summary.toggle {
+	
+}
+
+
+/* SPEAKERS */
 
 .session .speakers,
 .session .speaker,
@@ -109,7 +172,6 @@
 	text-align: left;
 }
 
-
 .speaker .link {
 	display: inline-block;
 	padding: .25rem 3px 3px;
@@ -121,10 +183,20 @@
 	font-size: 1.2585em;
 }
 
+.session img {
+	width: 100%;
+	height: auto;
+	display: block;
+  vertical-align:top;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	border: 1px solid #d0d0d0;
+}
 
 .speaker .photo {
 	display: inline-block;
-	width: 120px;
+	width: 140px;
 	margin-right: 1rem;
 }
 
@@ -148,14 +220,20 @@
 	margin-top: .25rem;
 }
 
+.speaker .open-source-role {
+	margin-bottom: .75rem;
+	color: black;
+}
+
 .speaker .organization {
 	margin-bottom: .25rem;
-	color: gray;
+	color: black;
 }
 
 .speaker .role {
 	margin-bottom: .25rem;
 	color: gray;
+	font-style: italic;
 }
 
 body.sessoins h2 {
@@ -176,12 +254,10 @@ body.sessoins h2 {
 	padding-right: 1rem;
 }
 
-.sessions p.intro {
-	padding-left: 1rem;
-	
-}
 
 
+
+/* VIDEO */
 
 .session .video {
 	margin: 1em 0 0;
@@ -308,12 +384,6 @@ body.sessoins h2 {
 
 /* TEMP */
 
-
-
-.session .camp,
-.session .slot {
-	display: none;
-}
 
 
 
