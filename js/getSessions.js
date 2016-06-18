@@ -17,7 +17,16 @@ function getSessions(sessions) {
 						'<div class="slot">' + sessions[i].timeStart + ' to ' + sessions[i].timeStop + '</div>'+
 						'<div class="icon"> <img src="images/sessions/icons' + sessions[i].icon + '" class="icon"/></div>'+
 						'<div class="title"><h4>' + sessions[i].sessionTitle + '</h4></div>'+
-						'<div class="summary"><p class="summary">' + sessions[i].sessionSummary + '</p></div>'+
+						'<div class="summary"><p class="summary">' + sessions[i].sessionSummary + '</p></div>';
+
+
+
+
+if (sessions[i].sessionSlides != "") {
+      outputSessions += '<div class="slides"><a href=\"' + sessions[i].sessionSlides + '\" target=\"_blank\"><i class="fa fa-file-text-o"></i> View Slides</a></div>';
+}
+
+      outputSessions +=
 						'<div class="speakers">'+
 							'<div class="speaker">'+
 								'<div class="speaker-inner">'+
@@ -36,7 +45,6 @@ function getSessions(sessions) {
       					'</div>'+
       				'</div>'+
 					  '</div>'+
-						'<div class="slides">' + sessions[i].sessionSlides + '</div>'+
 						'<div class="video">'+
   						'<h5 class="video">Video</h5>'+
   						'<div class="embed">' + sessions[i].sessionVideo + '</div>'+
@@ -44,7 +52,7 @@ function getSessions(sessions) {
 					'</div>'+
         '</div>';
     }
-      outputSessions += '</div>';
+    outputSessions += '</div>';
       
     document.getElementById("sessions").innerHTML = outputSessions;
   }

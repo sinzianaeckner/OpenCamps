@@ -13,19 +13,19 @@
 
 
   // AI CAMP
-  
+  // TBA
   
   
   
   
   // AGENCY CAMP
-  
+  // TBA  
   
   
   
   
   // ANDROID CAMP
-  
+  // TBA  
     
   
   
@@ -178,8 +178,103 @@
   
   
   // COMMUNITY CAMP
-
-
+	
+		
+	{
+		"camp":"Community Camp",
+		"tech":"community",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Grow Your Own",
+		"sessionSubTitle":"How to Grow a Sustainable Team",		
+		"sessionSummary":"Lack of available talent to hire is a common refrain of business owners in our field. Give up on looking and complaining! To create a sustainable business you need to be able to grow your own. <br> Growing your own means hiring smart, motivated people with all the right soft skills and investing in them for the long haul. In return for helping give them a career, expect that they'll reward you with loyalty, will care about helping to teach your newer staff, and will work together with a cohesive vision (having all been trained the same way). <br> Do you sell code or do you sell expertise? (Hint the code is GPL.) If you sell expertise you recognize that the true value of your business is the people on your team. Sure your contracts and brand could keep you going for a little while, maybe you could even sell them, but it's the people who have the true value. So invest in them to invest in your business. <br> Sure sure, agreed agreed, people, yes, empathy, values etc etc yes yes. But how do you actually train up a team of expert consultants? How long is this going to take? How are you possibly supposed to afford it? If you're bringing in these green developers, won't they break your clients' sites and destroy your reputation? Jody, doesn't it seem totally contradictory that you're obsessed with quality AND saying it's cool to bring these amateurs into the team? Wow, guess we should expect to be getting some rescue projects sliding off of Zivtech's roster soon! And won't these people you're training just quit and come work for us once they're skilled and we offer them more money? And wait do you seriously pay people to get training? <br> Great questions! ;) I've been growing my own for a long time and harvesting the many rewards. I'll answer all these questions, new ones that I think up, and then follow it all up by letting you ask your own which I will then also answer. <br> This session is intended for business owners, leaders and managers as well as those getting ready to make the leap. You'll leave this session thinking differently about your opportunities and (hopefully) inspired to grow your own team instead of trying to buy one on the market.",
+		"sessionType":"Session",
+		"sessionSlides":"https://docs.google.com/presentation/d/1UjAaC3mZm3lN9PcSBgK3vp1G3PminXbc6Ddd4Gb9...",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Jody",
+				  "nameLast":"Hamilton",
+				  "photo":"speaker-jacob-redding.jpg",
+				  "linkedin":"https://www.linkedin.com/in/jody-hamilton-54169228",
+				  "twitter":"https://twitter.com/JodyHamilton",
+				  "github":"https://github.com/jodyHamilton",
+				  "facebook":"",
+				  "website":"https://www.zivtech.com/about/team/jody-hamilton",
+				  "openSourceRole":"",
+				  "organization":"Zivtech",
+				  "role":"CTO",
+				  "bio":"As a seasoned contract developer Tim's built applications utilizing numerous APIs, created custom APIs for internal consumption, and now helps other developers energize their projects with Nexmo's powerful global communications API. A lover APIs, he also hates the top reply, and tweets sporadically from @tjlytle. "
+        }
+      ]
+    }  
+	},
+	
+	{
+		"camp":"Community Camp",
+		"tech":"community",
+		"date":"2016-07-10",
+		"timeStart":"13:30",
+		"timeStop":"14:15",
+		"sessionTitle":"Next Wave of Open Source'",
+		"sessionSubTitle":"",		
+		"sessionSummary":"In the past decade Open Source has grown to become the de facto standard and preferred software for Enterprise businesses, government agencies, small businesses and non-profits. Now we are entering a new era where not only are these organizations adopting the use of Open Source, but they are actively participating in and contributing back to the projects. This is a large shift that requires change both within the Enterprise organization and in the open source project to welcome these new contributors. In this session we'll discuss the changes we all need to make within our companies and the shifts we'll see within our open source communities.",
+		"sessionType":"Keynote",
+		"sessionSlides":"https://docs.google.com/presentation/d/1gqv6EEFLhJl4JYW8XCffKk_V08LjBun7LWs0d6I6xuk/edit#slide=id.g1040c33ad1_0_170",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Jacob",
+				  "nameLast":"Redding",
+				  "photo":"speaker-jacob-redding.jpg",
+				  "linkedin":"https://www.linkedin.com/in/timlytle",
+				  "twitter":"https://twitter.com/jredding",
+				  "github":"https://github.com/jredding",
+				  "facebook":"",
+				  "website":"https://about.me/jredding",
+				  "openSourceRole":"Former Executive Director of the Drupal Association",
+				  "organization":"Accenture Emerging Technology Innovation Labs",
+				  "role":"Open Source Manager",
+				  "bio":"As a seasoned contract developer Tim's built applications utilizing numerous APIs, created custom APIs for internal consumption, and now helps other developers energize their projects with Nexmo's powerful global communications API. A lover APIs, he also hates the top reply, and tweets sporadically from @tjlytle. "
+        }
+      ]
+    }  
+	},
+	
+	{
+		"camp":"Community Camp",
+		"tech":"community",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Building an Accessible Community",
+		"sessionSubTitle":"",		
+		"sessionSummary":"We talk about accessibility a lot when we write code, whether that is writing good documentation, comment blocks or creating a good user experience. When it comes to our user groups and events, accessibility is not usually on the forefront of our minds.  At WordCamp London, the organising team ensured that accessibility was a key goal of the event. We wanted to see how far we could push being accessible and how much effort it would take.  This talk is about the challenges of organising an accessible event, including how we degendered content, added child care facilities and helped the hard of hearing. We will look at the cost of each accessible feature, explore the unexpected benefits of an accessible event and discuss the lessons were learnt on the way.",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Jenny",
+				  "nameLast":"Wong",
+				  "photo":"speaker-jenny-wong.jpg",
+				  "linkedin":"https://www.linkedin.com/in/timlytle",
+				  "twitter":"https://twitter.com/miss_jwo",
+				  "github":"https://github.com/missjwo",
+				  "facebook":"",
+				  "website":"http://jwong.co.uk/",
+				  "openSourceRole":"",
+				  "organization":"Human Made",
+				  "role":"Community Engineer",
+				  "bio":"Jenny is a Community Engineer at Human Made. Her love for development goes beyond the screen & is an advocate for both the PHP and WordPress communities. As a speaker, community evangelist and event organiser, you can usually find her loudly cheering people on to share knowledge & contribute back to their communities."
+        }
+      ]
+    }  
+	},
 
 
 
@@ -193,13 +288,13 @@
 
 
   // DATABASE CAMP
-
+  // TBA
 
 
 
 
   // DESIGN CAMP
-
+  // TBA
 
 
 
