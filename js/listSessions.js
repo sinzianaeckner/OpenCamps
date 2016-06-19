@@ -238,11 +238,45 @@
 				  "openSourceRole":"Former Executive Director of the Drupal Association",
 				  "organization":"Accenture Emerging Technology Innovation Labs",
 				  "role":"Open Source Manager",
-				  "bio":"As a seasoned contract developer Tim's built applications utilizing numerous APIs, created custom APIs for internal consumption, and now helps other developers energize their projects with Nexmo's powerful global communications API. A lover APIs, he also hates the top reply, and tweets sporadically from @tjlytle. "
+				  "bio":"As a seasoned contract developer Tim's built applications utilizing numerous APIs, created custom APIs for internal consumption, and now helps other developers energize their projects with Nexmo's powerful global communications API. A lover APIs, he also hates the top reply, and tweets sporadically from @tjlytle."
         }
       ]
     }  
 	},
+
+	
+	{
+		"camp":"Community Camp",
+		"tech":"community",
+		"date":"2016-07-10",
+		"timeStart":"15:30",
+		"timeStop":"16:15",
+		"sessionTitle":"",
+		"sessionSubTitle":"",		
+		"sessionSummary":"",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Aseem",
+				  "nameLast":"Sood",
+				  "photo":"speaker-aseem-sood.jpg",
+				  "linkedin":"https://www.linkedin.com/in/aseems",
+				  "twitter":"https://twitter.com/asood123",
+				  "github":"https://github.com/asood123",
+				  "facebook":"",
+				  "website":"https://opencollective.com/",
+				  "openSourceRole":"",
+				  "organization":"Open Collective",
+				  "role":"Co-Founder",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+	
 	
 	{
 		"camp":"Community Camp",
