@@ -1,28 +1,69 @@
 /* CONFERENCES - Colors */
-/*	background: #ba46ff; */
 
+
+
+
+
+/* AGENCY */
 .conference.agency {
 	background: #be3900;
-	_
 }
 
+
+
+
+
+/* AI */
 .conference.ai {
 	background: #7B93A5;
 }
 
+
+
+
+
+/* ANDROID */
 .conference.android {
 	background: #A4C63A;
 }
 
+
+
+
+
+/* ANGULAR */
 .conference.angular {
 	background: #DD1B16;
 }
 
+
+
+
+
+/* APPS */
 .conference.apps,
-.conference.apps a.button {
-	background-color: teal;
+.conference.apps a.button,
+.conference.apps .session .scheduling .event {
+  background: #008080;
 }
 
+.conference.apps .session-inner {
+	border-top: 2px solid #008080;
+}
+
+.conference.apps .slot,
+.conference.apps .container.light h2,
+.conference.apps .links a.color:hover {
+  color: #008080;	
+}
+
+
+
+
+
+
+
+/* HUMANITY */
 .conference.h4h {
   background-color: #00dc00;
 }
@@ -31,99 +72,259 @@
   color: #00dc00;
 }
 
+
+
+
+
+
+/* CIVIC */
 .conference.civic {
   background-color: #d04e4e;
 }
 
+
+
+
+/* COMMUNITY */
 .conference.community,
-.conference.community a.button {
+.conference.community a.button,
+.conference.community .session .scheduling .event {
   background: #3FA652;
 }
 
+.conference.community .session-inner {
+	border-top: 2px solid #3FA652;
+}
+
+.conference.community .slot,
+.conference.community .container.light h2,
+.conference.community .links a.color:hover {
+  color: #3FA652;	
+}
+
+
+
+
+
+
+/* DATAVIZ */
 .conference.dataviz {
 	background: #F89B46;
 }
 
+
+
+
+
+/* DATABASE */
 .conference.database {
 	background-color: navy;
 }
 
+
+
+
+
+/* DEVOPS */
 .conference.devops {
 	background-color: #a06bd0;
 }
 
+
+
+
+
+/* DRUPAL */
 .conference.drupal {
 	background: #04639d;
 }
 
+
+
+
+
+/* ELIXIR */
 .conference.elixir {
   background: #4e2a8e;
 }
 
+
+
+
+
+/* ERLANG */
 .conference.erlang {
   background: #9A0000;
 }
 
+
+
+
+
+/* FRONTEND */
 .conference.frontend,
-.conference.frontend a.button {
+.conference.frontend a.button,
+.conference.frontend .session .scheduling .event {
   background: #deb200;
 }
 
+.conference.frontend .session-inner {
+	border-top: 2px solid #deb200;
+}
+
+.conference.frontend .slot,
+.conference.frontend .container.light h2,
+.conference.frontend .links a.color:hover {
+  color: #deb200;	
+}
+
+
+
+
+
+
+
+/* GO */
 .conference.go {
   background: #B7937F;
 }
 
+
+
+
+/* MAKER */
 .conference.maker {
 	background-color: blue ;
 }
 
+
+
+
+
+/* MAPS */
 .conference.maps {
 	background: #a0c598;
 }
 
+
+
+
+
+/* METEOR */
 .conference.meteor {
   background: #333333;	
 }
 
+
+
+
+
+/* NERVES */
 .conference.nerves {
 	background-color: #676961;
 }
 
+
+
+
+
+/* NEXTGEN */
 .conference.nextgen {
 	background-color: #f029e0;
 }
 
+
+
+
+
+/* NODE */
 .conference.node,
 .conference.node a.button {
 	background-color: #80BD01;	
 }
 
+
+
+
+
+/* OPEN */
 .conference.open {
 	background-color: white;
 }
 
+
+
+
+/* PHOENIX */
 .conference.phoenix {
 	background: #F15523;
 }
 
+
+
+
+
+/* PYGOTHAM */
 .conference.pygotham {
 	background: #3f6b9d;
 }
 
+
+
+
+
+/* RAILS */
 .conference.rails {
 	background: #A62C39;
 }
 
+
+
+
+
+/* REACT */
 .conference.react,
-.conference.react a.button {
-	background: #00D8FF;
+.conference.react a.button,
+.conference.react .session .scheduling .event {
+  background: #00D8FF;
 }
 
+.conference.react .session-inner {
+	border-top: 2px solid #00D8FF;
+}
+
+.conference.react .slot,
+.conference.react .container.light h2,
+.conference.react .links a.color:hover {
+  color: #00D8FF;	
+}
+
+
+
+
+
+/* SEARCH */
 .conference.search,
-.conference.search a.button {
-	background: #FF8066  ;
+.conference.search a.button,
+.conference.search .session .scheduling .event {
+  background: #FF8066;
 }
 
+.conference.search .session-inner {
+	border-top: 2px solid #FF8066;
+}
+
+.conference.search .slot,
+.conference.search .container.light h2,
+.conference.search .links a.color:hover {
+  color: #FF8066;	
+}
+
+
+
+
+
+/* SWIFT */
 .conference.swift,
 .conference.swift a.button {
 	background: #ef5238;

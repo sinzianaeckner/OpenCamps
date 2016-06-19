@@ -5,7 +5,6 @@ body {
 	padding: 0;
 }
 
-	
 
 p {
   color: white;
@@ -62,6 +61,16 @@ p.updates {
 }
 
  
+.divider {
+	height: 1px;
+	width: 100%;
+	display: block;
+	clear: both;
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+} 
+ 
 #logo {
 	width: 120px;
 	height: auto;
@@ -101,6 +110,9 @@ p.updates {
 
 
 
+.container {
+	text-align: center;
+}
 
 
 /* BLOCKS */
@@ -128,7 +140,7 @@ h4 a {
 }
 
 
-.row.tickets {
+.container.tickets {
 	
 }
 
@@ -148,7 +160,8 @@ h4 a {
 
 /* BLOCKS - Newsletter */
 
-.block {
+.block,
+.card, {
 	width: 400px;
 	margin: 2em auto 1em;
 	border: 1px solid gray;
@@ -186,18 +199,21 @@ h4.block-title {
 
 
 
-.row {
+.container {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
 
-.row.white {
+.container.light,
+.container.white {
 	background-color: white;
 	padding: 1.5em;
 }
 
-.row.white p,
-.row.white a {
+.container.light p,
+.container.white p,
+.container.light a,
+.container.white a {
   color: #3b3b3b;
   font-size: .95rem;
 	text-align: center;
@@ -208,7 +224,17 @@ h4.block-title {
 
 
 #sessions {
+  width: 100%;
+	text-align: center;
+	background-color: #f2f2f2;
 }
+
+.container.venue {
+  width: 100%;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
 
 body.conference a.button {
 	padding: .35em 1em;
@@ -226,7 +252,17 @@ p.coc {
 
 
 
+/* INTRO */
+
+.container intro {
+	text-align: center;
+}
+
 /* TICKETS */
+#tickets {
+  width: 480px;
+  margin: auto;
+}	
 
 
 

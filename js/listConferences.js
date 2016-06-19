@@ -2,7 +2,8 @@
 
   {
     "name": "AI Camp",
-    "description": "A community-run conference focused on the us of open source by digital agencies ",
+    "tagline": "A community-run conference focused on the us of open source by digital agencies ",
+    "description": "",
     "camp": "ai",
     "dates": "Tue Jul 12",
     "icon": "icon-ai.svg",
@@ -15,7 +16,8 @@
   
   {
     "name": "Agency Camp",
-    "description": "A community-run conference focused on the us of open source by digital agencies ",
+    "tagline": "A community-run conference focused on the us of open source by digital agencies ",
+    "description": "",
     "camp": "agency",
     "dates": "Wed Jul 13",
     "icon": "icon-agency.svg",
@@ -28,7 +30,8 @@
   
   {
     "name": "Android Camp",
-    "description": "A community-run conference focused on the open source AngularJS framework",
+    "tagline": "A community-run conference focused on the open source AngularJS framework",
+    "description": "",
     "camp": "android",
     "dates": "Tue Jul 12",
     "icon": "icon-android.svg",
@@ -41,7 +44,8 @@
   
   {
     "name": "Angular Camp",
-    "description": "A community-run conference focused on the open source AngularJS framework",
+    "tagline": "A community-run conference focused on the open source AngularJS framework",
+    "description": "",
     "camp": "angular",
     "dates": "Sat Jul 16",
     "icon": "icon-angular.svg",
@@ -54,8 +58,9 @@
 
   {
     "name": "Apps Camp",
+    "tagline": "A community-run single day, single track conference focused on open source apps technologies",
+    "description": "",
     "camp": "apps",
-    "description": "A community-run single day, single track conference focused on open source apps technologies",
     "dates": "Sat Jul 9",
     "times": "9am to 5:30pm",
     "icon": "icon-apps.svg",
@@ -70,7 +75,8 @@
 
   {
     "name": "Hack for Humanity",
-    "description": "Hack for Humanity is a community-run conference & hackathon focused on using open source tech to help achieve the",
+    "tagline": "Hack for Humanity is a community-run conference & hackathon focused on using open source tech to help achieve the",
+    "description": "",
     "camp": "h4h",
     "dates": "Jul 9, 10 & 17",
     "icon": "icon-h4h.png",
@@ -83,7 +89,8 @@
 
   {
     "name": "Civic Camp",
-    "description": "Civic Camp is a a community-run single day, single track conference focused on the use of open source technology for civic purposes ",
+    "tagline": "Civic Camp is a a community-run single day, single track conference focused on the use of open source technology for civic purposes ",
+    "description": "",
     "camp": "civic",
     "dates": "Sun Jul 10",
     "icon": "icon-civic.svg",
@@ -96,7 +103,8 @@
 
   {
     "name": "Community Camp",
-    "description": "Community Camp is a conference focused on open source community governance, contribution and best practices on",
+    "tagline": "Community Camp is a conference focused on open source community governance, contribution and best practices on",
+    "description": "",
     "camp": "community",
     "dates": "Sun Jul 10",
     "icon": "icon-community.png",
@@ -109,7 +117,8 @@
 
   {
     "name": "Data Viz Camp",
-    "description": "A community-run multi-day, single track conference focused on open source data visualization technologies",
+    "tagline": "A community-run multi-day, single track conference focused on open source data visualization technologies",
+    "description": "",
     "camp": "dataviz",
     "dates": "Jul 9 & 10",
     "icon": "icon-dataviz.png",
@@ -122,7 +131,8 @@
 
   {
     "name": "Database Camp",
-    "description": "Database Camp is a free community-run single day, single track conference focused on open source database technologies",
+    "tagline": "Database Camp is a free community-run single day, single track conference focused on open source database technologies",
+    "description": "",
     "camp": "database",
     "dates": "Sun Jul 10",
     "icon": "icon-database.png",
@@ -136,7 +146,8 @@
 
   {
     "name": "Design Camp",
-    "description": "A community-run single day, single track conference focused on open source design tools",
+    "tagline": "A community-run single day, single track conference focused on open source design tools",
+    "description": "",
     "camp": "design",
     "dates": "Tue Jul 12",
     "icon": "icon-design.svg",
@@ -149,7 +160,8 @@
 
   {
     "name": "Dev Ops Camp",
-    "description": "A community-run single day, single track conference focused on open source (mostly backend) dev ops",
+    "tagline": "A community-run single day, single track conference focused on open source (mostly backend) dev ops",
+    "description": "",
     "camp": "devops",
     "dates": "Sat Jul 9",
     "icon": "icon-devops.svg",
@@ -162,7 +174,8 @@
 
   {
     "name": "Drupal NYC Camp",
-    "description": "NYC Camp is a free multi-day, multi-track community-run conference focused on the open source Drupal CMS",
+    "tagline": "NYC Camp is a free multi-day, multi-track community-run conference focused on the open source Drupal CMS",
+    "description": "",
     "camp": "drupal",
     "dates": "Jul 8-11",
     "icon": "icon-drupal.svg",
@@ -176,7 +189,8 @@
 
   {
     "name": "Elixir Camp",
-    "description": "Elixir Camp is a community-run multi day, single track open source focused on the Elixir language",
+    "tagline": "Elixir Camp is a community-run multi day, single track open source focused on the Elixir language",
+    "description": "",
     "camp": "elixir",
     "dates": "Jul 15-17",
     "icon": "icon-elixir.png",
@@ -189,7 +203,8 @@
 
   {
     "name": "Erlang Camp",
-    "description": "Erlang Camp is a community-run single day, single track open source focused on the Erlang language",
+    "tagline": "Erlang Camp is a community-run single day, single track open source focused on the Erlang language",
+    "description": "",
     "camp": "erlang",
     "dates": "Sat 16",
     "icon": "icon-erlang.svg",
@@ -202,7 +217,8 @@
 
   {
     "name": "Front End Camp",
-    "description": "A community-run conference focused on frontend technologies, including Angular, Ember and React",
+    "tagline": "A community-run conference focused on frontend technologies, including Angular, Ember and React",
+    "description": "Front End Camp is a day long deep dive focusing on technologies and best practices around UX, design and development workflow. Front End Camp will focus on the way front end technologies are advancing. The program also includes a more general focus with presentations on building applications in Javascript, Material Design, front-end automation tools, testing and much much more.",
     "camp": "frontend",
     "dates": "Sun Jul 17",
     "icon": "icon-frontend.png",
@@ -215,6 +231,7 @@
 
   {
     "name": "Go Camp",
+    "tagline": "",
     "description": "A community-run single day, single track conference focused on the Golang programming language",
     "camp": "go",
     "dates": "Sat Jul 9",
@@ -228,7 +245,8 @@
 
   {
     "name": "Maker Camp",
-    "description": "A community-run single day, single track open source conference for makers",
+    "tagline": "A community-run single day, single track open source conference for makers",
+    "description": "",
     "camp": "maker",
     "dates": "Sun Jul 17",
     "icon": "icon-maker.svg",
@@ -241,7 +259,7 @@
 
   {
     "name": "Maps Camp",
-    "description": "A community-run single day, single track conference focused on open source maps technologies",
+    "tagline": "A community-run single day, single track conference focused on open source maps technologies",
     "camp": "maps",
     "dates": "Sat Jul 9",
     "icon": "icon-maps.png",
@@ -254,7 +272,8 @@
 
   {
     "name": "Meteor Camp NYC",
-    "description": "A community-run multi-day, single track conference focused on the Meteor platform",
+    "tagline": "A community-run multi-day, single track conference focused on the Meteor platform",
+    "description": "",
     "camp": "meteor",
     "dates": "Jul 8 - 10",
     "icon": "icon-meteor.svg",
@@ -267,7 +286,8 @@
 
   {
     "name": "Nerves Camp",
-    "description": "A community-run single day, single track open source conference on the Nerves Project for crafting craft bulletproof firmware",
+    "tagline": "A community-run single day, single track open source conference on the Nerves Project for crafting craft bulletproof firmware",
+    "description": "",
     "camp": "nerves",
     "dates": "Sun Jul 17",
     "icon": "icon-nerves.svg",
@@ -280,7 +300,8 @@
 
   {
     "name": "Next Gen Camp",
-    "description": "A community-run single day, single track pen source conference for young developers",
+    "tagline": "A community-run single day, single track pen source conference for young developers",
+    "description": "",
     "camp": "nextgen",
     "dates": "Jul 9",
     "icon": "icon-nextgen.png",
@@ -293,7 +314,8 @@
 
   {
     "name": "Node Camp",
-    "description": "Node Camp is a community-run open source conference focused on the NodeJS javascript runtime",
+    "tagline": "Node Camp is a community-run open source conference focused on the NodeJS javascript runtime",
+    "description": "",
     "camp": "node",
     "dates": "Sat Jul 16",
     "icon": "icon-node.svg",
@@ -306,7 +328,8 @@
 
   {
     "name": "Phoenix Camp",
-    "description": "Phoenix Camp is a community-run multi-day, multi-track open source conference focused on the Phoenix Framework",
+    "tagline": "Phoenix Camp is a community-run multi-day, multi-track open source conference focused on the Phoenix Framework",
+    "description": "",
     "camp": "phoenix",
     "dates": "Jul 15-17",
     "icon": "icon-phoenix.png",
@@ -319,7 +342,8 @@
 
  {
     "name": "PyGotham",
-    "description": "PyGotham is an eclectic Py-centric conference covering many topics. There's a diverse speaker list, and some things which will be quite different.",
+    "tagline": "PyGotham is an eclectic Py-centric conference covering many topics. There's a diverse speaker list, and some things which will be quite different.",
+    "description": "",
     "camp": "pygotham",
     "dates": "Jul 16-17",
     "icon": "icon-pygotham.svg",
@@ -332,7 +356,8 @@
   
   {
     "name": "Rails Camp",
-    "description": "Rails Camp NYC is a community-run single-day, single-track open source conference focused on Ruby on Rails",
+    "tagline": "Rails Camp NYC is a community-run single-day, single-track open source conference focused on Ruby on Rails",
+    "description": "",
     "camp": "rails",
     "dates": "Sun Jul 10",
     "icon": "icon-rails.png",
@@ -346,6 +371,7 @@
   {
     "name": "React Camp",
     "description": "React Camp is a community-run single day, single track open source conference focused on the ReactJS library",
+    "tagline": "",
     "camp": "react",
     "dates": "Sat Jul 16",
     "icon": "icon-react.svg",
@@ -358,7 +384,7 @@
 
   {
     "name": "Swift Camp",
-    "description": "Search Camp is a community-run single day, single track conference focused on open source search technologies, including Apache Solr and ElasticSearch",
+    "tagline": "Search Camp is a community-run single day, single track conference focused on open source search technologies, including Apache Solr and ElasticSearch",
     "camp": "swift",
     "dates": "Wed Jul 13",
     "icon": "icon-swift.svg",
@@ -371,7 +397,8 @@
 
   {
     "name": "Search Camp",
-    "description": "Search Camp is a community-run single day, single track conference focused on open source search technologies, including Apache Solr and ElasticSearch",
+    "tagline": "Search Camp is a community-run single day, single track conference focused on open source search technologies, including Apache Solr and ElasticSearch",
+    "description": "",
     "camp": "search",
     "dates": "Sun Jul 10",
     "icon": "icon-search.svg",
@@ -384,7 +411,8 @@
 
   {
     "name": "Web Perf Camp",
-    "description": "Web Perf Camp is a community-run single day, single track conference focused on open source (mostly frontend) web performance and scalability",
+    "tagline": "Web Perf Camp is a community-run single day, single track conference focused on open source (mostly frontend) web performance and scalability",
+    "description": "",
     "camp": "webperf",
     "dates": "Sun Jul 10",
     "icon": "icon-webperf.svg",
@@ -397,7 +425,8 @@
     
   {
     "name": "WordCamp NYC",
-    "description": "WordCamp NYC is a casual, locally-organized conference covering everything related to WordPress, the free and open source personal publishing software that powers over 75 million sites on the web.",
+    "tagline": "WordCamp NYC is a casual, locally-organized conference covering everything related to WordPress, the free and open source personal publishing software that powers over 75 million sites on the web.",
+    "description": "",
     "camp": "wordpress",
     "dates": "July 15-17",
     "icon": "icon-wordcamp.png",
