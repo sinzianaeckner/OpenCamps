@@ -272,19 +272,19 @@
 
 
 /* GO */
-.conference.maker,
-.conference.maker a.button,
-.conference.maker .session .scheduling .event {
+.conference.go,
+.conference.go a.button,
+.conference.go .session .scheduling .event {
   background: #B7937F;
 }
 
-.conference.maker .session-inner {
+.conference.go .session-inner {
 	border-top: 2px solid #B7937F;
 }
 
-.conference.maker .slot,
-.conference.maker .container.light h2,
-.conference.maker .links a.color:hover {
+.conference.go .slot,
+.conference.go .container.light h2,
+.conference.go .links a.color:hover {
   color: #B7937F;	
 }
 
