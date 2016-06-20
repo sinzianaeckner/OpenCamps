@@ -14,19 +14,50 @@
 
   // AI CAMP
   // TBA
-  
+  	{
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Language Modeling with Torch",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>We will discuss training Recurrent Neural Network (RNN) Language Models (LM) using Torch. Trained models of different capacity and performance will be used to generate sample sentences. We will also include some benchmarks of Torch rnn's compared to Theano and TensorFlow.</p>",
+		"sessionType":"Lightning Talk",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Nicholas",
+				  "nameLast":"Leonard",
+				  "photo":"speaker-nicholas-leonard.jpg",
+				  "linkedin":"https://www.linkedin.com/in/nicholas-léonard-a838225a",
+				  "twitter":"http://twitter.com/nicholas-leonard",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Element Inc.",
+				  "role":"Research Engineer",
+				  "bio":"Graduated from the Royal Military College of Canada in 2008 with a bachelor's degree in computer science. Retired from the Canadian Army Officer Corp in 2012 to complete a Master's degree specialized in deep learning at the University of Montreal. Currently applying deep learning to biometric authentication using smart phones."
+        }
+      ]
+    }  
+	},
+
   
   
   
   // AGENCY CAMP
   // TBA  
-  
+  // TBA  
   
   
   
   // ANDROID CAMP
   // TBA  
-    
+  // TBA    
   
   
 
@@ -178,7 +209,6 @@
   
   
   // COMMUNITY CAMP
-	
 		
 	{
 		"camp":"Community Camp",
@@ -315,15 +345,15 @@
 
 
   // DATA VIZ CAMP
-
-
+  // TBA
+  // TBA
 
 
 
 
   // DATABASE CAMP
   // TBA
-
+  // TBA
 
 
 
@@ -335,7 +365,7 @@
 
 
   // DEV OPS CAMP
-	{
+/*	{
 		"camp":"Dev Ops Camp",
 		"tech":"devops",
 		"date":"2016-07-09",
@@ -365,14 +395,108 @@
         }
       ]
     }  
-	},
+	},*/
+
+	{
+		"camp":"Dev Ops Camp",
+		"tech":"devops",
+		"date":"2016-07-09",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Automating Databases with Flynn",
+		"sessionSubTitle":"",
+		"sessionSummary":"Deploying and managing highly available databases can be a challenging task, and humans are almost always involved when something goes wrong. Flynn is an open source platform and this talk will cover how we've built database as a service for PostgreSQL, Redis, MySQL, and MongoDB that runs anywhere and makes automatic database provisioning, backups, and safe automatic failover easy and accessible for anything from a side project to production.",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Jonathan",
+				  "nameLast":"Rudenberg",
+				  "photo":"speaker-jonathan-rudenberg.jpg",
+				  "linkedin":"",
+				  "twitter":"https://twitter.com/titanous",
+				  "github":"https://github.com/titanous",
+				  "facebook":"",
+				  "openSourceRole":"Co-founder of Flynn and an architect of the Tent Protocol",
+				  "website":"https://titanous.com/",
+				  "organization":"Flynn",
+				  "role":"Principal Architect",
+				  "bio":"Jonathan leads development of Flynn, an open source platform as a service that hosts apps and databases. Before starting Flynn, Jonathan co-architected Tent, an open, decentralized communication and storage protocol."
+        }
+      ]
+    }  
+	},	
+
+	{
+		"camp":"Dev Ops Camp",
+		"tech":"devops",
+		"date":"2016-07-09",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"rkt: Secure Application Container Runtime",
+		"sessionSubTitle":"",
+		"sessionSummary":"How to build ACIs and deploy them on rkt.",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Faraz",
+				  "nameLast":"Fazli",
+				  "photo":"speaker-faraz-fazli.jpg",
+				  "linkedin":"https://www.linkedin.com/in/farazfazli",
+				  "twitter":"https://twitter.com/farazfazli",
+				  "github":"https://github.com/farazfazli",
+				  "facebook":"",
+				  "openSourceRole":"Co-founder of Flynn and an architect of the Tent Protocol",
+				  "website":"https://titanous.com/",
+				  "organization":"Contap Inc.",
+				  "role":"Chief Development Officer",
+				  "bio":"19, left college to build concurrent systems with Go."
+        }
+      ]
+    }  
+	},	
 
 
-
+	{
+		"camp":"Dev Ops Camp",
+		"tech":"devops",
+		"date":"2016-07-09",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"How to Scale Open Source Load Testing with JMeter, Gatling, Jenkins, and RedLine13",
+		"sessionSubTitle":"",
+		"sessionSummary":"Learn how to create and run scalable open source load tests with Apache JMeter, Gatling, Jenkins, and RedLine13. We demonstrate how to simulate various load's and stress levels that a website might experience, for example, what happens if we simulate 50,000 users or more constantly hitting a website over the course of a few minutes or more? During this talk we will go over open source load testing, the various open source tools out there, how you can use these tests and the value they offer, example tests, and how/why we created RedLine13 as an affordable solution to do so.",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Richard",
+				  "nameLast":"Friedman",
+				  "photo":"speaker-richard-friedman.jpg",
+				  "linkedin":"https://www.linkedin.com/in/richardfriedman",
+				  "twitter":"https://twitter.com/richardfriedman",
+				  "github":"https://github.com/richardfriedman",
+				  "facebook":"",
+				  "openSourceRole":"",
+				  "website":"http://richardfriedman.blogspot.com/",
+				  "organization":"RedLine13",
+				  "role":"CEO/Founder",
+				  "bio":"Richard Friedman one of the cofounders and is the CEO of RedLine13, a cloud-based load testing company. Before co-creating RedLine13, Mr. Friedman was previously the CTO of MeetMe and was a lead project manager for JBoss Operations Network and RedHat Network."
+        }
+      ]
+    }  
+	},	
 
   // DRUPAL NYC CAMP
-
-
+  // TBA
+  // TBA
 
 
 
@@ -682,31 +806,30 @@
 
 
 
-
   
   // GO CAMP
-  
+  // TBD  
 
 
 
 
   // MAKER CAMP
-  
+  // TBD
   
   
   
   
   
   // MAPS CAMP
-  
-  
+  // TBA  
+  // TBA  
   
   
 
 
   // METEOR CAMP NYC
-  
-  
+  // TBA  
+  // TBA  
   
   
   
@@ -1152,7 +1275,8 @@
 
 
   // PY GOTHAM
-
+  // TBA
+  // TBA
 
 
 
@@ -1319,6 +1443,7 @@
       ]
     }  
 	},
+
 
 
 
@@ -1491,7 +1616,7 @@
 
 
   // SWIFT CAMP
-
+  // TBA
 
 
 
@@ -1618,7 +1743,7 @@
 				  "facebook":"",
 				  "website":"",
 				  "openSourceRole":"",
-				  "organization":"Lucid Works",
+				  "organization":"Lucidworks",
 				  "role":"Sr. Software Engineer",
 				  "bio":"Steve is a Lucene/Solr committer and works on Lucene and Solr at Lucidworks. Previously he worked at the Center for Natural Language Processing at Syracuse University."
         }
@@ -1629,15 +1754,15 @@
 
 
   // WEB PERF CAMP
-
+  // TBD
 
 
 
 
 
   // WORD CAMP NYC
-
-
+  // TBA
+  // TBA
 
 
 
