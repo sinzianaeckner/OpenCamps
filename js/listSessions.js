@@ -403,38 +403,6 @@
 		"date":"2016-07-09",
 		"timeStart":"",
 		"timeStop":"",
-		"sessionTitle":"Automating Databases with Flynn",
-		"sessionSubTitle":"",
-		"sessionSummary":"Deploying and managing highly available databases can be a challenging task, and humans are almost always involved when something goes wrong. Flynn is an open source platform and this talk will cover how we've built database as a service for PostgreSQL, Redis, MySQL, and MongoDB that runs anywhere and makes automatic database provisioning, backups, and safe automatic failover easy and accessible for anything from a side project to production.",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Jonathan",
-				  "nameLast":"Rudenberg",
-				  "photo":"speaker-jonathan-rudenberg.jpg",
-				  "linkedin":"",
-				  "twitter":"https://twitter.com/titanous",
-				  "github":"https://github.com/titanous",
-				  "facebook":"",
-				  "openSourceRole":"Co-founder of Flynn and an architect of the Tent Protocol",
-				  "website":"https://titanous.com/",
-				  "organization":"Flynn",
-				  "role":"Principal Architect",
-				  "bio":"Jonathan leads development of Flynn, an open source platform as a service that hosts apps and databases. Before starting Flynn, Jonathan co-architected Tent, an open, decentralized communication and storage protocol."
-        }
-      ]
-    }  
-	},	
-
-	{
-		"camp":"Dev Ops Camp",
-		"tech":"devops",
-		"date":"2016-07-09",
-		"timeStart":"",
-		"timeStop":"",
 		"sessionTitle":"rkt: Secure Application Container Runtime",
 		"sessionSubTitle":"",
 		"sessionSummary":"How to build ACIs and deploy them on rkt.",
@@ -493,6 +461,73 @@
       ]
     }  
 	},	
+	
+	{
+		"camp":"Dev Ops Camp",
+		"tech":"devops",
+		"date":"2016-07-09",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Automating Databases with Flynn",
+		"sessionSubTitle":"",
+		"sessionSummary":"Deploying and managing highly available databases can be a challenging task, and humans are almost always involved when something goes wrong. Flynn is an open source platform and this talk will cover how we've built database as a service for PostgreSQL, Redis, MySQL, and MongoDB that runs anywhere and makes automatic database provisioning, backups, and safe automatic failover easy and accessible for anything from a side project to production.",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Jonathan",
+				  "nameLast":"Rudenberg",
+				  "photo":"speaker-jonathan-rudenberg.jpg",
+				  "linkedin":"",
+				  "twitter":"https://twitter.com/titanous",
+				  "github":"https://github.com/titanous",
+				  "facebook":"",
+				  "openSourceRole":"Co-founder of Flynn and an architect of the Tent Protocol",
+				  "website":"https://titanous.com/",
+				  "organization":"Flynn",
+				  "role":"Principal Architect",
+				  "bio":"Jonathan leads development of Flynn, an open source platform as a service that hosts apps and databases. Before starting Flynn, Jonathan co-architected Tent, an open, decentralized communication and storage protocol."
+        }
+      ]
+    }  
+	},	
+	
+	{
+		"camp":"Dev Ops Camp",
+		"tech":"devops",
+		"date":"2016-07-09",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Building Scalable Web Applications using Microservices Architecture and Serverless Computing from AWS",
+		"sessionSubTitle":"",
+		"sessionSummary":"Scalable applications are by nature resource intensive, expensive to build and difficult to manage. What if we can change this perception and help developers design full-stack applications that are low cost and low maintenance? This session describes the underlying architecture behind <a href=\"http://www.deep.mg\" target=\"_blank\">http://www.deep.mg</a>, the microservices marketplace built by Mitoc Group using AngularJS, NodeJS and powered by abstracted services like AWS Lambda, Amazon CloudFront, Amazon DynamoDB, and so on. Eugene Istrati, Technology Partner at Mitoc Group, will dive deep into their approach to microservices architecture using serverless environments from AWS and demonstrate how anyone can use serverless computing to achieve high scalability, high availability, and high performance without huge efforts or expensive resources allocation.",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Eugene",
+				  "nameLast":"Istrati",
+				  "photo":"speaker-eugene-istrati.jpg",
+				  "linkedin":"https://www.linkedin.com/in/eistrati",
+				  "twitter":"https://twitter.com/eistrati",
+				  "github":"https://github.com/eistrati",
+				  "facebook":"",
+				  "openSourceRole":"",
+				  "website":"https://www.mitocgroup.com/",
+				  "organization":"Mitoc Group",
+				  "role":"Technology Partner, Serverless Computing",
+				  "bio":""
+        }
+      ]
+    }  
+	},	
+
+
+
 
   // DRUPAL NYC CAMP
   // TBA
