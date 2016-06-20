@@ -1160,16 +1160,48 @@
 
   // RAILS CAMP
 
-{
+  {
 		"camp":"Rails Camp",
 		"tech":"rails",
 		"date":"2016-07-10",
 		"timeStart":"",
 		"timeStop":"",
-		"sessionTitle":"Comprehensive Navigation in React Native",
+		"sessionTitle":"Faster than JSON",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p>Developing locally is one of the best things that can happen to you. Not only does it let you dispense with upload/download times, you can create as many projects as you want, work with real domains locally and generally speed up everything you do. Vagrant is a programmatic way create and configure virtual machines that mimic an application\'s production environment. I will show you how to have a working local version of Ruby on Rails with vagrant. Which you can edit files locally and they will automatically be pushed to your VM through shared folders with no delay. When you\'re done working for the day, simply type $vagrant halt to suspend your VM and type in $vagrant up to resume it. The procedure was used successfully to deploy virtual machines to a group students at a workshop to teach women how to code their first database driven website using Ruby on Rails in New York in May 2016. Where I was an teaching a class of advanced students.</p>",
-		"sessionType":"session",
+		"sessionSummary":"<p>MessagePack, Protocol Buffers, and how they beat JSON in terms of size and speed.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"https://docs.google.com/presentation/d/1sYojmwuCF1DzzBSr3xcM6jVQht4y-kgHDxMoNB7cvx8/edit?usp=sharing",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+          "nameFirst":"Paul",
+				  "nameLast":"Fielek",
+				  "photo":"speaker-paul-fielek.jpg",
+				  "linkedin":"https://www.linkedin.com/in/paulfielek",
+				  "twitter":"https://twitter.com/polskais1",
+				  "github":"https://github.com/polskais1",
+				  "facebook":"",
+				  "website":"http://paulfielek.com/",
+				  "openSourceRole":"",
+				  "organization":"Spotible",
+				  "role":"Web Developer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+	
+	{
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Local Ruby on Rails Development using Vagrant VMs",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Developing locally is one of the best things that can happen to you. Not only does it let you dispense with upload/download times, you can create as many projects as you want, work with real domains locally and generally speed up everything you do.</p><p>Vagrant is a programmatic way create and configure virtual machines that mimic an application’s production environment. I will show you how to have a working local version of Ruby on Rails with vagrant. Which you can edit files locally and they will automatically be pushed to your VM through shared folders with no delay.</p><p>When you\'re done working for the day, simply type $vagrant halt to suspend your VM and type in $vagrant up to resume it. The procedure was used successfully to deploy virtual machines to a group students at a workshop to teach women how to code their first database driven website using Ruby on Rails in New York in May 2016. Where I was an teaching a class of advanced students.</p>",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1177,21 +1209,116 @@
 			  {
           "nameFirst":"Anthony",
 				  "nameLast":"Alvarez",
-				  "photo":"speaker-anthony-alverez.jpg",
+				  "photo":"speaker-anthony-alvarez.jpg",
 				  "linkedin":"https://www.linkedin.com/in/aalvarez",
 				  "twitter":"https://twitter.com/anthonyealvarez",
-				  "github":"https://github.com/anthonyalvarez",
+				  "github":"https://github.com/anthonyealvarez",
 				  "facebook":"",
-				  "website":"http://anthonyalvarez.us/",
+				  "website":"http://paulfielek.com/",
 				  "openSourceRole":"",
 				  "organization":"Pucho Web Solutions",
 				  "role":"Web Developer",
-				  "bio":"Nader Dabit has been developing using React Native at the company which he is employed, SchoolStatus, since the framework's release, and has also worked with React Native on multiple freelance and consulting projects over the past year. Nader has also been active in the React Native community, mainly on StackOverflow, Medium, and with the React Native Radio podcast on Devchat.tv. He founded and organizes two local tech meetups and is the cofounder of Mississippi's first coding school, Code South Labs. He has been creating curriculum as well as teaching JavaScript and JavaScript frameworks / technologies (Node, Angular, React, and React Native). Nader is also currently authoring React Native in Action for Manning Publications."
+				  "bio":""
         }
       ]
     }  
 	},
-	
+
+	{
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Angular on Rails",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Trials and tribulations of converting a Rails app to an Angular frontend.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+          "nameFirst":"Ryan",
+				  "nameLast":"Johnson",
+				  "photo":"speaker-ryan-johnson.jpg",
+				  "linkedin":"https://www.linkedin.com/in/ryan-johnson-321629ab",
+				  "twitter":"https://twitter.com/empireofryan",
+				  "github":"https://github.com/empireofryan",
+				  "facebook":"",
+				  "website":"http://empireofryan.github.io/",
+				  "openSourceRole":"",
+				  "organization":"Airspace Technologies",
+				  "role":"Ruby on Rails / Angular Developer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Faster than Fast",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Eliminating latency and creating a crazy fast website while keeping architecture simple.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+          "nameFirst":"Ben",
+				  "nameLast":"Halpern",
+				  "photo":"speaker-ben-halpern.jpg",
+				  "linkedin":"https://www.linkedin.com/in/ben-halpern-3a1aa731",
+				  "twitter":"https://twitter.com/benhalpern",
+				  "github":"https://github.com/benhalpern",
+				  "facebook":"",
+				  "website":"http://benhalpern.com/",
+				  "openSourceRole":"",
+				  "organization":"The Practical Dev & ArgoTutors",
+				  "role":"Creator & CTO",
+				  "bio":"I'm the creator of The Practical Dev (@thepracticaldev on Twitter) and the CTO of ArgoTutors.com."
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Avoiding n+1 Errors",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>What n+1 errors are, why you really need to care, and how to fix them.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+          "nameFirst":"Esther",
+				  "nameLast":"Leytush",
+				  "photo":"speaker-esther-leytush.jpg",
+				  "linkedin":"https://www.linkedin.com/in/estherleytush",
+				  "twitter":"https://twitter.com/mindpl_ace",
+				  "github":"https://github.com/mindplace",
+				  "facebook":"",
+				  "website":"http://estherleytush.com",
+				  "openSourceRole":"",
+				  "organization":"Seeking Opportunities",
+				  "role":"Fullstack Rails Developer",
+				  "bio":"Fullstack web developer with a Rails love-affair seeks fulltime opportunities in NYC. Please send job prospects or commiserations."
+        }
+      ]
+    }  
+	},
 
 
 
