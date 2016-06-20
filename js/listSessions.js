@@ -1159,38 +1159,6 @@
 
 
   // RAILS CAMP
-
-  {
-		"camp":"Rails Camp",
-		"tech":"rails",
-		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Faster than JSON",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>MessagePack, Protocol Buffers, and how they beat JSON in terms of size and speed.</p>",
-		"sessionType":"Session",
-		"sessionSlides":"https://docs.google.com/presentation/d/1sYojmwuCF1DzzBSr3xcM6jVQht4y-kgHDxMoNB7cvx8/edit?usp=sharing",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
-          "nameFirst":"Paul",
-				  "nameLast":"Fielek",
-				  "photo":"speaker-paul-fielek.jpg",
-				  "linkedin":"https://www.linkedin.com/in/paulfielek",
-				  "twitter":"https://twitter.com/polskais1",
-				  "github":"https://github.com/polskais1",
-				  "facebook":"",
-				  "website":"http://paulfielek.com/",
-				  "openSourceRole":"",
-				  "organization":"Spotible",
-				  "role":"Web Developer",
-				  "bio":""
-        }
-      ]
-    }  
-	},
 	
 	{
 		"camp":"Rails Camp",
@@ -1224,32 +1192,32 @@
     }  
 	},
 
-	{
+  {
 		"camp":"Rails Camp",
 		"tech":"rails",
 		"date":"2016-07-10",
 		"timeStart":"",
 		"timeStop":"",
-		"sessionTitle":"Angular on Rails",
+		"sessionTitle":"Faster than JSON",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p>Trials and tribulations of converting a Rails app to an Angular frontend.</p>",
+		"sessionSummary":"<p>MessagePack, Protocol Buffers, and how they beat JSON in terms of size and speed.</p>",
 		"sessionType":"Session",
-		"sessionSlides":"",
+		"sessionSlides":"https://docs.google.com/presentation/d/1sYojmwuCF1DzzBSr3xcM6jVQht4y-kgHDxMoNB7cvx8/edit?usp=sharing",
 		"sessionVideo":"",
     "speakers": {
       "speaker": [
 			  {
-          "nameFirst":"Ryan",
-				  "nameLast":"Johnson",
-				  "photo":"speaker-ryan-johnson.jpg",
-				  "linkedin":"https://www.linkedin.com/in/ryan-johnson-321629ab",
-				  "twitter":"https://twitter.com/empireofryan",
-				  "github":"https://github.com/empireofryan",
+          "nameFirst":"Paul",
+				  "nameLast":"Fielek",
+				  "photo":"speaker-paul-fielek.jpg",
+				  "linkedin":"https://www.linkedin.com/in/paulfielek",
+				  "twitter":"https://twitter.com/polskais1",
+				  "github":"https://github.com/polskais1",
 				  "facebook":"",
-				  "website":"http://empireofryan.github.io/",
+				  "website":"http://paulfielek.com/",
 				  "openSourceRole":"",
-				  "organization":"Airspace Technologies",
-				  "role":"Ruby on Rails / Angular Developer",
+				  "organization":"Spotible",
+				  "role":"Web Developer",
 				  "bio":""
         }
       ]
@@ -1294,9 +1262,41 @@
 		"date":"2016-07-10",
 		"timeStart":"",
 		"timeStop":"",
+		"sessionTitle":"Angular on Rails",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Trials and tribulations of converting a Rails app to an Angular frontend.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+          "nameFirst":"Ryan",
+				  "nameLast":"Johnson",
+				  "photo":"speaker-ryan-johnson.jpg",
+				  "linkedin":"https://www.linkedin.com/in/ryan-johnson-321629ab",
+				  "twitter":"https://twitter.com/empireofryan",
+				  "github":"https://github.com/empireofryan",
+				  "facebook":"",
+				  "website":"http://empireofryan.github.io/",
+				  "openSourceRole":"",
+				  "organization":"Airspace Technologies",
+				  "role":"Ruby on Rails / Angular Developer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+	{
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
 		"sessionTitle":"Avoiding n+1 Errors",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p>What n+1 errors are, why you really need to care, and how to fix them.</p>",
+		"sessionSummary":"<p>N+1 errors might be the most common mistake that leads to slow apps. It\'s when the app makes database calls over and over again--sometimes many, many more times than it needs to--in order to get information about a list of items. Beginner Rails developers are especially prone to structuring their database calls without this issue in mind, and don\'t necessarily pay attention to their logs where the issue would be visible. This talk will look at some examples and identify some available solutions.</p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
