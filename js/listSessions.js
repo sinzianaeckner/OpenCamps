@@ -394,7 +394,7 @@
 
 
   // DEV OPS CAMP
-/*	{
+	{
 		"camp":"Dev Ops Camp",
 		"tech":"devops",
 		"date":"2016-07-09",
@@ -424,7 +424,7 @@
         }
       ]
     }  
-	},*/
+	},
 
 	{
 		"camp":"Dev Ops Camp",
@@ -434,7 +434,7 @@
 		"timeStop":"",
 		"sessionTitle":"rkt: Secure Application Container Runtime",
 		"sessionSubTitle":"",
-		"sessionSummary":"How to build ACIs and deploy them on rkt.",
+		"sessionSummary":"<p>Faraz Fazli will be demonstrating how to use <a href=\"https://github.com/coreos/rkt\" target=\"_blank\">rkt</a> to create, deploy, and manage Linux containers using rkt. rkt is a container runtime similar to Docker, but secure by default. He will walk through creating App Container Images (ACIs), running them using systemd, and reading container log files with journalctl.</p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -448,11 +448,12 @@
 				  "twitter":"https://twitter.com/farazfazli",
 				  "github":"https://github.com/farazfazli",
 				  "facebook":"",
-				  "openSourceRole":"Co-founder of Flynn and an architect of the Tent Protocol",
-				  "website":"https://titanous.com/",
+				  "openSourceRole":"",
+				  "website":"",
 				  "organization":"Contap Inc.",
 				  "role":"Chief Development Officer",
-				  "bio":"19, left college to build concurrent systems with Go."
+				  "bio":"Faraz is 19, has been coding since he turned 10,  and organizes a tech meetup group in NYC with almost 900 members."
+
         }
       ]
     }  
