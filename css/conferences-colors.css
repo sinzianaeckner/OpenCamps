@@ -237,7 +237,7 @@
   background: #4e2a8e;
 }
 
-.conference.elixir .session-inner {
+.session.elixir .session-inner {
 	border-top: 2px solid #4e2a8e;
 }
 
@@ -257,7 +257,7 @@
   background: #9A0000;
 }
 
-.conference.erlang .session-inner {
+.session.erlang .session-inner {
 	border-top: 2px solid #9A0000;
 }
 
@@ -360,17 +360,17 @@
 
 .conference.nerves,
 .conference.nerves a.button,
-.conference.nerves .session .scheduling .event {
+.session.nerves .scheduling .event {
   background: #676961;
 }
 
-.conference.nerves .session-inner {
+.session.nerves .session-inner {
 	border-top: 2px solid #676961;
 }
 
-.conference.nerves .slot,
-.conference.nerves .container.light h2,
-.conference.nerves .links a.color:hover {
+.session.nerves .slot,
+.session.nerves .container.light h2,
+.session.nerves .links a.color:hover {
   color: #676961;	
 }
 
@@ -422,7 +422,7 @@
   background: #F15523;
 }
 
-.conference.phoenix .session-inner {
+.session.phoenix .session-inner {
 	border-top: 2px solid #F15523;
 }
 

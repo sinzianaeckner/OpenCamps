@@ -576,6 +576,38 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
+		"sessionType":"Keynote",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Dave",
+				  "nameLast":"Thomas",
+				  "photo":"speaker-dave-thomas.jpg",
+				  "linkedin":"https://www.linkedin.com/in/dave-thomas-53aa1057",
+				  "twitter":"https://twitter.com/pragdave",
+				  "github":"https://github.com/pragdave",
+				  "facebook":"",
+				  "website":"https://pragdave.me/",
+				  "openSourceRole":"",
+				  "organization":"Pragmatic Programmers, LLC",
+				  "role":"Publisher",
+				  "bio":""
+        }
+      ]
+    }  
+	},	
+
+	{
+		"camp":"Elixir Camp NYC",
+		"tech":"elixir",
+		"date":"2016-07-16",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -630,6 +662,41 @@
       ]
     }  
 	},	
+
+
+ 
+
+	{
+		"camp":"Elixir Camp NYC",
+		"tech":"elixir",
+		"date":"2016-07-16",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p></p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Sean",
+				  "nameLast":"Callan",
+				  "photo":"speaker-sean-callan.jpg",
+				  "linkedin":"https://www.linkedin.com/in/seandcallan",
+				  "twitter":"https://twitter.com/doomspork",
+				  "github":"https://github.com/doomspork",
+				  "facebook":"",
+				  "website":"http://seancallan.com/",
+				  "openSourceRole":"Creator of Elixir School",
+				  "organization":"CityLeash.com",
+				  "role":"Co-Founder",
+				  "bio":"<p></p>"
+        }
+      ]
+    }  
+	},
 
 	{
 		"camp":"Elixir Camp NYC",
@@ -941,7 +1008,7 @@
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>According to Marvin Minsky, our minds are societies of agents. These agents are simple, many and varied, and it's from their interactions that intelligent behavior emerges. What if we could endow autonomous robots each with a Society of Mind, and what if we could entangle these minds into a society of robots? Thanks to Nerves, Elixir runs comfortably on the EV3 brick, which makes it surprisingly easy to implement Minsky's concept using inexpensive Lego robots. We will discuss the concept of Society of Mind, our interpretation of it and its implementation for Lego robots. We will explore how agents are used to generate and orchestrate perceptions, motivation, intents and behaviors. We will demonstrate how robots can form peer-to-peer networks over which they share perceptions for better (collaboration) or for worse (group panic).</p>",
 		"sessionType":"Session",
-		"sessionSlides":"<script async class=\"speakerdeck-embed\" data-id=\"6ba495d8923c4a89a6de7a5ea4443686\" data-ratio=\"1.33333333333333\" src=\"//speakerdeck.com/assets/embed.js\"></script>",
+		"sessionSlides":"<script async class=\"speakerdeck-embed\" data-id=\"6ba495d8923c4a89a6de7a5ea4443686\" data-ratio=\"1.33333333333333\" src=\"http://speakerdeck.com/assets/embed.js\"></script>",
 		"sessionVideo":"<iframe width=\"480\" height=\"315\" src=\"https://www.youtube.com/embed/530z-_yjdlU\" frameborder=\"0\" allowfullscreen></iframe>",
     "speakers": {
       "speaker": [

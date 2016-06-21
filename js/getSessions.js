@@ -14,7 +14,7 @@ var n = d.toDateString();
     var i;
     for(i = 0; i<sessions.length; i++) {
       outputSessions +=
-				'<div class="session ' + sessions[i].sessionType + '">'+
+				'<div class="session ' + sessions[i].sessionType + ' ' + sessions[i].camp + '">'+
 					'<div class="session-inner">'+ 
 						'<div class="scheduling">'+ 
   							'<div class="slot">'+ n;
@@ -46,7 +46,7 @@ var n = d.toDateString();
 									outputSessions += ' | ';
 								}
   							if (sessions[i].sessionSlides != "") {
-	  							outputSessions += '<a href=\"' + sessions[i].sessionSlides + '\" class="view-slides color" target=\"_blank\"><i class="fa fa-file-text-o"></i> &nbsp;View Slides</a>';
+//	  							outputSessions += '<a href=\"' + sessions[i].sessionSlides + '\" class=\"view-slides color" target=\"_blank\"><i class="fa fa-file-text-o"></i> &nbsp;View Slides</a>';
 		  					}
 							outputSessions +=
   						'</div>'+
