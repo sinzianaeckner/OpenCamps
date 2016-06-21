@@ -658,8 +658,8 @@
 				  "facebook":"",
 				  "website":"http://seancallan.com/",
 				  "openSourceRole":"Creator of Elixir School",
-				  "organization":"CityLeash.com",
-				  "role":"Co-Founder",
+				  "organization":"",
+				  "role":"",
 				  "bio":"<p></p>"
         }
       ]
