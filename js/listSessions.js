@@ -642,7 +642,7 @@
 		"timeStop":"",
 		"sessionTitle":"",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p></p>",
+		"sessionSummary":"",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
