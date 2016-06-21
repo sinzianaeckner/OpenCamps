@@ -345,8 +345,37 @@
 
 
   // DATA VIZ CAMP
-  // TBA
-  // TBA
+  {
+		"camp":"Data Viz Camp",
+		"tech":"dataviz",
+		"date":"2016-07-09",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Please add talk title",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Please add session description.</p>",
+		"sessionType":"Keynote",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Arvind",
+				  "nameLast":" ",
+				  "photo":"speaker-arvind-satyanarayan.jpg",
+				  "linkedin":"https://www.linkedin.com/in/arvindsatya1",
+				  "twitter":"http://twitter.com/arvindsatya1",
+				  "github":"http://github.com/arvind",
+				  "facebook":"",
+				  "website":"http://arvindsatya.com/",
+				  "openSourceRole":"PhD Candidate working with Jeffrey Heer on Vega",
+				  "organization":"Apropose Inc.",
+				  "role":"Cofounder",
+				  "bio":"<p>Please insert bio if available</p>."
+        }
+      ]
+    }  
+	},
 
 
 
@@ -547,7 +576,7 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -579,7 +608,39 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Josh",
+				  "nameLast":"Adams",
+				  "photo":"speaker-josh-adams.jpg",
+				  "linkedin":"https://www.linkedin.com/in/knewter",
+				  "twitter":"https://twitter.com/knewter",
+				  "github":"https://github.com/knewter",
+				  "facebook":"",
+				  "website":"http://DailyDrip.com",
+				  "openSourceRole":"",
+				  "organization":"DailyDrip",
+				  "role":"CTO & Co-Founder",
+				  "bio":""
+        }
+      ]
+    }  
+	},	
+
+	{
+		"camp":"Elixir Camp NYC",
+		"tech":"elixir",
+		"date":"2016-07-16",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Stately Machines: OTP 19, Elixir, and gen_statem",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>OTP 19 is a big step forward for both Erlang and Elixir developers. One exciting new feature is gen_statem, a state machine behavior. State machines are incredibly versatile, and can be used to implement many types of functionality, including network protocols, trading systems, and compilers.</p><p>Together, we'll take a guided tour of gen_statem, and see how easy it is to take advantage of its functionality to implement state machines in our apps. We'll also take a look at gen_state_machine, an Elixir package which implements an idiomatic Elixir wrapper for gen_statem.  Join me in transitioning to a new state of enlightenment about state machines in Elixir!</p>",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -596,7 +657,7 @@
 				  "openSourceRole":"",
 				  "organization":"FanDuel",
 				  "role":"Principal Software Engineer",
-				  "bio":""
+				  "bio":"<p>Eric Entin (@antipax) leads a team at FanDuel that works on Elixir/Phoenix-based projects. A polyglot programmer who has worked professionally in many languages including Haskell, Ruby, and C++ for over 10 years, Elixir is by far his favorite. He has contributed to Elixir, Phoenix, Ecto, and Postgrex.</p><p>A lifelong NYC resident and proud graduate of the Bronx High School of Science, he now lives in Queens with his 2 cats and fiancé. Eric's interests include music production, backcountry camping, and smoked cheeses.</p>"
         }
       ]
     }  
@@ -608,10 +669,10 @@
 		"date":"2016-07-16",
 		"timeStart":"",
 		"timeStop":"",
-		"sessionTitle":"",
+		"sessionTitle":"It's An Evolution! Simulating Life With OTP",
 		"sessionSubTitle":"",
-		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionSummary":"<p>What if we could simulate life? What if we could watch the evolution of a million processes at once, with the strong surviving and passing on their traits?</p><p>It all starts with a population seed. Each organism (represented by a spawned process) will live, eat, breed, and eventually die. These organisms will live out their simple lives with a handful of modeled behaviors. Whatever happens in one generation affects all the future ones.</p><p>These complex worlds can easily unfold with the help of Elixir/OTP. In this talk, we will seed a population and then simulate the evolutionary process, while OTP Supervisors, Servers, and Events are utilized to manage the concurrent life processes. Essentially, we'll replicate the changing world in an OTP Petri dish. ¡Viva La Evolución!</p>",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -626,7 +687,7 @@
 				  "facebook":"",
 				  "website":"https://soundcloud.com/elixirfountain",
 				  "openSourceRole":"Elixir Fountain Host/Founder",
-				  "organization":"Wellmatch",
+				  "organization":"ActiveProspect",
 				  "role":"Sr Software Engineer",
 				  "bio":""
         }
@@ -879,7 +940,7 @@
 		"sessionTitle":"A Society of Robotic Minds",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>According to Marvin Minsky, our minds are societies of agents. These agents are simple, many and varied, and it's from their interactions that intelligent behavior emerges. What if we could endow autonomous robots each with a Society of Mind, and what if we could entangle these minds into a society of robots? Thanks to Nerves, Elixir runs comfortably on the EV3 brick, which makes it surprisingly easy to implement Minsky's concept using inexpensive Lego robots. We will discuss the concept of Society of Mind, our interpretation of it and its implementation for Lego robots. We will explore how agents are used to generate and orchestrate perceptions, motivation, intents and behaviors. We will demonstrate how robots can form peer-to-peer networks over which they share perceptions for better (collaboration) or for worse (group panic).</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"<script async class=\"speakerdeck-embed\" data-id=\"6ba495d8923c4a89a6de7a5ea4443686\" data-ratio=\"1.33333333333333\" src=\"//speakerdeck.com/assets/embed.js\"></script>",
 		"sessionVideo":"<iframe width=\"480\" height=\"315\" src=\"https://www.youtube.com/embed/530z-_yjdlU\" frameborder=\"0\" allowfullscreen></iframe>",
     "speakers": {
@@ -895,7 +956,7 @@
 				  "website":"",
 				  "openSourceRole":"",
 				  "organization":"Collaboration Planners LLC",
-				  "role":"",
+				  "role":"Principal",
 				  "bio":"An avid programmer since the mid-80s, I have worked with Prolog, Lisp, Smalltalk, Java, and for the last two years, Erlang and Elixir.  I am Chief Architect at Starlit Software. I live in beautiful Portland, Maine where I do all my work in Elixir, Phoenix and Elm (somebody pinch me!).  In my spare time, I train obsessively in Aikido, organize the local Erlang/Elixir and Elm meetups, and dabble in robotics with the Lego Robotics sets I bought \"for my son\".  I recently presented at <a href=\"https://www.youtube.com/watch?v=N_PXas9LtzU\" target=\"_blank\">ElixirDaze 2016</a> and was a guest on the <a href=\"https://soundcloud.com/elixirfountain/elixir-fountain-jean-francois-cloutier-2016-04-11\" target=\"_blank\">Elixir Fountain podcast</a>."
         }
       ]
@@ -911,7 +972,7 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -943,7 +1004,7 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1153,7 +1214,7 @@
 		"sessionTitle":"From Rails to Phoenix",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Many Rails developers are jumping ship for Phoenix, learn why you and your organization should consider making the same move. Case studies and hard data will tell the story of how Phoenix is here to stay but also the best choice for new and existing applications.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"<script async class=\"speakerdeck-embed\" data-id=\"6ba495d8923c4a89a6de7a5ea4443686\" data-ratio=\"1.33333333333333\" src=\"//speakerdeck.com/assets/embed.js\"></script>",
 		"sessionVideo":"<iframe width=\"480\" height=\"315\" src=\"https://www.youtube.com/embed/530z-_yjdlU\" frameborder=\"0\" allowfullscreen></iframe>",
     "speakers": {
@@ -1170,7 +1231,7 @@
 				  "openSourceRole":"",
 				  "organization":"Dockyard",
 				  "role":"Founder, CEO",
-				  "bio":""
+				  "bio":"Brian is the CEO of DockYard, an Elixir & Phoenix consultancy."
         }
       ]
     }  
@@ -1185,7 +1246,7 @@
 		"sessionTitle":"Building & Deploying a Real Suite of OTP Apps",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>An examination of Phoenix, OTP, Umbrellas, and more in Elixir in Phoenix from 0 to deployment. Recently we had to build a large suite of services for a client and this examines the net wins on both the engineering and business sides of the equation; diving into architecting and building OTP apps, Phoenix, Ecto, and deploying it all into the real world.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1217,7 +1278,7 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1249,7 +1310,7 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1279,10 +1340,44 @@
 		"date":"2016-07-16",
 		"timeStart":"",
 		"timeStop":"",
+		"sessionTitle":"",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Sonny",
+				  "nameLast":"Scroggin",
+				  "photo":"speaker-sonny-scroggin.jpg",
+				  "linkedin":"https://www.linkedin.com/in/scrogson",
+				  "twitter":"https://twitter.com/scrogson",
+				  "github":"https://github.com/scrogson",
+				  "facebook":"",
+				  "website":"http://scrogg.in/",
+				  "stackoverflow":"",
+				  "openSourceRole":"Creator of Hedwig IM, and Core Team Member for Phoenix Framework & ueberauth",
+				  "organization":"IBM",
+				  "role":"Senior Software Engineer",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
+
+	{
+		"camp":"Phoenix Camp NYC",
+		"tech":"phoenix",
+		"date":"2016-07-16",
+		"timeStart":"",
+		"timeStop":"",
 		"sessionTitle":"Building Voice Enabled Applications in Phoenix",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Voice enabled applications are going mainstream and are changing how we interact with devices. Amazon lead the way with Amazon Alexa but Google has announced Google Home and there are rumors that Apple will follow suit. On this talk we will describe the main concepts behind voice enabled applications and how to build Alexa skills in Phoenix. We will build an application from scratch and interact with it using voice.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {

@@ -231,20 +231,41 @@
 
 
 /* ELIXIR */
-.conference.elixir {
+.conference.elixir,
+.conference.elixir a.button,
+.session.elixir .scheduling .event {
   background: #4e2a8e;
 }
 
+.conference.elixir .session-inner {
+	border-top: 2px solid #4e2a8e;
+}
+
+.session.elixir .slot,
+.session.elixir .container.light h2,
+.session.elixir .links a.color:hover {
+  color: #4e2a8e;	
+}
 
 
 
 
 /* ERLANG */
-.conference.erlang {
+.conference.erlang,
+.conference.erlang a.button,
+.session.erlang .scheduling .event {
   background: #9A0000;
 }
 
+.conference.erlang .session-inner {
+	border-top: 2px solid #9A0000;
+}
 
+.session.erlang .slot,
+.session.erlang .container.light h2,
+.session.erlang .links a.color:hover {
+  color: #9A0000;	
+}
 
 
 
@@ -337,6 +358,23 @@
 	background-color: #676961;
 }
 
+.conference.nerves,
+.conference.nerves a.button,
+.conference.nerves .session .scheduling .event {
+  background: #676961;
+}
+
+.conference.nerves .session-inner {
+	border-top: 2px solid #676961;
+}
+
+.conference.nerves .slot,
+.conference.nerves .container.light h2,
+.conference.nerves .links a.color:hover {
+  color: #676961;	
+}
+
+
 
 
 
@@ -378,8 +416,20 @@
 
 
 /* PHOENIX */
-.conference.phoenix {
-	background: #F15523;
+.conference.phoenix,
+.conference.phoenix a.button,
+.session.phoenix .scheduling .event {
+  background: #F15523;
+}
+
+.conference.phoenix .session-inner {
+	border-top: 2px solid #F15523;
+}
+
+.session.phoenix .slot,
+.session.phoenix .container.light h2,
+.session.phoenix .links a.color:hover {
+  color: #F15523;	
 }
 
 
@@ -418,17 +468,17 @@
 /* REACT */
 .conference.react,
 .conference.react a.button,
-.conference.react .session .scheduling .event {
+.session.react .scheduling .event {
   background: #00D8FF;
 }
 
-.conference.react .session-inner {
+.session.react .session-inner {
 	border-top: 2px solid #00D8FF;
 }
 
-.conference.react .slot,
-.conference.react .container.light h2,
-.conference.react .links a.color:hover {
+.session.react .slot,
+.session.react .container.light h2,
+.session.react .links a.color:hover {
   color: #00D8FF;	
 }
 
