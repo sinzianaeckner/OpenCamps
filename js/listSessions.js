@@ -631,38 +631,6 @@
     }  
 	},	
 
-	{
-		"camp":"Elixir Camp NYC",
-		"tech":"elixir",
-		"date":"2016-07-16",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"",
-		"sessionSubTitle":"",
-		"sessionSummary":"",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Josh",
-				  "nameLast":"Adams",
-				  "photo":"speaker-josh-adams.jpg",
-				  "linkedin":"https://www.linkedin.com/in/knewter",
-				  "twitter":"https://twitter.com/knewter",
-				  "github":"https://github.com/knewter",
-				  "facebook":"",
-				  "website":"http://DailyDrip.com",
-				  "openSourceRole":"",
-				  "organization":"DailyDrip",
-				  "role":"CTO & Co-Founder",
-				  "bio":""
-        }
-      ]
-    }  
-	},	
-
 
  
 
