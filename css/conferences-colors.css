@@ -221,25 +221,30 @@
 
 
 
+/* DRUPAL */
+.conference.drupal {
+	background: #04639d;
+}
+
 
 /* EDTECH */
-.conference.edtech{
-	background: #04639d;
+.conference.edtech {
+	background: #6cb9e9;
 }
 .conference.edtech,
 .conference.edtech a.button,
 .session.edtech .scheduling .event {
-  background: #04639d;
+  background: #6cb9e9;
 }
 
 .session.edtech .session-inner {
-	border-top: 2px solid #04639d;
+	border-top: 2px solid #6cb9e9;
 }
 
 .session.edtech .slot,
 .session.edtech .container.light h2,
 .session.edtech .links a.color:hover {
-  color: #04639d;	
+  color: #6cb9e9;	
 }
 
 
