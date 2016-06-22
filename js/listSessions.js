@@ -474,11 +474,11 @@
 				  "nameLast":"Appnel",
 				  "photo":"speaker-timothy-appnel.jpg",
 				  "linkedin":"https://www.linkedin.com/in/tappnel",
-				  "twitter":"https://twitter.com/tappnel",
+				  "twitter":"https://twitter.com/appnelgroup",
 				  "github":"https://github.com/tima",
 				  "facebook":"",
 				  "openSourceRole":"",
-				  "website":"http://timaoutloud.org/",
+				  "website":"http://ansible.com",
 				  "organization":"Ansible by Redhat",
 				  "role":"Principal Architect",
 				  "bio":"<p>Timothy Appnel is a Principal Product Manager and \"Jack of all trades\" at Ansible by Red Hat with over 25 years of corporate IT and startup experience across numerous industries. Tim is an old-timer in the Ansible community that has been contributing since version v0.5. The synchronize module in Ansible is all his fault.</p>"
