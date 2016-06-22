@@ -463,7 +463,7 @@
 		"timeStop":"",
 		"sessionTitle":"Ansible Crash Course",
 		"sessionSubTitle":"",
-		"sessionSummary":"",
+		"sessionSummary":"Ansible is the Swiss Army knife of DevOps, capable of handling many powerful automation tasks with the flexibility to adapt to many environments and workflows. With Ansible, users can very quickly get up and running to do real work. This 2 hour session will prove that and jump-start using Ansible. At the end of this session, you'll have an understanding of deploying apps, managing systems, securely and powerfully reducing complexity, and understanding the basic tenants of running Ansible playbooks, including how to write your own.",
 		"sessionType":"workshop",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -481,7 +481,7 @@
 				  "website":"http://timaoutloud.org/",
 				  "organization":"Ansible by Redhat",
 				  "role":"Principal Architect",
-				  "bio":""
+				  "bio":"Timothy Appnel is a Principal Product Manager and \"Jack of all trades\" at Ansible by Red Hat with over 25 years of corporate IT and startup experience across numerous industries. Tim is an old-timer in the Ansible community that has been contributing since version v0.5. The synchronize module in Ansible is all his fault."
         }
       ]
     }  
