@@ -14,7 +14,7 @@
 
   // AI CAMP
   // TBA
-  	{
+  {
 		"camp":"AI Camp",
 		"tech":"ai",
 		"date":"2016-07-12",
@@ -40,12 +40,43 @@
 				  "openSourceRole":"",
 				  "organization":"Element Inc.",
 				  "role":"Research Engineer",
-				  "bio":"Graduated from the Royal Military College of Canada in 2008 with a bachelor's degree in computer science. Retired from the Canadian Army Officer Corp in 2012 to complete a Master's degree specialized in deep learning at the University of Montreal. Currently applying deep learning to biometric authentication using smart phones."
+				  "bio":"<p>Graduated from the Royal Military College of Canada in 2008 with a bachelor's degree in computer science. Retired from the Canadian Army Officer Corp in 2012 to complete a Master's degree specialized in deep learning at the University of Montreal. Currently applying deep learning to biometric authentication using smart phones</p>."
         }
       ]
     }  
 	},
 
+  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Starry Night with TensorFlow",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p></p>",
+		"sessionType":"Lightning Talk",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Joshua",
+				  "nameLast":"Gordon",
+				  "photo":"speaker-joshua-gordon.jpg",
+				  "linkedin":"https://twitter.com/random_forests",
+				  "twitter":"http://twitter.com/nicholas-leonard",
+				  "github":"",
+				  "facebook":"",
+				  "website":"http://tensorflow.org",
+				  "openSourceRole":"",
+				  "organization":"Google",
+				  "role":"Developer Advocate",
+				  "bio":"<p>Developer Advocate at Google working on #TensorFlow and machine learning</p>."
+        }
+      ]
+    }  
+	},
   
   
   
