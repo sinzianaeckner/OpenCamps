@@ -188,6 +188,21 @@
   },
 
   {
+    "name": "EdTech Camp",
+    "tagline": "An open source, community-run and not-for-profit conference focused on use and adoption of open source technologies in STEM/STEAM education",
+    "description": "",
+    "camp": "edtech",
+    "dates": "Thu Jul 14",
+    "icon": "icon-edtech.svg",
+    "website": "http://edtechcamp.io",
+    "twitter": "",
+    "facebook": "",
+    "github": "http://github.com/EdTechCamp",
+    "email": "info@edtechcamp.io"
+
+  },
+
+  {
     "name": "Elixir Camp",
     "tagline": "Elixir Camp is a community-run multi day, single track open source focused on the Elixir language",
     "description": "",
