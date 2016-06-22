@@ -47,7 +47,7 @@
     "tagline": "A community-run conference focused on the open source AngularJS framework",
     "description": "",
     "camp": "angular",
-    "dates": "Sat Jul 17",
+    "dates": "Sun Jul 17",
     "icon": "icon-angular.svg",
     "website": "http://Angular.Camp",
     "twitter": "http://twitter.com/Angular_Camp",
