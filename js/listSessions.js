@@ -60,7 +60,70 @@
   // TBA    
 
 
-
+  // ANGULAR CAMP
+	{
+		"camp":"Angular Camp",
+		"tech":"angular",
+		"date":"2016-07-17",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Serverless Microservices & AngularJS",
+		"sessionSubTitle":"Real life story of a Web App that uses AngularJS, AWS Lambda and more",
+		"sessionSummary":"<p>Scalable applications are by nature resource intensive, expensive to build and difficult to manage. What if we can change this perception and help developers design full-stack applications that are low cost and low maintenance? This session describes the underlying architecture behind www.deep.mg, the microservices marketplace built by Mitoc Group using AngularJS, NodeJS and powered by abstracted services like AWS Lambda, Amazon CloudFront, Amazon DynamoDB, and so on. Eugene Istrati, Technology Partner at Mitoc Group, will dive deep into their approach to microservices architecture using serverless platform from AWS and demonstrate how anyone can use serverless computing to achieve high scalability, high availability, and high performance without huge efforts or expensive resources allocation.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Eugene",
+				  "nameLast":"Istrati",
+				  "photo":"speaker-eugene-istrati.jpg",
+				  "linkedin":"https://www.linkedin.com/in/eistrati",
+				  "twitter":"https://twitter.com/eistrati",
+				  "github":"https://github.com/eistrati",
+				  "facebook":"",
+				  "openSourceRole":"",
+				  "website":"https://www.mitocgroup.com/",
+				  "organization":"Mitoc Group",
+				  "role":"Technology Partner, Serverless Computing",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+	
+	{
+		"camp":"Angular Camp",
+		"tech":"angular",
+		"date":"2016-07-17",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Intro to Angular 2",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Get to know everything you need to learn about Angular 2 without reading tons of docs! Typescript, Components, Directives, Providers and Dependency Injection, Templates, Bootstrapping and Routing.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Lerenzo",
+				  "nameLast":"Malcom",
+				  "photo":"speaker-lerenzo-malcom.jpg",
+				  "linkedin":"https://www.linkedin.com/in/lerenzo-tolbert-malcom-87669612",
+				  "twitter":"https://twitter.com/lerenzom",
+				  "github":"https://github.com/lmalcom",
+				  "facebook":"https://www.facebook.com/lerenzo.tolbertmalcom",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Recombine Genomics",
+				  "role":"Software Engineer",
+				  "bio":"Lerenzo is a software engineer at Recombine Genomics in New York City. With several years of experience working in full stack JavaScript, and more recent experience with Scala and Ruby on Rails, he has worked on problems in various areas both in front end and back end on applications ranging from interactive animation to data visualization."
+        }
+      ]
+    }  
+	},
 
 
 
@@ -824,7 +887,7 @@
 				  "linkedin":"https://www.linkedin.com/in/alexcas",
 				  "twitter":"https://twitter.com/castillo__io",
 				  "github":"https://github.com/alexcastillo",
-				  "facebook":"https://www.facebook.com/lerenzo.tolbertmalcom",
+				  "facebook":"",
 				  "website":"",
 				  "openSourceRole":"",
 				  "organization":"Grubhub",

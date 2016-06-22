@@ -31,7 +31,7 @@ var n = d.toDateString();
 							'<div class="summary">';
 								if (sessions[i].sessionSummary != "") {
 									outputSessions +=
-										'<div class="summary-wrapper-collapsed" id="summary' + i + '">' + sessions[i].sessionSummary + '</div>'+
+										'<div class="summary-wrapper-collapsed" id="summary' + i + '"> <p class="subtitle">'+ sessions[i].sessionSubTitle + '</p> ' + sessions[i].sessionSummary + '</div>'+
 										'<div class="summary-faded" id="summaryfade' + i + '"></div>';
 								}
 									outputSessions +=
@@ -60,11 +60,20 @@ var n = d.toDateString();
 				    				'<div class="open-source-role">' + sessions[i].speakers.speaker[0].openSourceRole + '</div>'+
 				    				'<div class="organization">' + sessions[i].speakers.speaker[0].organization + '</div>'+
 						    		'<div class="role">' + sessions[i].speakers.speaker[0].role + '</div>'+
-								    '<div class="links">'+
-											'<div class="link linkedin"><a href="' + sessions[i].speakers.speaker[0].linkedin  + '" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></div>'+    
-		    							'<div class="link twitter"><a href="' + sessions[i].speakers.speaker[0].twitter + '" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>'+    
-				    				  '<div class="link github"><a href="' + sessions[i].speakers.speaker[0].github + '" target="_blank" class="twitter"><i class="fa fa-github"></i></a></div>'+    
-				    				  '<div class="link website"><a href="' + sessions[i].speakers.speaker[0].website + '" target="_blank" class="website"><i class="fa fa-globe"></i></a></div>'+
+								    '<div class="links">';
+											if (sessions[i].speakers.speaker[0].linkedin != "") {
+												outputSessions += '<div class="link linkedin"><a href="' + sessions[i].speakers.speaker[0].linkedin  + '" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></div>';
+											}
+											if (sessions[i].speakers.speaker[0].twitter != "") {
+												outputSessions += '<div class="link twitter"><a href="' + sessions[i].speakers.speaker[0].twitter  + '" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>';
+											}
+											if (sessions[i].speakers.speaker[0].github != "") {
+												outputSessions += '<div class="link github"><a href="' + sessions[i].speakers.speaker[0].github  + '" target="_blank" class="github"><i class="fa fa-github"></i></a></div>';
+											}											
+											if (sessions[i].speakers.speaker[0].website != "") {
+												outputSessions += '<div class="link website"><a href="' + sessions[i].speakers.speaker[0].website  + '" target="_blank" class="website"><i class="fa fa-website"></i></a></div>';
+											}											
+							      outputSessions +=
 								    '</div>'+
         					'</div>'+
       					'</div>'+

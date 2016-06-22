@@ -107,7 +107,7 @@
 }
 
 .session .summary .summary-wrapper-collapsed {
-	max-height: 120px;
+	height: 110px;
 	overflow: hidden;
 	display: block;
 	clear: both;
@@ -151,6 +151,10 @@
 	color: #404040;
 	margin: .5rem;
 	padding: 0;
+}
+
+.session .summary p.subtitle {
+	font-style: italic;
 }
 
 .session .summary p a {

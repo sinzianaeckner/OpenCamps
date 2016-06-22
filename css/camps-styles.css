@@ -170,10 +170,15 @@ h4 a {
 
 
 .block h2 {
-	color: teal;
   font: normal .85rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 
 }
+
+.container h2 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
+}
+
 
 #newsletter {
 	padding-bottom: 0;
