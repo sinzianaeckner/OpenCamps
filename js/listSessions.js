@@ -1489,7 +1489,7 @@
 				  "facebook":"",
 				  "website":"http://blog.gazler.com/",
 				  "stackoverflow":"http://stackoverflow.com/users/219743/Gazler",
-				  "openSourceRole":"Phoenix Core Team Member",
+				  "openSourceRole":"",
 				  "organization":"VoiceLayer",
 				  "role":"CTO",
 				  "bio":"Gabi works as CTO at VoiceLayer. He has been developing and managing software development for over 15 years in a wide variety of fields, including multimedia, networking, web, and mobile (iOS and Android). Gabi is passionate about learning new technologies. He enjoys innovating from early startup stages and contributed to the success of Kealia, Pacific Broadband and Chromatic Research, which were acquired by Sun Microsystems, Juniper Networks and ATI, respectively. Previously Gabi led the development of the first software based video decoders at IBM's T.J. Watson Research Center."
