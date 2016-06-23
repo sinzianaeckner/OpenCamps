@@ -443,9 +443,9 @@
 		"date":"2016-07-09",
 		"timeStart":"",
 		"timeStop":"",
-		"sessionTitle":"Please add talk title",
+		"sessionTitle":"",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p>Please add session description.</p>",
+		"sessionSummary":"",
 		"sessionType":"Keynote",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -487,7 +487,7 @@
         {
           "nameFirst": "Hermann",
           "nameLast": "Zschiegner",
-          "photo": "",
+          "photo": "speaker-hermann-zschiegner.jpg",
           "linkedin": "",
           "twitter": "https://twitter.com/2nfo",
           "github": "",
@@ -518,7 +518,7 @@
         {
           "nameFirst": "Kaiser",
           "nameLast": "Fung",
-          "photo": "",
+          "photo": "speaker-kaiser-fung.jpg",
           "linkedin": "",
           "twitter": "https://twitter.com/junkcharts",
           "github": "",
@@ -549,7 +549,7 @@
         {
           "nameFirst": "Naomi B.",
           "nameLast": "Robbins",
-          "photo": "",
+          "photo": "speaker-naomi-robbins.jpg",
           "linkedin": "www.linkedin.com/pub/naomi-b-robbins/7/107/41a",
           "twitter": "https://twitter.com/nbrgraphs",
           "github": "",
@@ -580,7 +580,7 @@
         {
           "nameFirst": "Adam",
           "nameLast": "Pearce",
-          "photo": "",
+          "photo": "speaker-adam-pearce.jpg",
           "linkedin": "",
           "twitter": "http://twitter.com/adamrpearce",
           "github": "http://github.com/1wheel",
@@ -642,7 +642,7 @@
         {
           "nameFirst": "Erica",
           "nameLast": "Hyman",
-          "photo": "",
+          "photo": "speaker-erica-hyman.jpg",
           "linkedin": "",
           "twitter": "",
           "github": "",
@@ -673,7 +673,7 @@
         {
           "nameFirst": "Rebecca",
           "nameLast": "Lai",
-          "photo": "",
+          "photo": "speaker-rebecca-lai.jpg",
           "linkedin": "http://www.linkedin.com/pub/kk-rebecca-lai/47/a82/a52",
           "twitter": "http://twitter.com/kkrebeccalai",
           "github": "http://www.github.com/kklai",
@@ -735,7 +735,7 @@
         {
           "nameFirst": "Greg",
           "nameLast": "McDonald",
-          "photo": "",
+          "photo": "speaker-greg-mcdonald.jpg",
           "linkedin": "",
           "twitter": "",
           "github": "",
@@ -797,7 +797,7 @@
         {
           "nameFirst": "Paul",
           "nameLast": "Buffa",
-          "photo": "",
+          "photo": "speaker-paul-buffa.jpg",
           "linkedin": "https://www.linkedin.com/in/paul-buffa",
           "twitter": "",
           "github": "",
@@ -828,7 +828,7 @@
         {
           "nameFirst": "Edward",
           "nameLast": "Tufte",
-          "photo": "",
+          "photo": "speaker-edward-tufte-1.jpg",
           "linkedin": "",
           "twitter": "http://twitter.com/EdwardTufte",
           "github": "",
@@ -859,7 +859,7 @@
         {
           "nameFirst": "Dr. Alicia",
           "nameLast": "Powers",
-          "photo": "",
+          "photo": "speaker-alicia-powers.jpg",
           "linkedin": "https://www.linkedin.com/in/alicia-powers-1327236",
           "twitter": "https://twitter.com/apowers411",
           "github": "",
