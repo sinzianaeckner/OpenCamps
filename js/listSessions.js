@@ -468,6 +468,411 @@
       ]
     }  
 	},
+	
+	
+	  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "9:00",
+    "timeStop": "9:45",
+    "sessionTitle": "",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Hermann",
+          "nameLast": "Zschiegner",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "https://twitter.com/2nfo",
+          "github": "",
+          "facebook": "",
+          "website": "http://www.two-n.com/",
+          "openSourceRole": "",
+          "organization": "TWO-N",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "9:45",
+    "timeStop": "10:30",
+    "sessionTitle": "",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Kaiser",
+          "nameLast": "Fung",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "https://twitter.com/junkcharts",
+          "github": "",
+          "facebook": "",
+          "website": "http://www.kaiserfung.com/",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "10:45",
+    "timeStop": "11:30",
+    "sessionTitle": "How to Avoid Some Common Graphical Mistakes",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Naomi B.",
+          "nameLast": "Robbins",
+          "photo": "",
+          "linkedin": "www.linkedin.com/pub/naomi-b-robbins/7/107/41a",
+          "twitter": "https://twitter.com/nbrgraphs",
+          "github": "",
+          "facebook": "",
+          "website": "http://www.nbr-graphs.com/",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "11:30",
+    "timeStop": "12:00",
+    "sessionTitle": "Tiny Tools",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Adam",
+          "nameLast": "Pearce",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "http://twitter.com/adamrpearce",
+          "github": "http://github.com/1wheel",
+          "facebook": "",
+          "website": "http://roadtolarissa.com/",
+          "openSourceRole": "",
+          "organization": "Bloomberg",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "13:00",
+    "timeStop": "14:15",
+    "sessionTitle": "Reactive Building Blocks: Interactive Visualizations with Vega",
+    "sessionSubTitle": "",
+    "sessionSummary": "<p>Vega is a visualization grammar -- a declarative format for creating and saving interactive visualization designs. Existing declarative visualization languages allow users to construct static visualizations by mapping data values to visual properties. Unfortunately, a similar process does not yet exist for interactive visualizations. Instead, custom interaction design requires programming with event handling callbacks -- a complex and error-prone task. In this talk, Arvind will describe how to use reactive building blocks, offered natively in recent versions of Vega, to author interactive data graphics. With this approach, the complexity of event propagation and state changes is managed entirely by Vega. Users are now free to more quickly prototype and iterate on interactive designs, and more easily retarget them across mouse and touch input.\n</p>",
+    "sessionType": "Keynote",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Arvind",
+          "nameLast": "Satyanarayan",
+          "photo": "speaker-arvind-satyanarayan.jpg",
+          "linkedin": "http://www.linkedin.com/in/arvindsatya1/",
+          "twitter": "http://twitter.com/arvindsatya1",
+          "github": "",
+          "facebook": "",
+          "website": "http://arvindsatya.com/",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": " Arvind Satyanarayan is a Computer Science PhD candidate at Stanford University. He works with Jeffrey Heer, and the University of Washington Interactive Data Lab, on new languages and systems for custom interactive visualization design. Arvind is also a co-founder and advisor at Apropose, a search engine for web design."
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "14:30",
+    "timeStop": "15:00",
+    "sessionTitle": "",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Erica",
+          "nameLast": "Hyman",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "TWO-N",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "15:00",
+    "timeStop": "15:45",
+    "sessionTitle": "Visualizing the News",
+    "sessionSubTitle": "",
+    "sessionSummary": "<p>The work at the graphics desk often involve taking large datasets and abstract numbers and turning them into a story. I'll talk about the process of turning data into a graphic, with examples of recent work from our department.\n\n</p>",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Rebecca",
+          "nameLast": "Lai",
+          "photo": "",
+          "linkedin": "http://www.linkedin.com/pub/kk-rebecca-lai/47/a82/a52",
+          "twitter": "http://twitter.com/kkrebeccalai",
+          "github": "http://www.github.com/kklai",
+          "facebook": "",
+          "website": "http://kkrebeccalai.com/about.html",
+          "openSourceRole": "",
+          "organization": "New York Times",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "16:00",
+    "timeStop": "16:45",
+    "sessionTitle": "",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Matt",
+          "nameLast": "Ström",
+          "photo": "speaker-matt-strom.jpg",
+          "linkedin": "",
+          "twitter": "https://twitter.com/plntary",
+          "github": "",
+          "facebook": "",
+          "website": "https://planetary.io/",
+          "openSourceRole": "",
+          "organization": "Planetary",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-10",
+    "timeStart": "9:45",
+    "timeStop": "10:30",
+    "sessionTitle": "Vizanda: Paste the Power of D3",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Greg",
+          "nameLast": "McDonald",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-10",
+    "timeStart": "10:30",
+    "timeStop": "11:00",
+    "sessionTitle": "Data Stories",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Sarah",
+          "nameLast": "Slobin",
+          "photo": "speaker-sarah-slobin.jpg",
+          "linkedin": "",
+          "twitter": "https://twitter.com/sarahslo",
+          "github": "",
+          "facebook": "",
+          "website": "http://www.sarahslobin.com/",
+          "openSourceRole": "",
+          "organization": "Quartz",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-10",
+    "timeStart": "11:30",
+    "timeStop": "12:00",
+    "sessionTitle": "",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Paul",
+          "nameLast": "Buffa",
+          "photo": "",
+          "linkedin": "https://www.linkedin.com/in/paul-buffa",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "Capital One",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-10",
+    "timeStart": "13:00",
+    "timeStop": "14:15",
+    "sessionTitle": "The Thinking Eye: On seeing, reasoning, producing",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Keynote",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Edward",
+          "nameLast": "Tufte",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "http://twitter.com/EdwardTufte",
+          "github": "",
+          "facebook": "http://www.facebook.com/EdwardTufte",
+          "website": "https://www.edwardtufte.com/tufte/",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-10",
+    "timeStart": "14:30",
+    "timeStop": "15:00",
+    "sessionTitle": "Who Cares What Beyonce Ate for Lunch?",
+    "sessionSubTitle": "",
+    "sessionSummary": "<p>In the United States, the diet industry is made up of 108 million dieters that spend $20 billion each year on diet books, diet drugs and weight-loss surgeries (ABC News, May 7, 2012).  Many of the diet solutions are built around celebrity endorsements. Magazines show how a famous person like Beyonce lost weight and tell readers they can do it too.\n\nScientific research states that there are many important factors that influence healthy eating and weight loss beyond “what you eat.” Many variables contribute to a healthy eating lifestyle including what time you eat, where you get your food, how much do you eat and does the food consumed satisfy your individual nutritional needs.  With all of these variables to consider, modeling healthy eating gets complicated quickly.  \n\nA graph database is the best way to represent the science and the art of healthy eating.   Using an open source dataset from the US government, I show you how I built and use a graph to model real food behavior for over 7,000 people from 2 months old to age 80.  The graph is used to visualize patterns around when people eat, how people combine food to create meals, and how well people meet their nutritional requirements.  All of these patterns can be observed in the context of each person’s Body Mass Index (a measure of obesity) and other health statistics.  Visualizing this rich dataset as a graph is valuable and informative for anyone interested in his or her health.</p>",
+    "sessionType": "Talk",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Dr. Alicia",
+          "nameLast": "Powers",
+          "photo": "",
+          "linkedin": "https://www.linkedin.com/in/alicia-powers-1327236",
+          "twitter": "https://twitter.com/apowers411",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "Data Scientist at Fino Consulting",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
 
 
 
