@@ -795,7 +795,7 @@
         {
           "nameFirst": "Edward",
           "nameLast": "Tufte",
-          "photo": "speaker-edward-tufte-1.jpg",
+          "photo": "speaker-edward-tufte-4.jpg",
           "linkedin": "",
           "twitter": "http://twitter.com/EdwardTufte",
           "github": "",
