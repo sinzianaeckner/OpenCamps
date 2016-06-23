@@ -143,10 +143,11 @@
 }
 
 
-.session .summary p {
+.session .summary p,
+.session .summary li {
 	font-weight: 300;
 	text-align: left;
-	line-height: 1.6em;
+	line-height: 1.6rem;
 	font-size: .85rem;
 	color: #404040;
 	margin: .5rem;
