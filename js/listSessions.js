@@ -436,40 +436,7 @@
 
 
 
-  // DATA VIZ CAMP
-  {
-		"camp":"Data Viz Camp",
-		"tech":"dataviz",
-		"date":"2016-07-09",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"",
-		"sessionSubTitle":"",
-		"sessionSummary":"",
-		"sessionType":"Keynote",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Arvind",
-				  "nameLast":" ",
-				  "photo":"speaker-arvind-satyanarayan.jpg",
-				  "linkedin":"https://www.linkedin.com/in/arvindsatya1",
-				  "twitter":"http://twitter.com/arvindsatya1",
-				  "github":"http://github.com/arvind",
-				  "facebook":"",
-				  "website":"http://arvindsatya.com/",
-				  "openSourceRole":"PhD Candidate working with Jeffrey Heer on Vega",
-				  "organization":"Apropose Inc.",
-				  "role":"Cofounder",
-				  "bio":"<p>Please insert bio if available</p>."
-        }
-      ]
-    }  
-	},
-	
-	
+  // DATA VIZ CAMP	
 	  {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -614,13 +581,13 @@
           "photo": "speaker-arvind-satyanarayan.jpg",
           "linkedin": "http://www.linkedin.com/in/arvindsatya1/",
           "twitter": "http://twitter.com/arvindsatya1",
-          "github": "",
+				  "github":"http://github.com/arvind",
           "facebook": "",
           "website": "http://arvindsatya.com/",
-          "openSourceRole": "",
-          "organization": "",
-          "role": "",
-          "bio": " Arvind Satyanarayan is a Computer Science PhD candidate at Stanford University. He works with Jeffrey Heer, and the University of Washington Interactive Data Lab, on new languages and systems for custom interactive visualization design. Arvind is also a co-founder and advisor at Apropose, a search engine for web design."
+				  "openSourceRole":"PhD Candidate working with Jeffrey Heer on Vega",
+				  "organization":"Apropose Inc.",
+				  "role":"Cofounder",
+          "bio": "<p>Arvind Satyanarayan is a Computer Science PhD candidate at Stanford University. He works with Jeffrey Heer, and the University of Washington Interactive Data Lab, on new languages and systems for custom interactive visualization design. Arvind is also a co-founder and advisor at Apropose, a search engine for web design.</p>"
         }
       ]
     }
