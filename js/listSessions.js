@@ -1548,7 +1548,7 @@
 		"timeStop":"",
 		"sessionTitle":"From Java to Node, at eBay",
 		"sessionSubTitle":"",		
-		"sessionSummary":"<p>At eBay the homepage receives 70+ million hits a day. Historically, we served all that traffic through Java, but are now migrating to Node. In this talk we\'ll discuss what we\'re migrating, how we\'re doing it and why.</p><p>We\'ll cover why Node.js is so alluring, in addition to some of the specific packages that we think of as killer apps. This talk should be interesting for anyone who enjoys discussions of web technology capable of operating at massive scale.</p><p><em>Abstract</em></p><p>Node is one of the world’s fastest growing and most exciting platforms. It now leads Github in number of contributions, and its popularity and feature list only continue to grow.</p><p>When we realized it was time to update the Homepage at eBay to something more modern, Node was a perfect fit. We knew the new Homepage would need to be faster, require reusable components, and show things like recommendation feeds, in addition to trending and popular items.</p><p>Node brings a giant ecosystem that is inherently open source with npm; which, increases collaboration and code sharing. We\'re able to learn and develop more quickly, including server startup in seconds vs minutes. Node is incredibly fast with handling a large number requests, and uses less resources than Java making it more easily scaled horizontally. It’s 2016 and this move to a more modern platform helps not only with all the reasons above, but also with developer satisfaction and not to mention, recruiting.</p> <p>To make this move, we are utilizing Marko and Marko Widgets for our server side and client side rendering, as well as Lasso for managing and bundling our assets. We are also making the jump to ES6, natively on the backend and transpiled for the client side.</p> <p>This talk will include specific issues that were solved and how, the tooling and technologies used, and what\'s next. This talk is aimed at anyone who has built/maintained a webapp, with focuses in Java/Node.</p><p><ul><li>Javascript</li><li><Node/li><li>Express</li><li>Marko</li><li>Lasso</li><li>ES6</li><li>Java</li><li>Spring</li></ul></p>",
+		"sessionSummary":"<p>At eBay the homepage receives 70+ million hits a day. Historically, we served all that traffic through Java, but are now migrating to Node. In this talk we\'ll discuss what we\'re migrating, how we\'re doing it and why.</p><p>We\'ll cover why Node.js is so alluring, in addition to some of the specific packages that we think of as killer apps. This talk should be interesting for anyone who enjoys discussions of web technology capable of operating at massive scale.</p><p><em>Abstract</em></p><p>Node is one of the world’s fastest growing and most exciting platforms. It now leads Github in number of contributions, and its popularity and feature list only continue to grow.</p><p>When we realized it was time to update the Homepage at eBay to something more modern, Node was a perfect fit. We knew the new Homepage would need to be faster, require reusable components, and show things like recommendation feeds, in addition to trending and popular items.</p><p>Node brings a giant ecosystem that is inherently open source with npm; which, increases collaboration and code sharing. We\'re able to learn and develop more quickly, including server startup in seconds vs minutes. Node is incredibly fast with handling a large number requests, and uses less resources than Java making it more easily scaled horizontally. It’s 2016 and this move to a more modern platform helps not only with all the reasons above, but also with developer satisfaction and not to mention, recruiting.</p> <p>To make this move, we are utilizing Marko and Marko Widgets for our server side and client side rendering, as well as Lasso for managing and bundling our assets. We are also making the jump to ES6, natively on the backend and transpiled for the client side.</p> <p>This talk will include specific issues that were solved and how, the tooling and technologies used, and what\'s next. This talk is aimed at anyone who has built/maintained a webapp, with focuses in Java/Node.</p><p><ul><li>Javascript</li><li>Node/li><li>Express</li><li>Marko</li><li>Lasso</li><li>ES6</li><li>Java</li><li>Spring</li></ul></p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
@@ -2253,6 +2253,37 @@
 
 
   // SEARCH CAMP
+	{
+		"camp":"Search Camp",
+		"tech":"search",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Improving Search: A/B Test & See",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Making the right decisions for your products is tough let alone search changes. They can be tough, complex decisions that affect all of your users or they can be small, simple changes that only a handful of users that will notice. But you ask yourself, \"What if our users don't like this change? What if this change results in loss of revenue?\". Well, luckily your answer to handling this is A/B testing to see before rolling out a full-fledged platform change.<p>",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Adrian",
+				  "nameLast":"Cruz",
+				  "photo":"speaker-adrian-cruz.jpg",
+				  "linkedin":"https://www.linkedin.com/in/adriancruz",
+				  "twitter":"https://twitter.com/drincruz",
+				  "github":"https://github.com/drincruz",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Teachers Pay Teachers",
+				  "role":"Software Engineer",
+				  "bio":"A software engineer who has worked on web applications and data pipelines. Currently a software engineer on the search & discovery team at Teachers Pay Teachers; we're responsible for improving information retrieval by looking at data, making changes by testing them, looking at more data, and rolling out changes. Currently improving search utilizing Sphinx Search, but utilizing a lot of in-house and third-part tools to make data-driven decisions."
+        }
+      ]
+    }  
+	},
 	{
 		"camp":"Search Camp",
 		"tech":"search",
