@@ -301,6 +301,38 @@
   
   
   // COMMUNITY CAMP
+
+	{
+		"camp":"Community Camp",
+		"tech":"community",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"",
+		"sessionSubTitle":"Becoming Open-Source By Default",		
+		"sessionSummary":"<p>Becoming open-source by default is emotionally, organizationally and, sometimes, technically hard. Let's make this step together.</p>",
+		"sessionType":"Keynote",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Daniel",
+				  "nameLast":"Doubrovkine",
+				  "photo":"speaker-daniel-doubrovkine.jpg",
+				  "linkedin":"https://www.linkedin.com/in/dblock",
+				  "twitter":"https://twitter.com/dblockdotorg",
+				  "github":"https://github.com/dblock",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Artsy.net",
+				  "role":"CTO",
+				  "bio":"Daniel Doubrovkine (aka dB.) is a seasoned entrepreneur and technologist, CTO at Artsy.net in New York, working on bringing the art world online. He is a maintainer of multiple popular open-source projects, including Java Native Access, Ruby Grape, Hashie and the popular Slack Ruby client, bot and server libraries. Daniel graduated from University of Geneva in late 90s and founded and sold Vestris Inc., an early stage technology start-up right after college. He joined Microsoft as Development Lead, was Director at Visible Path, then Architect and Development Manager at Application Security."
+        }
+      ]
+    }  
+	},
 		
 	{
 		"camp":"Community Camp",
@@ -1020,7 +1052,37 @@
     }  
 	},	
 
-
+	{
+		"camp":"Dev Ops Camp",
+		"tech":"devops",
+		"date":"2016-07-09",
+		"timeStart":"10:30",
+		"timeStop":"11:15",
+		"sessionTitle":"Infrastructure Automation with Convox",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Convox is an open-source PaaS that installs into your own AWS account brought to you by some of the original engineers behind Heroku. Come hear about our experience running thousands of applications across hundreds of servers without an ops team.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"David",
+				  "nameLast":"Dollar",
+				  "photo":"speaker-david-dollar.jpg",
+				  "linkedin":"https://www.linkedin.com/in/ddollar",
+				  "twitter":"https://twitter.com/ddollar",
+				  "github":"https://github.com/ddollar",
+				  "facebook":"",
+				  "openSourceRole":"",
+				  "website":"https://www.convox.com/",
+				  "organization":"Convox",
+				  "role":"CEO",
+				  "bio":"<p>David has been building developer tools for most of his career. He is the author of the open-source tool foreman and led Developer Experience at Heroku. His current project is Convox, open-source tools for building simple and scalable production environments on AWS.</p>"
+        }
+      ]
+    }  
+	},	
 
 
   // DRUPAL NYC CAMP
@@ -2411,6 +2473,40 @@
       ]
     }  
 	},
+
+	{
+		"camp":"Search Camp",
+		"tech":"search",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Scaling SolrCloud For Beginners",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>With the advent of SolrCloud, Solr has been able to compete in a much more even footing with many of the (now defunct) search engines it competed against for so many years. Many things were done manually and developers had to find new and novel ways to make things work as their search needs grew. One of the notable areas was scaling. In this talk we will discuss scaling issues with Solr Cloud including balancing resource allocation, high availability, disaster recovery, and nodes vs. shards.</p>",
+		"sessionType":"session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Carlos",
+				  "nameLast":"Valcarcel",
+				  "photo":"speaker-carlos-Valcarcel.jpg",
+				  "linkedin":"https://www.linkedin.com/in/carlos-valcarcel-57755",
+				  "twitter":"https://twitter.com/lucidplayer",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Lucidworks",
+				  "role":"Solutions Consultant",
+				  "bio":"<p>Carlos Valcarcel has been a search geek since 2007 when he accepted a position at Fast Search and Transfer just prior to Fast being acquired by Microsoft. He has been an independent consultant, developer, and distributed systems architect for more years than he cares to think about. He currently works at Lucidworks as a Solutions Consultant.</p>"
+        }
+      ]
+    }  
+	},
+
+
 
 
 
