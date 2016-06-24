@@ -2461,7 +2461,7 @@
 			  {
  				  "nameFirst":"Carlos",
 				  "nameLast":"Valcarcel",
-				  "photo":"speaker-carlos-Valcarcel.jpg",
+				  "photo":"speaker-carlos-valcarcel.jpg",
 				  "linkedin":"https://www.linkedin.com/in/carlos-valcarcel-57755",
 				  "twitter":"https://twitter.com/lucidplayer",
 				  "github":"",
