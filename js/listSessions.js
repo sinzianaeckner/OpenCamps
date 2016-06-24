@@ -1013,7 +1013,7 @@
 				  "openSourceRole":"Co-founder of Flynn and an architect of the Tent Protocol",
 				  "website":"https://titanous.com/",
 				  "organization":"Flynn",
-				  "role":"Principal Architect",
+				  "role":"CTO",
 				  "bio":"Jonathan leads development of Flynn, an open source platform as a service that hosts apps and databases. Before starting Flynn, Jonathan co-architected Tent, an open, decentralized communication and storage protocol."
         }
       ]
