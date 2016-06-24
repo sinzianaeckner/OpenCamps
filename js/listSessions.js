@@ -2315,6 +2315,7 @@
 
 
   // SEARCH CAMP
+
 	{
 		"camp":"Search Camp",
 		"tech":"search",
@@ -2324,38 +2325,7 @@
 		"sessionTitle":"Improving Search: A/B Test & See",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Making the right decisions for your products is tough let alone search changes. They can be tough, complex decisions that affect all of your users or they can be small, simple changes that only a handful of users that will notice. But you ask yourself, \"What if our users don't like this change? What if this change results in loss of revenue?\". Well, luckily your answer to handling this is A/B testing to see before rolling out a full-fledged platform change.<p>",
-		"sessionType":"session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Adrian",
-				  "nameLast":"Cruz",
-				  "photo":"speaker-adrian-cruz.jpg",
-				  "linkedin":"https://www.linkedin.com/in/adriancruz",
-				  "twitter":"https://twitter.com/drincruz",
-				  "github":"https://github.com/drincruz",
-				  "facebook":"",
-				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"Teachers Pay Teachers",
-				  "role":"Software Engineer",
-				  "bio":"A software engineer who has worked on web applications and data pipelines. Currently a software engineer on the search & discovery team at Teachers Pay Teachers; we're responsible for improving information retrieval by looking at data, making changes by testing them, looking at more data, and rolling out changes. Currently improving search utilizing Sphinx Search, but utilizing a lot of in-house and third-part tools to make data-driven decisions."
-        }
-      ]
-    }  
-	},
-	{
-		"camp":"Search Camp",
-		"tech":"search",
-		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Improving Search: A/B Test & See",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>Making the right decisions for your products is tough let alone search changes. They can be tough, complex decisions that affect all of your users or they can be small, simple changes that only a handful of users that will notice. But you ask yourself, \"What if our users don't like this change? What if this change results in loss of revenue?\". Well, luckily your answer to handling this is A/B testing to see before rolling out a full-fledged platform change.<p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -2387,7 +2357,7 @@
 		"sessionTitle":"It's Just Search",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Think *inside* the box. Inside the *search* box, that is.</p><p>The \"best\"* search results incorporate many more factors than (just) textual matching and relevancy. Search experience owners manage query context _rules_, signals automatically feed back machine learned factors, users implicit and explicit behaviors filter and weight future interactions. Synergy emerges with several cooperating (just) searches.</p><p>This talk will showcase and detail several (just) search examples including rules, typeahead/suggest, signals, and location awareness, bringing them all together into a cohesive search experience.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -2419,7 +2389,7 @@
 		"sessionTitle":"Searching Encrypted Data on HDFS with Elasticsearch and Solr",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>The paradigm of trust in computing changes with new methods to search encrypted data with standard search platforms and Hadoop.  Sensitive information can be computed in untrusted environments wherein the hosting provider has zero knowledge.  Learn how enterprises from insurance companies to healthcare providers are finding a secure path to scale in the public cloud for storage and analytics.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -2451,7 +2421,7 @@
 		"sessionTitle":"Using OpenNLP with Solr to improve search relevance and to extract named entities",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Apache OpenNLP can be used with Apache Solr to produce lemmas (words’ base forms), and to extract named entities. I’ll demonstrate how to configure these capabilities in Solr for two languages: English and Spanish.  I’ll compare search relevance using lemmatization versus Solr’s out-of-the-box stemming capabilities in the two languages, and how to facet on extracted named entities.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -2483,7 +2453,7 @@
 		"sessionTitle":"Scaling SolrCloud For Beginners",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>With the advent of SolrCloud, Solr has been able to compete in a much more even footing with many of the (now defunct) search engines it competed against for so many years. Many things were done manually and developers had to find new and novel ways to make things work as their search needs grew. One of the notable areas was scaling. In this talk we will discuss scaling issues with Solr Cloud including balancing resource allocation, high availability, disaster recovery, and nodes vs. shards.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
