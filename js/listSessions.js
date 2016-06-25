@@ -14,16 +14,81 @@
 
   // AI CAMP
   // TBA
+
   {
 		"camp":"AI Camp",
 		"tech":"ai",
 		"date":"2016-07-12",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"18:55",
+		"timeStop":"19:20",
+		"sessionTitle":"Starry Night with TensorFlow",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Deep Learning has led to impressive results in image and speech recognition, but it can also be used to explore new possibilities in music and art. In this talk, we\'ll tour some of my favorite applications - including producing paintings that combine the style of two artists. I\'ll also demo code you can use to experiment on your own, without needing prior machine learning experience.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Joshua",
+				  "nameLast":"Gordon",
+				  "photo":"speaker-joshua-gordon.jpg",
+				  "linkedin":"https://www.linkedin.com/in/joshuabendergordon",
+				  "twitter":"https://twitter.com/random_forests",
+				  "github":"",
+				  "facebook":"",
+				  "website":"http://tensorflow.org",
+				  "openSourceRole":"",
+				  "organization":"Google",
+				  "role":"Developer Advocate",
+				  "bio":"<p>Josh is a Developer Advocate at Google, working on TensorFlow and machine learning. He’s interested in teaching and computer science education. He can often be found exploring central park on his bike. You can follow him on Twitter at <a href=\"http://twitter.com/random_forests\" target=\"_blank\">@random_forests</a>.</p>",
+        }
+      ]
+    }  
+	},  
+  
+  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"18:30",
+		"timeStop":"18:5",
+		"sessionTitle":"Learning About Brain: Sparse Modeling and Beyond",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>In this talk, I will summarize our work on sparse models and other machine-learning approaches to \”brain decoding\” (aka \”mind reading\”), i.e. to prediction of mental states from functional MRI data, in a wide range of applications, from analyzing pain perception to discovering predictive patterns of brain activity associated with schizophrenia and cocaine addiction. I will mention several lessons learned from those applications that can hopefully generalize to other practical machine-learning problems. Finally, I will briefly discuss our recent project that focuses on inferring mental states from \”cheap\” (unlike fMRI), easily collected data, such as speech and wearable sensors, with applications ranging from clinical settings (\”computational psychiatry\”) to everyday life (\”augmented human\”).</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Irina",
+				  "nameLast":"Rish",
+				  "photo":"speaker-irina-rish.jpg",
+				  "linkedin":"https://www.linkedin.com/in/irina-rish-8b2162",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"http://researcher.watson.ibm.com/researcher/view.php?person=us-rish",
+				  "openSourceRole":"",
+				  "organization":"IBM",
+				  "role":"Research Staff Member: Machine Learning in Neuroscience and Biology",
+				  "bio":"<p>Irina is a Research Staff Member (RSM) at IBM T.J. Watson Research Center. Her primary research interests are in the areas of probabilistic inference, machine learning, and information theory. Irina's current research is in the area of machine-learning applications to computational biology and neuroscience, with a particular focus on statistical analysis of brain imaging data such as fMRI.</p>",
+        }
+      ]
+    }  
+	},
+
+  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"19:45",
+		"timeStop":"20:10",
 		"sessionTitle":"Language Modeling with Torch",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>We will discuss training Recurrent Neural Network (RNN) Language Models (LM) using Torch. Trained models of different capacity and performance will be used to generate sample sentences. We will also include some benchmarks of Torch rnn's compared to Theano and TensorFlow.</p>",
-		"sessionType":"Lightning Talk",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -46,39 +111,40 @@
     }  
 	},
 
+
   {
 		"camp":"AI Camp",
 		"tech":"ai",
 		"date":"2016-07-12",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Starry Night with TensorFlow",
+		"timeStart":"19:20",
+		"timeStop":"19:45",
+		"sessionTitle":"",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p></p>",
-		"sessionType":"Lightning Talk",
+		"sessionSummary":"",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
       "speaker": [
 			  {
- 				  "nameFirst":"Joshua",
-				  "nameLast":"Gordon",
-				  "photo":"speaker-joshua-gordon.jpg",
-				  "linkedin":"https://twitter.com/random_forests",
-				  "twitter":"http://twitter.com/nicholas-leonard",
+ 				  "nameFirst":"Jessica",
+				  "nameLast":"Mar, Ph.D.",
+				  "photo":"speaker-jessica-mar.jpg",
+				  "linkedin":"https://www.linkedin.com/in/jessica-mar-0386772",
+				  "twitter":"http://twitter.com/jessicacmar",
 				  "github":"",
 				  "facebook":"",
-				  "website":"http://tensorflow.org",
+				  "website":"",
 				  "openSourceRole":"",
-				  "organization":"Google",
-				  "role":"Developer Advocate",
-				  "bio":"<p>Developer Advocate at Google working on #TensorFlow and machine learning</p>."
+				  "organization":"Albert Einstein College of Medicine",
+				  "role":"Assistant Professor, Department of Systems & Computational Biology and Department of Epidemiology & Population Health",
+				  "bio":""
         }
       ]
     }  
 	},
-  
-  
+
+
   
   // AGENCY CAMP
   // TBA  
