@@ -1,12 +1,18 @@
 function getSessions(sessions) {
 
 //var d = new Date('sessions[i].date');
-//    var m = sessions[i].date;
-var d = new Date('2010-01-02');
-var n = d.toDateString();
+//  var m = sessions[i].date;
+  var d = new Date('2010-01-02');
+  var n = d.toDateString();
 //    alert(n);
 
   var sessions = sessions.filter(sessionsFilter);
+
+  function SortByTime(x,y) {
+    return ((x.timeStart == y.timeStart) ? 0 : ((x.timeStart > y.timeStart) ? 1 : -1 ));
+  }
+  
+  sessions.sort(SortByTime);
 
   var outputSessions = 
     '<div id=\"sessions-inner\">'+
@@ -17,9 +23,13 @@ var n = d.toDateString();
 				'<div class="session ' + sessions[i].sessionType + ' ' + sessions[i].camp + '">'+
 					'<div class="session-inner">'+ 
 						'<div class="scheduling">'+ 
-  							'<div class="slot">'+ n;
+  							'<div class="slot">';
+									if (sessions[i].date != "") {
+												outputSessions += sessions[i].date;
+									}
+
 									if (sessions[i].timeStart != "") {
-												outputSessions += ' - ' + sessions[i].timeStart + ' to ' + sessions[i].timeStop;
+												outputSessions += ' from ' + sessions[i].timeStart + ' to ' + sessions[i].timeStop;
 									}
 									outputSessions +=
 								'</div>'+
@@ -50,39 +60,47 @@ var n = d.toDateString();
 		  					}
 							outputSessions +=
   						'</div>'+
-						'</div>'+
-						'<div class="speakers">'+
-							'<div class="speaker">'+
-								'<div class="speaker-inner">'+
-									'<div class="photo"><img src="http://opencamps.org/images/speakers/' + sessions[i].speakers.speaker[0].photo + '"></div>'+
-									'<div class="details">'+
-										'<div class="name"><h5 class="speaker-name">' + sessions[i].speakers.speaker[0].nameFirst + ' ' + sessions[i].speakers.speaker[0].nameLast + '</h5></div>'+
-				    				'<div class="open-source-role">' + sessions[i].speakers.speaker[0].openSourceRole + '</div>'+
-				    				'<div class="organization">' + sessions[i].speakers.speaker[0].organization + '</div>'+
-						    		'<div class="role">' + sessions[i].speakers.speaker[0].role + '</div>'+
-								    '<div class="links">';
-											if (sessions[i].speakers.speaker[0].linkedin != "") {
-												outputSessions += '<div class="link linkedin"><a href="' + sessions[i].speakers.speaker[0].linkedin  + '" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></div>';
-											}
-											if (sessions[i].speakers.speaker[0].twitter != "") {
-												outputSessions += '<div class="link twitter"><a href="' + sessions[i].speakers.speaker[0].twitter  + '" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>';
-											}
-											if (sessions[i].speakers.speaker[0].github != "") {
-												outputSessions += '<div class="link github"><a href="' + sessions[i].speakers.speaker[0].github  + '" target="_blank" class="github"><i class="fa fa-github"></i></a></div>';
-											}											
-											if (sessions[i].speakers.speaker[0].website != "") {
-												outputSessions += '<div class="link website"><a href="' + sessions[i].speakers.speaker[0].website  + '" target="_blank" class="website"><i class="fa fa-website"></i></a></div>';
-											}											
-							      outputSessions +=
-								    '</div>'+
-        					'</div>'+
-      					'</div>'+
-      				'</div>'+
-					  '</div>'+
-						'<div class="video">'+
-  						'<h5 class="video">Video</h5>'+
-  						'<div class="embed">' + sessions[i].sessionVideo + '</div>'+
-						'</div>'+
+						'</div>';
+
+  					if (sessions[i].sessionType == "Session" || sessions[i].sessionType == "Lightning Talk" || sessions[i].sessionType == "Keynote" || sessions[i].sessionType == "Workshop") {
+						  outputSessions +=
+								'<div class="speakers">'+
+									'<div class="speaker">'+
+										'<div class="speaker-inner">'+
+											'<div class="photo"><img src="http://opencamps.org/images/speakers/' + sessions[i].speakers.speaker[0].photo + '"></div>'+
+											'<div class="details">'+
+												'<div class="name"><h5 class="speaker-name">' + sessions[i].speakers.speaker[0].nameFirst + ' ' + sessions[i].speakers.speaker[0].nameLast + '</h5></div>'+
+												'<div class="open-source-role">' + sessions[i].speakers.speaker[0].openSourceRole + '</div>'+
+												'<div class="organization">' + sessions[i].speakers.speaker[0].organization + '</div>'+
+												'<div class="role">' + sessions[i].speakers.speaker[0].role + '</div>'+
+												'<div class="links">';
+													if (sessions[i].speakers.speaker[0].linkedin != "") {
+														outputSessions += '<div class="link linkedin"><a href="' + sessions[i].speakers.speaker[0].linkedin  + '" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></div>';
+													}
+													if (sessions[i].speakers.speaker[0].twitter != "") {
+														outputSessions += '<div class="link twitter"><a href="' + sessions[i].speakers.speaker[0].twitter  + '" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></div>';
+													}
+													if (sessions[i].speakers.speaker[0].github != "") {
+														outputSessions += '<div class="link github"><a href="' + sessions[i].speakers.speaker[0].github  + '" target="_blank" class="github"><i class="fa fa-github"></i></a></div>';
+													}											
+													if (sessions[i].speakers.speaker[0].website != "") {
+														outputSessions += '<div class="link website"><a href="' + sessions[i].speakers.speaker[0].website  + '" target="_blank" class="website"><i class="fa fa-website"></i></a></div>';
+													}											
+												outputSessions +=
+												'</div>'+
+											'</div>'+
+										'</div>'+
+									'</div>'+
+								'</div>';
+						}
+  					if (sessions[i].sessionVideo != "") {
+						  outputSessions +=
+								'<div class="video">'+
+									'<h5 class="video">Video</h5>'+
+									'<div class="embed">' + sessions[i].sessionVideo + '</div>'+
+								'</div>';
+  					 }
+					outputSessions +=
 					'</div>'+
         '</div>';
     }

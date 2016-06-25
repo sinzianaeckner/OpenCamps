@@ -52,7 +52,7 @@
 		"tech":"ai",
 		"date":"2016-07-12",
 		"timeStart":"18:30",
-		"timeStop":"18:5",
+		"timeStop":"18:55",
 		"sessionTitle":"Learning About Brain: Sparse Modeling and Beyond",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>In this talk, I will summarize our work on sparse models and other machine-learning approaches to \”brain decoding\” (aka \”mind reading\”), i.e. to prediction of mental states from functional MRI data, in a wide range of applications, from analyzing pain perception to discovering predictive patterns of brain activity associated with schizophrenia and cocaine addiction. I will mention several lessons learned from those applications that can hopefully generalize to other practical machine-learning problems. Finally, I will briefly discuss our recent project that focuses on inferring mental states from \”cheap\” (unlike fMRI), easily collected data, such as speech and wearable sensors, with applications ranging from clinical settings (\”computational psychiatry\”) to everyday life (\”augmented human\”).</p>",
@@ -144,6 +144,69 @@
     }  
 	},
 
+  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"18:00",
+		"timeStop":"18:30",
+		"sessionTitle":"Socializing",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
+	
+  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"20:00",
+		"timeStop":"21:00",
+		"sessionTitle":"Socializing",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
 
   
   // AGENCY CAMP
@@ -965,7 +1028,7 @@
 		"sessionTitle":"Ansible Crash Course",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Ansible is the Swiss Army knife of DevOps, capable of handling many powerful automation tasks with the flexibility to adapt to many environments and workflows. With Ansible, users can very quickly get up and running to do real work. This 2 hour session will prove that and jump-start using Ansible. At the end of this session, you'll have an understanding of deploying apps, managing systems, securely and powerfully reducing complexity, and understanding the basic tenants of running Ansible playbooks, including how to write your own.",
-		"sessionType":"workshop",
+		"sessionType":"Workshop",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1374,7 +1437,7 @@
 		"sessionTitle":"Cycle.js: Get in the Loop",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>An introduction to the Cycle.js: a modern functional reactive framework. Cycle.js breaks with the existing Model-View-Controller approach, instead focusing on making the data flow inside your application as clear as possible. All external interactions: the browser, the server AI calls, the real time feeds are modeled as input and output reactive streams, making your own application code *pure* from side effects. Programming with Cycle is very different from using any other library for web development; attend this presentation to find out what makes Cycle.js so special.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1406,7 +1469,7 @@
 		"sessionTitle":"NeuroJavaScript",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Come see a demonstration on how to interact with an open-source brain-computer interface via JavaScript. Alex has been working with the OpenBCI team in order to visualize brainwaves in the browser with Angular 2. Find out how your thoughts are captured and how to get involved in the NeuroTech community.<p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1438,7 +1501,7 @@
 		"sessionTitle":"The Frontend for 2016 (and not 2013)",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>2013 saw the term MEAN (MongoDB, Express.js, Angular.js, Node.js) enter the tech lexicon. This JavaScript-driven stack was sometimes sought as a means to abandon the more traditional LAMP stack. Even if LAMP and similar backends were retained, there was a general move toward decoupling the frontend from the backend. Things have changed quickly in 3 years. We'll discuss new technologies, as well as old, as well as common pitfalls encountered in frontend development, both past and present, and discuss solutions to overcome them.</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1470,7 +1533,7 @@
 		"sessionTitle":"Angular 2 vs. React vs. Ember 2",
 		"sessionSubTitle":"If frameworks were gladiators who would die first?",
 		"sessionSummary":"<p>Have you ever banged your head against the wall trying to figure out which library or framework would be best for your situation and your team? Given the current climate of front-end JS frameworks you probably found that a few of the 293,113 npm packages suited your needs, but aren't sure which to choose because most things sound like they can all do the same thing. Maybe you sort them by the highest number of downloads to weed out the libraries with the least support, and then maybe you want to make sure anything left has great tooling and community-built packages that will give your small team a leg up when necessary.</p><p>You almost certainly landed in between the three largest frameworks/libraries in the JS community: Angular, Ember, and React. I, personally, cried myself to sleep with huge tears of regret after I realized I chose the wrong one and would have to spend months dealing with such a decision...Don\'t follow in my footsteps!</p><p>This talk is going to examine the three major players in the JavaScript community and try to elucidate their similarities, but more important their salient differences. We will talk about their technical differences while taking into accound the practical reality of web development. We'll also create pretend gladiator situations out of your developer woes and see which dies first. Because this is JSPARTA!</p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
@@ -1502,7 +1565,7 @@
 		"sessionTitle":"Code at the Center: Front-end Prototype for Great Experiences",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Wireframes and mockups often fail to demonstrate the actual experience of a product. More often than not, the final product doesn\'t look anything like the mockups that were approved. This happens because the final deliverables weren\'t tested and iterated on. Another reason is that static deliverables are hard for teammates who aren\'t designers to collaborate on. During this process the interaction design & animation is often neglected, making the experience very flat & static. So are there ways we can create designs quickly, collaborate with others and test out our application without disrupting the design process?</p><p>Enter the front-end prototype, a sample application in the browser where designers can create features based on user needs and validates them with the stakeholders/clients, developers and other designers. Speed is very important when prototyping and the tools we use need to be efficient enough to design in a short amount of time. The great thing about a front-end prototype is that you can iterate further once designs are concrete, making it a great UX deliverable to dev. Another benefit is that it\'s an artifact that others outside of the product team can see and interact with. By just creating a front-end prototype, it breaks down the silos and improves communication and collaboration.</p><p>Before I started prototyping, my deliverables were static mockups the dev often needed me to walk through to understand what's going on. We sometimes spent hours going each of the mockups which is inefficient and stopped us from actually building the designs. Sometimes close deadlines wouldn't allow for a design review session, which would put pressure on developers to make their own design decisions that might hurt the overall experience. But once I was able to produce front-end prototypes, it strengthen the dialog between me and the developers and also made it a great tool in selling solutions to clients. But the thing I found most helpful was being able to iterate quickly. Over time I've learned some front-end techniques that made it easier for me to design in code rather than Photoshop, Sketch and/or Illustrator. Being able to wireframe and design in browser made me a better designer and collaborator.</p><p>The audience will learn:<ul><li>Simple techniques to wireframe in the browser</li><li>The process of creating high fidelity prototype</li><li>How front-end prototypes can be use in production</li><li>How a prototype can improve collaboration & communication in a team</li></ul></p>",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {

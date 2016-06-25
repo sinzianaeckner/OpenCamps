@@ -1,7 +1,9 @@
 
 function getSessions(sessions) {
 
-// /  var sessions = sessions.filter(sessionsFilter);
+
+
+   var sessions = sessions.filter(sessionsFilter);
 
     var outputSessions = "<h2 class=\"speakers\">Speakers</h2>";
 
