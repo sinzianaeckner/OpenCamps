@@ -84,7 +84,7 @@ function getSessions(sessions) {
 														outputSessions += '<div class="link github"><a href="' + sessions[i].speakers.speaker[0].github  + '" target="_blank" class="github"><i class="fa fa-github"></i></a></div>';
 													}											
 													if (sessions[i].speakers.speaker[0].website != "") {
-														outputSessions += '<div class="link website"><a href="' + sessions[i].speakers.speaker[0].website  + '" target="_blank" class="website"><i class="fa fa-website"></i></a></div>';
+														outputSessions += '<div class="link website"><a href="' + sessions[i].speakers.speaker[0].website  + '" target="_blank" class="website"><i class="fa fa-globe"></i></a></div>';
 													}											
 												outputSessions +=
 												'</div>'+

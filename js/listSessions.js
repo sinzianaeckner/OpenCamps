@@ -288,6 +288,41 @@
 
 
   // APPS CAMP
+
+
+
+	{
+		"camp":"Apps Camp",
+		"tech":"apps",
+		"date":"2016-07-09",
+		"timeStart":"11:30",
+		"timeStop":"12:15",
+		"sessionTitle":"Write Once Deploy Everywhere: Once Codebase for Desktop, Web and Mobile",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Using React, Angular2 and Electron to create applications for web, mobile and desktop.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Daiyan",
+				  "nameLast":"Alamgir",
+				  "photo":"speaker-daiyan-alamgir.jpg",
+				  "linkedin":"https://www.linkedin.com/in/daiyanalamgir",
+				  "twitter":"http://twitter.com/dalamgir",
+				  "github":"http://github.com/alamgird",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Morgan Stanley",
+				  "role":"VP, Software Engineer, Equity Capital Markets",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+
 	{
 		"camp":"Apps Camp",
 		"tech":"apps",
@@ -308,9 +343,9 @@
 				  "photo":"speaker-phil-leggetter.jpg",
 				  "linkedin":"https://www.linkedin.com/in/leggetter",
 				  "twitter":"http://twitter.com/aleaabed",
-				  "github":"",
+				  "github":"https://github.com/leggetter",
 				  "facebook":"",
-				  "website":"",
+				  "website":"http://www.leggetter.co.uk",
 				  "openSourceRole":"",
 				  "organization":"Nexmo",
 				  "role":"Head of Developer Relations",
