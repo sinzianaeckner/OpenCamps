@@ -1838,7 +1838,7 @@
 		"timeStop":"",
 		"sessionTitle":"The Node Version of Pattern Lab ",
 		"sessionSubTitle":"",		
-		"sessionSummary":"<p>A discussion on the <a href=\"https://github.com/pattern-lab/patternlab-node\" target=\"_blank\">Node version</a> of <a href=\"http://patternlab.io/\" target=\"_blank\">Pattern Lab</a> is, which at its core, a static site generator. It combines platform-agnostic assets, like the Mustache-based patterns, the JavaScript-based viewer, and the self-contained webserver, with a Node-based \"builder\" that transforms and dynamically builds the Pattern Lab site.</p>",
+		"sessionSummary":"<p>Pattern Lab has established itself as one of the best-known tools for bringing designs to development. Nonetheless, its own description of itself is enigmatic at best:</p><p><em>\"Pattern Lab is a collection of tools to help you create atomic design systems.\"</em></p><p>This presentation will aim to bring some meaning to what Pattern Lab and Atomic Design actually are and what they are useful for. We will also explore advanced Pattern Lab features for power users. Most of the presentation will apply to both the PHP and Node versions of Pattern Lab. However, we will also look at why the Node version is useful, even if it mostly replicates the PHP version.</p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
