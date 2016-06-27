@@ -86,7 +86,21 @@
     "github": "",
     "email": ""
   },
-
+/*
+  {
+    "name": "Capital Camp",
+    "tagline": "capital",
+    "description": "",
+    "camp": "capital",
+    "dates": "Jul 14",
+    "icon": "icon-capital.png",
+    "website": "",
+    "twitter": "",
+    "facebook": "",
+    "github": "",
+    "email": ""
+  },
+*/
   {
     "name": "Civic Camp",
     "tagline": "Civic Camp is a a community-run single day, single track conference focused on the use of open source technology for civic purposes ",
@@ -143,7 +157,7 @@
     "email": "info@database.camp"
   },
 
-
+/*
   {
     "name": "Design Camp",
     "tagline": "A community-run single day, single track conference focused on open source design tools",
@@ -157,7 +171,7 @@
     "github": "http://github.com/DevOpsCamp",
     "email": "info@devopscamp.nyc"
   },
-
+*/
   {
     "name": "Dev Ops Camp",
     "tagline": "A community-run single day, single track conference focused on open source (mostly backend) dev ops",
@@ -404,7 +418,7 @@
     "dates": "Wed Jul 13",
     "icon": "icon-swift.svg",
     "website": "http://swiftcamp.io",
-    "twitter": "https://twitter.com/swiftcamo",
+    "twitter": "https://twitter.com/swift_camp",
     "facebook": "",
     "github": "http://github.com/swiftcamp",
     "email": "info@swiftcamp.io"
@@ -437,7 +451,21 @@
     "github": "http://github.com/webperfcamp",
     "email": "info@webperf.camp"
   },
-    
+/*
+  {
+    "name": "Women in Open Source NYC",
+    "tagline": "TBA.",
+    "description": "",
+    "camp": "women",
+    "dates": "July 15-17",
+    "icon": "icon-women.png",
+    "website": "https://2016.women.os/",
+    "twitter": "https://twitter.com/Women",
+    "facebook": "",
+    "github": "https://github.com/womenos/",
+    "email": ""
+  },
+*/    
   {
     "name": "WordCamp NYC",
     "tagline": "WordCamp NYC is a casual, locally-organized conference covering everything related to WordPress, the free and open source personal publishing software that powers over 75 million sites on the web.",
