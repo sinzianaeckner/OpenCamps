@@ -1435,7 +1435,7 @@
 		"sessionTitle":"",
 		"sessionSubTitle":"",
 		"sessionSummary":"",
-		"sessionType":"session",
+		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
     "speakers": {
