@@ -1672,7 +1672,7 @@
     "speakers": {
       "speaker": [
 			  {
- 				  "nameFirst":"Frank",
+ 				  "nameFirst":"Jean-Francois",
 				  "nameLast":"Cloutier",
 				  "photo":"speaker-jean-francois-cloutier.jpg",
 				  "linkedin":"https://www.linkedin.com/in/jfcloutier",
@@ -1681,8 +1681,8 @@
 				  "facebook":"",
 				  "website":"",
 				  "openSourceRole":"",
-				  "organization":"Collaboration Planners LLC",
-				  "role":"Principal",
+				  "organization":"Starlit Software LLC,",
+				  "role":"Chief Architect",
 				  "bio":"An avid programmer since the mid-80s, I have worked with Prolog, Lisp, Smalltalk, Java, and for the last two years, Erlang and Elixir.  I am Chief Architect at Starlit Software. I live in beautiful Portland, Maine where I do all my work in Elixir, Phoenix and Elm (somebody pinch me!).  In my spare time, I train obsessively in Aikido, organize the local Erlang/Elixir and Elm meetups, and dabble in robotics with the Lego Robotics sets I bought \"for my son\".  I recently presented at <a href=\"https://www.youtube.com/watch?v=N_PXas9LtzU\" target=\"_blank\">ElixirDaze 2016</a> and was a guest on the <a href=\"https://soundcloud.com/elixirfountain/elixir-fountain-jean-francois-cloutier-2016-04-11\" target=\"_blank\">Elixir Fountain podcast</a>."
         }
       ]
