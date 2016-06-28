@@ -579,6 +579,26 @@
 
 
 
+
+/* WOMEN */
+.conference.women,
+.conference.women a.button,
+.conference.women .session .scheduling .event {
+  background: #fe94a7;
+}
+
+.conference.women .session-inner {
+	border-top: 2px solid #fe94a7;
+}
+
+.conference.women .slot,
+.conference.women .container.light h2,
+.conference.women .links a.color:hover {
+  color: #fe94a7;	
+}
+
+
+
 /* UN */
 .conference.un {
 	background: #4B92DB;
