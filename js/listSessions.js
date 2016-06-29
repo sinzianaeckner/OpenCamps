@@ -633,7 +633,7 @@
 
 
   // DATA VIZ CAMP	
-	  {
+  {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
@@ -734,7 +734,7 @@
     "timeStop": "12:00",
     "sessionTitle": "Tiny Tools",
     "sessionSubTitle": "",
-    "sessionSummary": "",
+    "sessionSummary": "<p>Reusing D3 code is hard. We're constantly trying to come up with novel designs and ways of encoding data, making it difficult to write code that is also composable and reusable. In this talk, Adam will discuss the tiny tools developed and used at Bloomberg Graphics to sketch charts with code more quickly, reduce the amount of required copying and pasting, make it easier to move between illustrator and D3, simplify color selection, and more.</p>",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
@@ -765,7 +765,7 @@
     "timeStop": "14:15",
     "sessionTitle": "Reactive Building Blocks: Interactive Visualizations with Vega",
     "sessionSubTitle": "",
-    "sessionSummary": "<p>Vega is a visualization grammar -- a declarative format for creating and saving interactive visualization designs. Existing declarative visualization languages allow users to construct static visualizations by mapping data values to visual properties. Unfortunately, a similar process does not yet exist for interactive visualizations. Instead, custom interaction design requires programming with event handling callbacks -- a complex and error-prone task. In this talk, Arvind will describe how to use reactive building blocks, offered natively in recent versions of Vega, to author interactive data graphics. With this approach, the complexity of event propagation and state changes is managed entirely by Vega. Users are now free to more quickly prototype and iterate on interactive designs, and more easily retarget them across mouse and touch input.\n</p>",
+    "sessionSummary": "<p>Vega is a visualization grammar -- a declarative format for creating and saving interactive visualization designs. Existing declarative visualization languages allow users to construct static visualizations by mapping data values to visual properties. Unfortunately, a similar process does not yet exist for interactive visualizations. Instead, custom interaction design requires programming with event handling callbacks -- a complex and error-prone task. In this talk, Arvind will describe how to use reactive building blocks, offered natively in recent versions of Vega, to author interactive data graphics. With this approach, the complexity of event propagation and state changes is managed entirely by Vega. Users are now free to more quickly prototype and iterate on interactive designs, and more easily retarget them across mouse and touch input.</p>",
     "sessionType": "Keynote",
     "sessionSlides": "",
     "sessionVideo": "",
@@ -777,7 +777,7 @@
           "photo": "speaker-arvind-satyanarayan.jpg",
           "linkedin": "http://www.linkedin.com/in/arvindsatya1/",
           "twitter": "http://twitter.com/arvindsatya1",
-				  "github":"http://github.com/arvind",
+          "github":"http://github.com/arvind",
           "facebook": "",
           "website": "http://arvindsatya.com/",
 				  "openSourceRole":"PhD Candidate working with Jeffrey Heer on Vega",
@@ -827,7 +827,7 @@
     "timeStop": "15:45",
     "sessionTitle": "Visualizing the News",
     "sessionSubTitle": "",
-    "sessionSummary": "<p>The work at the graphics desk often involve taking large datasets and abstract numbers and turning them into a story. I'll talk about the process of turning data into a graphic, with examples of recent work from our department.\n\n</p>",
+    "sessionSummary": "<p>The work at the graphics desk often involve taking large datasets and abstract numbers and turning them into a story. I'll talk about the process of turning data into a graphic, with examples of recent work from our department.</p>",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
@@ -1014,7 +1014,7 @@
     "sessionTitle": "Who Cares What Beyonce Ate for Lunch?",
     "sessionSubTitle": "",
     "sessionSummary": "<p>In the United States, the diet industry is made up of 108 million dieters that spend $20 billion each year on diet books, diet drugs and weight-loss surgeries (ABC News, May 7, 2012).  Many of the diet solutions are built around celebrity endorsements. Magazines show how a famous person like Beyonce lost weight and tell readers they can do it too.\n\nScientific research states that there are many important factors that influence healthy eating and weight loss beyond “what you eat.” Many variables contribute to a healthy eating lifestyle including what time you eat, where you get your food, how much do you eat and does the food consumed satisfy your individual nutritional needs.  With all of these variables to consider, modeling healthy eating gets complicated quickly.  \n\nA graph database is the best way to represent the science and the art of healthy eating.   Using an open source dataset from the US government, I show you how I built and use a graph to model real food behavior for over 7,000 people from 2 months old to age 80.  The graph is used to visualize patterns around when people eat, how people combine food to create meals, and how well people meet their nutritional requirements.  All of these patterns can be observed in the context of each person’s Body Mass Index (a measure of obesity) and other health statistics.  Visualizing this rich dataset as a graph is valuable and informative for anyone interested in his or her health.</p>",
-    "sessionType": "Talk",
+    "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
     "speakers": {
@@ -1030,6 +1030,68 @@
           "website": "",
           "openSourceRole": "",
           "organization": "Data Scientist at Fino Consulting",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-10",
+    "timeStart": "15:00",
+    "timeStop": "15:45",
+    "sessionTitle": "Bridging the gap between design & development",
+    "sessionSubTitle": "",
+    "sessionSummary": "",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Amanda",
+          "nameLast": "Cheung",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": ""
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-10",
+    "timeStart": "16:00",
+    "timeStop": "16:45",
+    "sessionTitle": "How to Lie with Charts",
+    "sessionSubTitle": "",
+    "sessionSummary": "<p>Modern graphics and charting tools create a powerful way to discover relationships in data and to forcefully show findings. This power, however, gives you the opportunity to mislead others and even yourself. Elliot Noma will show you some tried and true methods to create nefarious charts, along with modern variations that take advantage of interactive packages. </p>",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Elliot",
+          "nameLast": "Noma",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "",
           "role": "",
           "bio": ""
         }
