@@ -1053,7 +1053,7 @@
         {
           "nameFirst": "Amanda",
           "nameLast": "Cheung",
-          "photo": "",
+          "photo": "speaker-amanda-cheung.jpg",
           "linkedin": "",
           "twitter": "",
           "github": "",
@@ -1084,7 +1084,7 @@
         {
           "nameFirst": "Elliot",
           "nameLast": "Noma",
-          "photo": "",
+          "photo": "speaker-noma-elliot.jpg",
           "linkedin": "",
           "twitter": "",
           "github": "",
