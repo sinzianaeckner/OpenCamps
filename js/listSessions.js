@@ -1084,7 +1084,7 @@
         {
           "nameFirst": "Elliot",
           "nameLast": "Noma",
-          "photo": "speaker-noma-elliot.jpg",
+          "photo": "speaker-elliot-noma.jpg",
           "linkedin": "",
           "twitter": "",
           "github": "",
