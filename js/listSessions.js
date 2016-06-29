@@ -889,7 +889,7 @@
     "timeStop": "10:30",
     "sessionTitle": "Vizanda: Paste the Power of D3",
     "sessionSubTitle": "",
-    "sessionSummary": "",
+    "sessionSummary": "<p>Vizanda is a brand new tool that lets you visualize and share your data in seconds and answer follow-up questions before they're asked. Check out the first ever public demo of Vizanda at Data Viz Camp 2016 and learn about the novel techniques Vizanda uses on top of tried and true open source data visualization technologies.</p>",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
