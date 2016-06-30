@@ -788,37 +788,7 @@
       ]
     }
   },
-  {
-    "camp": "Data Viz Camp",
-    "tech": "dataviz",
-    "date": "2016-07-09",
-    "timeStart": "14:30",
-    "timeStop": "15:00",
-    "sessionTitle": "",
-    "sessionSubTitle": "",
-    "sessionSummary": "",
-    "sessionType": "Session",
-    "sessionSlides": "",
-    "sessionVideo": "",
-    "speakers": {
-      "speaker": [
-        {
-          "nameFirst": "Erica",
-          "nameLast": "Hyman",
-          "photo": "speaker-erica-hyman.jpg",
-          "linkedin": "",
-          "twitter": "",
-          "github": "",
-          "facebook": "",
-          "website": "",
-          "openSourceRole": "",
-          "organization": "TWO-N",
-          "role": "",
-          "bio": ""
-        }
-      ]
-    }
-  },
+
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
