@@ -637,8 +637,8 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
-    "timeStart": "9:00",
-    "timeStop": "9:45",
+    "timeStart": "09:00",
+    "timeStop": "09:45",
     "sessionTitle": "",
     "sessionSubTitle": "",
     "sessionSummary": "",
@@ -668,7 +668,7 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
-    "timeStart": "9:45",
+    "timeStart": "09:45",
     "timeStop": "10:30",
     "sessionTitle": "",
     "sessionSubTitle": "",
@@ -855,7 +855,7 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-10",
-    "timeStart": "9:45",
+    "timeStart": "09:45",
     "timeStop": "10:30",
     "sessionTitle": "Vizanda: Paste the Power of D3",
     "sessionSubTitle": "",
@@ -913,6 +913,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -944,6 +945,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -975,6 +977,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -1006,6 +1009,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -1037,6 +1041,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
