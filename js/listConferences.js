@@ -74,12 +74,12 @@
   },
 
   {
-    "name": "Hack for Humanity",
-    "tagline": "Hack for Humanity is a community-run conference & hackathon focused on using open source tech to help achieve the",
+    "name": "Unite for Humanity",
+    "tagline": "Unite for Humanity is a community-run conference & hackathon focused on using open source tech to help achieve the",
     "description": "",
-    "camp": "h4h",
-    "dates": "Jul 9, 10 & 17",
-    "icon": "icon-h4h.png",
+    "camp": "u4h",
+    "dates": "Jul 10 & 16/17",
+    "icon": "icon-u4h.png",
     "website": "",
     "twitter": "",
     "facebook": "",

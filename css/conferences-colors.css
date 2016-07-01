@@ -113,14 +113,21 @@
 
 
 /* HUMANITY */
-.conference.h4h {
-  background-color: #00dc00;
+.conference.u4h,
+.conference.u4h a.button,
+.conference.u4h .session .scheduling .event {
+  background: #008080;
 }
 
-.conference.h4h .links a {
-  color: #00dc00;
+.conference.u4h .session-inner {
+	border-top: 2px solid #008080;
 }
 
+.conference.u4h .slot,
+.conference.u4h .container.light h2,
+.conference.u4h .links a.color:hover {
+  color: #008080;	
+}
 
 
 
