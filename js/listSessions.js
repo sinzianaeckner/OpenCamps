@@ -703,7 +703,7 @@
     "timeStop": "11:30",
     "sessionTitle": "How to Avoid Some Common Graphical Mistakes",
     "sessionSubTitle": "",
-    "sessionSummary": "",
+    "sessionSummary": "Good graphs are extremely powerful tools for communicating quantitative information clearly and accurately. Unfortunately, many of the graphs we see today are poor graphs that confuse, mislead or deceive the reader. These poor graphs often occur because the graph designer is not familiar with principles of effective graphs or because the software used has a poor choice of default settings. We point out some of these graphical mistakes. In most cases very simple changes make the resulting graphs easier for the reader to understand. We end with some useful little-known graph forms that communicate the data more clearly than the everyday graphs that are more commonly used.",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
