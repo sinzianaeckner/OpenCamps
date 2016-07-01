@@ -639,9 +639,9 @@
     "date": "2016-07-09",
     "timeStart": "09:00",
     "timeStop": "09:45",
-    "sessionTitle": "",
+    "sessionTitle": "Data Illiteracy",
     "sessionSubTitle": "",
-    "sessionSummary": "",
+    "sessionSummary": "<p>According to the OECD’s Pisa study, U.S. adults lag most countries in literacy, numeracy and computer skills. \nWhile economic, private and political decision making processes are increasingly data-driven, we are faced with a large proportion of the population that could be considered data illiterate. This talk will explore how data visualization might help to mitigate this problem.</p>",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
@@ -762,7 +762,7 @@
     "tech": "dataviz",
     "date": "2016-07-09",
     "timeStart": "13:00",
-    "timeStop": "14:15",
+    "timeStop": "14:00",
     "sessionTitle": "Reactive Building Blocks: Interactive Visualizations with Vega",
     "sessionSubTitle": "",
     "sessionSummary": "<p>Vega is a visualization grammar -- a declarative format for creating and saving interactive visualization designs. Existing declarative visualization languages allow users to construct static visualizations by mapping data values to visual properties. Unfortunately, a similar process does not yet exist for interactive visualizations. Instead, custom interaction design requires programming with event handling callbacks -- a complex and error-prone task. In this talk, Arvind will describe how to use reactive building blocks, offered natively in recent versions of Vega, to author interactive data graphics. With this approach, the complexity of event propagation and state changes is managed entirely by Vega. Users are now free to more quickly prototype and iterate on interactive designs, and more easily retarget them across mouse and touch input.</p>",
@@ -788,7 +788,37 @@
       ]
     }
   },
-
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "14:00",
+    "timeStop": "14:30",
+    "sessionTitle": "Clustergrammer: Interactive Heatmap Visualizations Built using D3.js",
+    "sessionSubTitle": "",
+    "sessionSummary": "<p>Hierarchically clustered heatmaps are a popular visualization method used in biomedical research to display high-dimensional biological data sets, such as genome-wide expression. However, these visualizations can be difficult for non-computational biologists to produce and sharing static images with collaborators limits their usefulness. Clustergrammer is a web-based matrix visualization tool, built using D3, that enables users to easily generate highly-interactive (zoomable, reorderable, filterable, etc.) and shareable clustergram visualizations. Clustergrammer can also be used as a stand-alone JavaScript library by developers. The talk will discuss the motivations and challenges involved in developing the web app.</p>",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Nicolas",
+          "nameLast": "Fernandez",
+          "photo": "",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": "Nicolas Fernandez is a postdoc in Avi Ma’ayan’s lab at Mount Sinai."
+        }
+      ]
+    }
+  },
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
