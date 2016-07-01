@@ -80,7 +80,7 @@
     "camp": "u4h",
     "dates": "Jul 10 & 16/17",
     "icon": "icon-unite-4-humanity.png",
-    "website": "http://uniteforhumanity.org",
+    "website": "http://uniteforhumanity.com",
     "twitter": "",
     "facebook": "",
     "github": "",
