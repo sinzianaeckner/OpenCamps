@@ -637,8 +637,8 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
-    "timeStart": "9:00",
-    "timeStop": "9:45",
+    "timeStart": "09:00",
+    "timeStop": "09:45",
     "sessionTitle": "",
     "sessionSubTitle": "",
     "sessionSummary": "",
@@ -668,7 +668,7 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
-    "timeStart": "9:45",
+    "timeStart": "09:45",
     "timeStop": "10:30",
     "sessionTitle": "",
     "sessionSubTitle": "",
@@ -703,7 +703,7 @@
     "timeStop": "11:30",
     "sessionTitle": "How to Avoid Some Common Graphical Mistakes",
     "sessionSubTitle": "",
-    "sessionSummary": "",
+    "sessionSummary": "Good graphs are extremely powerful tools for communicating quantitative information clearly and accurately. Unfortunately, many of the graphs we see today are poor graphs that confuse, mislead or deceive the reader. These poor graphs often occur because the graph designer is not familiar with principles of effective graphs or because the software used has a poor choice of default settings. We point out some of these graphical mistakes. In most cases very simple changes make the resulting graphs easier for the reader to understand. We end with some useful little-known graph forms that communicate the data more clearly than the everyday graphs that are more commonly used.",
     "sessionType": "Session",
     "sessionSlides": "",
     "sessionVideo": "",
@@ -788,37 +788,7 @@
       ]
     }
   },
-  {
-    "camp": "Data Viz Camp",
-    "tech": "dataviz",
-    "date": "2016-07-09",
-    "timeStart": "14:30",
-    "timeStop": "15:00",
-    "sessionTitle": "",
-    "sessionSubTitle": "",
-    "sessionSummary": "",
-    "sessionType": "Session",
-    "sessionSlides": "",
-    "sessionVideo": "",
-    "speakers": {
-      "speaker": [
-        {
-          "nameFirst": "Erica",
-          "nameLast": "Hyman",
-          "photo": "speaker-erica-hyman.jpg",
-          "linkedin": "",
-          "twitter": "",
-          "github": "",
-          "facebook": "",
-          "website": "",
-          "openSourceRole": "",
-          "organization": "TWO-N",
-          "role": "",
-          "bio": ""
-        }
-      ]
-    }
-  },
+
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -885,7 +855,7 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-10",
-    "timeStart": "9:45",
+    "timeStart": "09:45",
     "timeStop": "10:30",
     "sessionTitle": "Vizanda: Paste the Power of D3",
     "sessionSubTitle": "",
@@ -943,6 +913,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -974,6 +945,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -1005,6 +977,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -1036,6 +1009,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
@@ -1067,6 +1041,7 @@
       ]
     }
   },
+  
   {
     "camp": "Data Viz Camp",
     "tech": "dataviz",
