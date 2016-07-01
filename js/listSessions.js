@@ -805,7 +805,7 @@
         {
           "nameFirst": "Nicolas",
           "nameLast": "Fernandez",
-          "photo": "",
+          "photo": "speaker-nicolas-fernandez.jpg",
           "linkedin": "",
           "twitter": "",
           "github": "",
