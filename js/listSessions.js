@@ -806,7 +806,7 @@
           "nameFirst": "Nicolas",
           "nameLast": "Fernandez",
           "photo": "speaker-nicolas-fernandez.jpg",
-          "linkedin": "",
+          "linkedin": "https://www.linkedin.com/in/nicolas-fernandez-32a0b84a",
           "twitter": "",
           "github": "",
           "facebook": "",
