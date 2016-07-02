@@ -81,10 +81,10 @@
     "dates": "Jul 10 & 16/17",
     "icon": "icon-unite-4-humanity.png",
     "website": "http://uniteforhumanity.com",
-    "twitter": "",
+    "twitter": "http://twitter.com/Unite4_Humanity",
     "facebook": "",
-    "github": "",
-    "email": ""
+    "github": "https://github.com/UniteForHumanity",
+    "email": "info@uniteforhumanity.com"
   },
 /*
   {
