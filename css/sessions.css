@@ -195,7 +195,6 @@
 	
 }
 
-
 .session links .summary.toggle {
 	
 }
@@ -255,8 +254,7 @@
 
 .speaker .details {
   vertical-align: top;
-	background-color: white;
-	font-size: .8em;
+	font-size: .7rem;
 	padding-top: 0;
 	display: inline-block;
 	max-width: 300px;
@@ -267,13 +265,14 @@
 	font-size: .95rem;
 	color: black;
 	text-align: left;
-	padding-top: .5rem;
+	padding-top: .25rem;
 	margin-bottom: .25rem;
-	margin-top: .25rem;
+	margin-top: 0;
 }
 
 .speaker .open-source-role {
-	margin-bottom: .75rem;
+	font-size: .75rem;
+	margin-bottom: .5rem;
 	color: black;
 }
 
@@ -287,6 +286,49 @@
 	color: gray;
 	font-style: italic;
 }
+
+.speaker .bio {
+	padding-bottom: .25rem;
+}
+
+.speaker .bio,
+.speaker .bio p,
+.speaker .bio a {
+	font-weight: 300;
+	text-align: left;
+	line-height: 1.5rem;
+	font-size: .8rem;
+	color: #404040;
+	padding: 0 0 .25rem;
+	margin: .25rem 0 0;
+	text-decoration: none;
+}
+
+.session .speaker .bio-wrapper-collapsed {
+	height: 0px;
+	overflow: hidden;
+	display: block;
+	clear: both;
+
+}
+
+.session .speaker .bio-wrapper-open {
+	height: auto;
+	overflow: hidden;
+	display: block;
+	clear: both;
+	margin: .5rem .5rem 0 0;
+}
+
+
+.speaker .bio-closed {
+	height: 0px!important;
+}
+
+
+
+
+
 
 body.sessoins h2 {
 	font: 2em/1em "FuturaT", sans-serif;
@@ -305,6 +347,8 @@ body.sessoins h2 {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
+
+
 
 
 

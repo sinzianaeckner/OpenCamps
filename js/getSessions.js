@@ -15,6 +15,14 @@ function getSessions(sessions) {
   
   sessions.sort(SortByTime);
 
+
+	sessions.sort(function(a, b){
+			if(a.tech < b.tech) return -1;
+			if(a.tech > b.tech) return 1;
+			return 0;
+	})
+
+
   var outputSessions = 
     '<div id=\"sessions-inner\">'+
       '<h2 class=\"sessions\">Sessions & Schedule</h2>';
@@ -74,6 +82,7 @@ function getSessions(sessions) {
 												'<div class="open-source-role">' + sessions[i].speakers.speaker[0].openSourceRole + '</div>'+
 												'<div class="organization">' + sessions[i].speakers.speaker[0].organization + '</div>'+
 												'<div class="role">' + sessions[i].speakers.speaker[0].role + '</div>'+
+
 												'<div class="links">';
 													if (sessions[i].speakers.speaker[0].linkedin != "") {
 														outputSessions += '<div class="link linkedin"><a href="' + sessions[i].speakers.speaker[0].linkedin  + '" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></div>';
@@ -89,6 +98,17 @@ function getSessions(sessions) {
 													}											
 												outputSessions +=
 												'</div>'+
+												'<div class="bio">';
+													if (sessions[i].speakers.speaker[0].bio != "") {
+														outputSessions +=
+															'<div class="bio-wrapper-collapsed" id="bio' + i + '"> <p class="bio">' + sessions[i].speakers.speaker[0].bio + '</div>'+
+															'<div class="bio-faded" id="biofade' + i + '"></div>';
+													}
+													if (sessions[i].speakers.speaker[0].bio != "") {
+														outputSessions += '<a href="javascript:;" id=\"biolink' + i + '\" class=\"view-bio color\" onclick=\"toggleBio(biolink' + i + ',bio' + i + ',biofade' + i + ')\"><i class="fa fa-angle-down"></i> View Bio</a>';
+													}
+													outputSessions +=
+												'</div>'+
 											'</div>'+
 										'</div>'+
 									'</div>'+
@@ -102,10 +122,11 @@ function getSessions(sessions) {
 								'</div>';
   					 }
 					outputSessions +=
-					'</div>'+
+				  '</div>'+
         '</div>';
     }
-    outputSessions += '</div>';
+    outputSessions +=
+      '</div>';
       
     document.getElementById("sessions").innerHTML = outputSessions;
   }

@@ -23,15 +23,30 @@ $(document).ready(function(){
 
 
 function toggleClass(element,target,fade){
-//  alert (element);
+
 	if(target.className == "summary-wrapper-collapsed"){
 		target.className = "summary-wrapper-open";
 		fade.className = "summary-open";
-    element.innerHTML = "<i class=\"fa fa-angle-up\"></i> Collapse Session Summary";
+		element.innerHTML = "<i class=\"fa fa-angle-up\"></i> Collapse Session Summary";
 
 	} else {
 		target.className = "summary-wrapper-collapsed";
-		fade.className = "summary-faded";
-    element.innerHTML = "<i class=\"fa fa-angle-down\"></i> View Full Session Summary";
+		fade.className = "summary-closed";
+		element.innerHTML = "<i class=\"fa fa-angle-down\"></i> View Full Session Summary";
+	}
+}
+
+
+function toggleBio(element,target,fade){
+
+	if(target.className == "bio-wrapper-collapsed"){
+		target.className = "bio-wrapper-open";
+		fade.className = "bio-open";
+		element.innerHTML = "<i class=\"fa fa-angle-up\"></i> Collapse Bio";
+
+	} else {
+		target.className = "bio-wrapper-collapsed";
+		fade.className = "bio-closed";
+		element.innerHTML = "<i class=\"fa fa-angle-down\"></i> View Bio";
 	}
 }
