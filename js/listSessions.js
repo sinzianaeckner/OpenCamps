@@ -2183,7 +2183,7 @@
 				  "twitter":"https://twitter.com/gabiz",
 				  "github":"https://github.com/gabiz",
 				  "facebook":"",
-				  "website":"http://blog.gazler.com/",
+				  "website":"",
 				  "stackoverflow":"http://stackoverflow.com/users/219743/Gazler",
 				  "openSourceRole":"",
 				  "organization":"VoiceLayer",
