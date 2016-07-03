@@ -38,6 +38,11 @@
 	font-size: .8rem;
 }
 
+#keynotes .details p a {
+	border-bottom: 1px dotted silver!important;
+}
+
+
 #keynotes .links {
 	padding-top: .5em;
 	text-align: left;
@@ -54,6 +59,7 @@
 	font-weight: bold;
 	text-align: left;
 	margin-top: 0;
+	padding-bottom: 2px;
 }
 
 #keynotes .details {
