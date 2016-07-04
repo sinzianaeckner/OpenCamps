@@ -1161,7 +1161,7 @@
 		"timeStop":"",
 		"sessionTitle":"rkt: Secure Application Container Runtime",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p>Faraz Fazli will be demonstrating how to use <a href=\"https://github.com/coreos/rkt\" target=\"_blank\">rkt</a> to create, deploy, and manage Linux containers using rkt. rkt is a container runtime similar to Docker, but secure by default. He will walk through creating App Container Images (ACIs), running them using systemd, and reading container log files with journalctl.</p>",
+		"sessionSummary":"<p>Faraz Fazli will be demonstrating how to use <a href=\"https://github.com/coreos/rkt\" target=\"_blank\">rkt</a> to create, deploy, and manage Linux containers. rkt is a container runtime similar to Docker, but secure by default. He will walk through creating App Container Images (ACIs), running them using systemd, and reading container log files with journalctl.</p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
