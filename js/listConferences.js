@@ -263,7 +263,7 @@
     "tagline": "",
     "description": "A community-run single day, single track conference focused on the Golang programming language",
     "camp": "go",
-    "dates": "Sat Jul 9",
+    "dates": "Sun Jul 17",
     "icon": "icon-go.svg",
     "website": "http://GoCamp.io",
     "twitter": "https://twitter.com/GoCampNYC/",
