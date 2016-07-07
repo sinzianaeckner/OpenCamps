@@ -668,37 +668,6 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
-    "timeStart": "09:45",
-    "timeStop": "10:30",
-    "sessionTitle": "",
-    "sessionSubTitle": "",
-    "sessionSummary": "",
-    "sessionType": "Session",
-    "sessionSlides": "",
-    "sessionVideo": "",
-    "speakers": {
-      "speaker": [
-        {
-          "nameFirst": "Kaiser",
-          "nameLast": "Fung",
-          "photo": "speaker-kaiser-fung.jpg",
-          "linkedin": "",
-          "twitter": "https://twitter.com/junkcharts",
-          "github": "",
-          "facebook": "",
-          "website": "http://www.kaiserfung.com/",
-          "openSourceRole": "",
-          "organization": "",
-          "role": "",
-          "bio": ""
-        }
-      ]
-    }
-  },
-  {
-    "camp": "Data Viz Camp",
-    "tech": "dataviz",
-    "date": "2016-07-09",
     "timeStart": "10:45",
     "timeStop": "11:30",
     "sessionTitle": "How to Avoid Some Common Graphical Mistakes",
@@ -823,8 +792,39 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
-    "timeStart": "15:00",
-    "timeStop": "15:45",
+    "timeStart": "14:30",
+    "timeStop": "15:00",
+    "sessionTitle": "All about \"you\": Reflecting Identity in Dataviz",
+    "sessionSubTitle": "",
+    "sessionSummary": "<p>Interactive journalism is unique in its ability to let the reader actively participate in a story. This talk will look at how allowing the reader to create their own experience within a data visualization can prompt deeper engagement and provide a more meaningful – and memorable – connection to the story.</p>",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Nadja",
+          "nameLast": "Popovich",
+          "photo": "speaker-nicolas-fernandez.jpg",
+          "linkedin": "https://www.linkedin.com/in/nicolas-fernandez-32a0b84a",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": "Nadja is an Interactive editor, Guardian US"
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
+    "timeStart": "15:15",
+    "timeStop": "16:00",
     "sessionTitle": "Visualizing the News",
     "sessionSubTitle": "",
     "sessionSummary": "<p>The work at the graphics desk often involve taking large datasets and abstract numbers and turning them into a story. I'll talk about the process of turning data into a graphic, with examples of recent work from our department.</p>",
