@@ -9,18 +9,18 @@ function getSessions(sessions) {
   var sessions = sessions.filter(sessionsFilter);
 
   function SortByTime(x,y) {
-    return ((x.date == y.date) ? 0 : ((x.date > y.date) ? 1 : -1 ));
+//    return ((x.date == y.date) ? 0 : ((x.date > y.date) ? 1 : -1 ));
     return ((x.timeStart == y.timeStart) ? 0 : ((x.timeStart > y.timeStart) ? 1 : -1 ));
   }
   
   sessions.sort(SortByTime);
 
 
-	sessions.sort(function(a, b){
-			if(a.tech < b.tech) return -1;
-			if(a.tech > b.tech) return 1;
-			return 0;
-	})
+//	sessions.sort(function(a, b){
+//			if(a.tech < b.tech) return -1;
+//			if(a.tech > b.tech) return 1;
+//			return 0;
+//	})
 
 
   var outputSessions = 

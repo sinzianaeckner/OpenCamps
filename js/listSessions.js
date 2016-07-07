@@ -2211,8 +2211,8 @@
 		"camp":"Rails Camp",
 		"tech":"rails",
 		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"10:00",
+		"timeStop":"11:00",
 		"sessionTitle":"Local Ruby on Rails Development using Vagrant VMs",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Developing locally is one of the best things that can happen to you. Not only does it let you dispense with upload/download times, you can create as many projects as you want, work with real domains locally and generally speed up everything you do.</p><p>Vagrant is a programmatic way create and configure virtual machines that mimic an application’s production environment. I will show you how to have a working local version of Ruby on Rails with vagrant. Which you can edit files locally and they will automatically be pushed to your VM through shared folders with no delay.</p><p>When you\'re done working for the day, simply type $vagrant halt to suspend your VM and type in $vagrant up to resume it. The procedure was used successfully to deploy virtual machines to a group students at a workshop to teach women how to code their first database driven website using Ruby on Rails in New York in May 2016. Where I was an teaching a class of advanced students.</p>",
@@ -2243,8 +2243,8 @@
 		"camp":"Rails Camp",
 		"tech":"rails",
 		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"15:00",
+		"timeStop":"16:00",
 		"sessionTitle":"Faster than JSON",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>MessagePack, Protocol Buffers, and how they beat JSON in terms of size and speed.</p>",
@@ -2275,8 +2275,8 @@
 		"camp":"Rails Camp",
 		"tech":"rails",
 		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"14:00",
+		"timeStop":"15:00",
 		"sessionTitle":"Faster than Fast",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Eliminating latency and creating a crazy fast website while keeping architecture simple.</p>",
@@ -2307,8 +2307,8 @@
 		"camp":"Rails Camp",
 		"tech":"rails",
 		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"12:00",
+		"timeStop":"13:00",
 		"sessionTitle":"Angular on Rails",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Trials and tribulations of converting a Rails app to an Angular frontend.</p>",
@@ -2339,8 +2339,8 @@
 		"camp":"Rails Camp",
 		"tech":"rails",
 		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
+		"timeStart":"11:00",
+		"timeStop":"12:00",
 		"sessionTitle":"Avoiding n+1 Errors",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>N+1 errors might be the most common mistake that leads to slow apps. It\'s when the app makes database calls over and over again--sometimes many, many more times than it needs to--in order to get information about a list of items. Beginner Rails developers are especially prone to structuring their database calls without this issue in mind, and don\'t necessarily pay attention to their logs where the issue would be visible. This talk will look at some examples and identify some available solutions.</p>",
@@ -2367,7 +2367,38 @@
     }  
 	},
 
-
+	
+  {
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"13:00",
+		"timeStop":"14:00",
+		"sessionTitle":"Lunch",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
 
 
 
@@ -2610,6 +2641,56 @@
       ]
     }  
 	},
+
+
+
+	{
+		"camp":"Search Camp",
+		"tech":"search",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Building a Vibrant Search Ecosystem at Bloomberg",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Search is a core technology that allows Bloomberg to deliver financial news and information quickly and reliably to our clients. The Search Infrastructure team has created a high performance, stable and scalable search ecosystem to support a large, complex and diverse set of search applications.</p><p>Providing search as a service to the thousands of developers in this demanding environment required us to take a holistic approach. In this talk we\'ll discuss both the organizational and technical challenges we\'ve encountered and the approach we\'ve taken to solve them. We\'ll dive into the details of our platform; from the way we engage with our tenants, interact with the Solr community, to the infrastructure and tools we use to manage, monitor and scale our platform.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Steven",
+				  "nameLast":"Bower",
+				  "photo":"speaker-steven-bower.jpg",
+				  "linkedin":"https://www.linkedin.com/in/panushev",
+				  "twitter":"https://twitter.com/inpher_io",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Inpher, Inc.",
+				  "role":"Co-founder and Chief Product Officer",
+				  "bio":"<p>Steven has worked for 16 years in the search industry. First as part of the R&D/Services teams at FAST Search & Transfer and then as a principal engineer at Attivio, Inc. He has participated/lead the delivery of hundreds of search applications and now leads the Search Infrastructure team at Bloomberg LP, providing a search as a service platform for 200+ applications.</p>"
+        },
+			  {
+ 				  "nameFirst":"Steven",
+				  "nameLast":"Bower",
+				  "photo":"speaker-steven-bower.jpg",
+				  "linkedin":"https://www.linkedin.com/in/panushev",
+				  "twitter":"https://twitter.com/inpher_io",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Inpher, Inc.",
+				  "role":"Co-founder and Chief Product Officer",
+				  "bio":"<p>Steven has worked for 16 years in the search industry. First as part of the R&D/Services teams at FAST Search & Transfer and then as a principal engineer at Attivio, Inc. He has participated/lead the delivery of hundreds of search applications and now leads the Search Infrastructure team at Bloomberg LP, providing a search as a service platform for 200+ applications.</p>"
+        }
+
+      ]
+    }  
+	},
+
 
 	{
 		"camp":"Search Camp",
