@@ -2817,37 +2817,6 @@
     }  
 	},
 
-	{
-		"camp":"Search Camp",
-		"tech":"search",
-		"date":"2016-07-10",
-		"timeStart":"",
-		"timeStop":"",
-		"sessionTitle":"Scaling SolrCloud For Beginners",
-		"sessionSubTitle":"",
-		"sessionSummary":"<p>With the advent of SolrCloud, Solr has been able to compete in a much more even footing with many of the (now defunct) search engines it competed against for so many years. Many things were done manually and developers had to find new and novel ways to make things work as their search needs grew. One of the notable areas was scaling. In this talk we will discuss scaling issues with Solr Cloud including balancing resource allocation, high availability, disaster recovery, and nodes vs. shards.</p>",
-		"sessionType":"Session",
-		"sessionSlides":"",
-		"sessionVideo":"",
-    "speakers": {
-      "speaker": [
-			  {
- 				  "nameFirst":"Carlos",
-				  "nameLast":"Valcarcel",
-				  "photo":"speaker-carlos-valcarcel.jpg",
-				  "linkedin":"https://www.linkedin.com/in/carlos-valcarcel-57755",
-				  "twitter":"https://twitter.com/lucidplayer",
-				  "github":"",
-				  "facebook":"",
-				  "website":"",
-				  "openSourceRole":"",
-				  "organization":"Lucidworks",
-				  "role":"Solutions Consultant",
-				  "bio":"<p>Carlos Valcarcel has been a search geek since 2007 when he accepted a position at Fast Search and Transfer just prior to Fast being acquired by Microsoft. He has been an independent consultant, developer, and distributed systems architect for more years than he cares to think about. He currently works at Lucidworks as a Solutions Consultant.</p>"
-        }
-      ]
-    }  
-	},
 
 
 
