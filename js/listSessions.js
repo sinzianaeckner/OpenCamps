@@ -2366,7 +2366,6 @@
       ]
     }  
 	},
-
 	
   {
 		"camp":"Rails Camp",
@@ -2400,7 +2399,69 @@
     }  
 	},
 
-
+  {
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"08:00",
+		"timeStop":"09:30",
+		"sessionTitle":"Check-In & Breakfast",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
+	
+  {
+		"camp":"Rails Camp",
+		"tech":"rails",
+		"date":"2016-07-10",
+		"timeStart":"09:30",
+		"timeStop":"10:00",
+		"sessionTitle":"Intros & Socializing",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
 
   // REACT CAMP
 
@@ -2662,29 +2723,29 @@
  				  "nameFirst":"Steven",
 				  "nameLast":"Bower",
 				  "photo":"speaker-steven-bower.jpg",
-				  "linkedin":"https://www.linkedin.com/in/panushev",
-				  "twitter":"https://twitter.com/inpher_io",
+				  "linkedin":"",
+				  "twitter":"",
 				  "github":"",
 				  "facebook":"",
 				  "website":"",
 				  "openSourceRole":"",
-				  "organization":"Inpher, Inc.",
+				  "organization":"Bloomberg",
 				  "role":"Co-founder and Chief Product Officer",
 				  "bio":"<p>Steven has worked for 16 years in the search industry. First as part of the R&D/Services teams at FAST Search & Transfer and then as a principal engineer at Attivio, Inc. He has participated/lead the delivery of hundreds of search applications and now leads the Search Infrastructure team at Bloomberg LP, providing a search as a service platform for 200+ applications.</p>"
         },
 			  {
- 				  "nameFirst":"Steven",
-				  "nameLast":"Bower",
-				  "photo":"speaker-steven-bower.jpg",
-				  "linkedin":"https://www.linkedin.com/in/panushev",
-				  "twitter":"https://twitter.com/inpher_io",
+ 				  "nameFirst":"Ken",
+				  "nameLast":"Laporte",
+				  "photo":"speaker-ken-laporte.jpg",
+				  "linkedin":"",
+				  "twitter":"h",
 				  "github":"",
 				  "facebook":"",
 				  "website":"",
 				  "openSourceRole":"",
-				  "organization":"Inpher, Inc.",
-				  "role":"Co-founder and Chief Product Officer",
-				  "bio":"<p>Steven has worked for 16 years in the search industry. First as part of the R&D/Services teams at FAST Search & Transfer and then as a principal engineer at Attivio, Inc. He has participated/lead the delivery of hundreds of search applications and now leads the Search Infrastructure team at Bloomberg LP, providing a search as a service platform for 200+ applications.</p>"
+				  "organization":"Bloomberg",
+				  "role":"",
+				  "bio":"<p>Ken is a senior software engineer in the Search Infrastructure department at Bloomberg where he works with client teams to leverage Solr to solve business problems. Ken has been active in the search domain for 7 years and has worked on a wide variety of  search problems, including e-commerce, geospatial, analytical & free text. He currently resides in Brooklyn with his wife & son where he can be found constantly working on his house or developing code.</p>"
         }
 
       ]
