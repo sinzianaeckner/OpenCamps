@@ -2730,7 +2730,7 @@
 				  "website":"",
 				  "openSourceRole":"",
 				  "organization":"Bloomberg",
-				  "role":"Co-founder and Chief Product Officer",
+				  "role":"",
 				  "bio":"<p>Steven has worked for 16 years in the search industry. First as part of the R&D/Services teams at FAST Search & Transfer and then as a principal engineer at Attivio, Inc. He has participated/lead the delivery of hundreds of search applications and now leads the Search Infrastructure team at Bloomberg LP, providing a search as a service platform for 200+ applications.</p>"
         },
 			  {
