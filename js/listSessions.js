@@ -49,6 +49,37 @@
 		"camp":"AI Camp",
 		"tech":"ai",
 		"date":"2016-07-12",
+		"timeStart":"13:15",
+		"timeStop":"13:55",
+		"sessionTitle":"Taking Information Into Accounts: The Data Projection Model",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>A model for auditing information content.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    		"speakers": {
+      		"speaker": [
+			  {
+ 				  "nameFirst":"Michel",
+				  "nameLast":"Biezunski",
+				  "photo":"speaker-michel-biezunski.jpg",
+				  "linkedin":"https://www.linkedin.com/in/michel-biezunski-1248271",
+				  "twitter":"https://twitter.com/michelbiezunski",
+				  "github":"",
+				  "facebook":"",
+				  "website":"https://www.infoloom.com/about-us/michel-biezunski-1",
+				  "openSourceRole":"",
+				  "organization":"Infoloom",
+				  "role":"",
+				  "bio":"<p>Michel works as Consultant/Developer in Digital Publishing. Designs Builds and maintains Topic Map Applications, i.e. interconnected graphs for web sites, based on navigation by topics. Former Editor of the ISO/IEC 13250 Topic Maps standard.</p>",
+        }
+      ]
+    }  
+	},
+    {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
 		"timeStart":"14:45",
 		"timeStop":"15:45",
 		"sessionTitle":"AI: Enigma of Imitation",
