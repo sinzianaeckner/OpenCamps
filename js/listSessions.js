@@ -18,8 +18,8 @@
 		"camp":"AI Camp",
 		"tech":"ai",
 		"date":"2016-07-12",
-		"timeStart":"9:15",
-		"timeStop":"9:55",
+		"timeStart":"09:15",
+		"timeStop":"09:55",
 		"sessionTitle":"Keynote",
 		"sessionSubTitle":"",
 		"sessionSummary":"TBA",
@@ -39,8 +39,8 @@
 				  "website":"https://research.google.com/pubs/104789.html",
 				  "openSourceRole":"",
 				  "organization":"Google",
-				  "role":"Research Scientist",
-				  "bio":"Chris is a Research Scientist at Google and an Endowed Professor of Cognitive Systems at the VU University, Amsterdam",
+				  "role":"Sr. Research Scientist",
+				  "bio":"<p>Dr. Chris Welty is a Sr. Research Scientist at Google in New York, and an Endowed Professor of Cognitive Systems at the VU University, Amsterdam. His main area of interest is using structured semantic information to improve semantic processing of unstructured information, such as using freebase to help improve web search. His latest work is on using crowdsourcing to form a new theory of truth based on diversity of perspectives. Before Google, Dr. Welty was a member of the technical leadership team for IBM's Watson - the question answering computer that destroyed the all-time best Jeopardy! champions in a widely televised contest. He appeared on the broadcast, discussing the technology behind Watson, as well as many articles in the popular and scientific press. His proudest moment was being interviewed for StarTrek.com about the project. He is a recipient of the AAAI Feigenbaum Prize for his work. Welty was one of the first to call attention to the new paradigm of Cognitive Computing that is emerging in computation, and previously has played a seminal role in the development of the Semantic Web and Ontologies, and co-developed OntoClean, the first formal methodology for evaluating ontologies. He is on the editorial board of AI Magazine, the Journal of Applied Ontology, the Journal of Web Semantics, and the Semantic Web Journal.</p>",
         }
       ]
     }  
