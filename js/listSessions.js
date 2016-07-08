@@ -22,7 +22,7 @@
 		"timeStop":"15:45",
 		"sessionTitle":"AI: Enigma of Imitation",
 		"sessionSubTitle":"",
-		"sessionSummary":"<p>"Talk will be about how Turing developed the ideas of AI in terms of an imitation game, but failed to address the question of how imitative intelligence may affect the human societies, their norms and institutions. Some ideas from information-asymmetric (signaling) games will be used to explore how we could think about the future of AI and human."</p>",
+		"sessionSummary":"<p>Talk will be about how Turing developed the ideas of AI in terms of an imitation game, but failed to address the question of how imitative intelligence may affect the human societies, their norms and institutions. Some ideas from information-asymmetric (signaling) games will be used to explore how we could think about the future of AI and human.</p>",
 		"sessionType":"Session",
 		"sessionSlides":"",
 		"sessionVideo":"",
