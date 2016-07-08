@@ -23,7 +23,7 @@
 		"sessionTitle":"Cognitive Computing, Measure Measure Measure",
 		"sessionSubTitle":"Keynote",
 		"sessionSummary":"<p>Soon after the notable performance of IBM’s Watson on Jeopardy, I laid out the skeleton of a new computing paradigm which IBM later dubbed “Cognitive Computing”. Over the five years since then, cognitive computing is indeed proving to be a radical shift in software and information technology, that disrupts previously understood terms like “performance”, “feature”, “debugging”, and even “truth”. In this talk I will give a personal perspective on how cognitive computing has progressed, and is re-shaping the roles that computer systems play in our lives and our cultural awareness, touching on such themes as digital culture, multilinguality, multilingual access, discovery and metadata quality.  I will focus specifically on the role big data and human intelligence have in measuring quality of cognitive computing systems.</p>",
-		"sessionType":"Session",
+		"sessionType":"Full",
 		"sessionSlides":"",
 		"sessionVideo":"",
     		"speakers": {
@@ -54,7 +54,7 @@
 		"sessionTitle":"Taking Information Into Accounts: The Data Projection Model",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>A model for auditing information content.</p>",
-		"sessionType":"Session",
+		"sessionType":"Full",
 		"sessionSlides":"",
 		"sessionVideo":"",
     		"speakers": {
@@ -76,6 +76,37 @@
       ]
     }  
 	},
+	    {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"14:00",
+		"timeStop":"14:40",
+		"sessionTitle":"When Recommendation Systems Go Bad",
+		"sessionSubTitle":"",
+		"sessionSummary":"<p>Machine learning and recommendations systems have changed the way we interact with not just the internet, but some of the basic products and services that we use to organize and run our life. As the people that build these systems, we have a social responsibility to consider how these systems affect people, and furthermore, we should do whatever we can to prevent these systems and models from perpetuating some of the prejudice and bias that exist in our society today.  In this talk I will cover some recommendation systems that have gone wrong across various industries, and attempt to provide some solutions for prevention. First and foremost among these is promoting awareness, but approaches involving interpretable models, using ensemble models to separate features that shouldn't interact, and designing test data sets for capturing bias will also be explored.</p>",
+		"sessionType":"Full",
+		"sessionSlides":"http://www.slideshare.net/eestola/estola-5-2016-mlconf-when-recommendation-systems-go-bad",
+		"sessionVideo":"",
+    		"speakers": {
+      		"speaker": [
+			  {
+ 				  "nameFirst":"Evan",
+				  "nameLast":"Estola",
+				  "photo":"speaker-evan-estola.jpg",
+				  "linkedin":"https://www.linkedin.com/in/evan-estola-23a03211",
+				  "twitter":"https://twitter.com/estola",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"meetup.com",
+				  "role":"Lead Machine Learning Engineer",
+				  "bio":"<p>Evan is a Lead Machine Learning Engineer working on the Data Team at Meetup. Combining product design, machine learning research and software engineering, Evan builds systems that help Meetup’s members find the best thing in the world: real local community.</p>",
+        }
+      ]
+    }  
+	},
     {
 		"camp":"AI Camp",
 		"tech":"ai",
@@ -85,7 +116,7 @@
 		"sessionTitle":"AI: Enigma of Imitation",
 		"sessionSubTitle":"",
 		"sessionSummary":"<p>Talk will be about how Turing developed the ideas of AI in terms of an imitation game, but failed to address the question of how imitative intelligence may affect the human societies, their norms and institutions. Some ideas from information-asymmetric (signaling) games will be used to explore how we could think about the future of AI and human.</p>",
-		"sessionType":"Session",
+		"sessionType":"Full",
 		"sessionSlides":"",
 		"sessionVideo":"",
     		"speakers": {
