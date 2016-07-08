@@ -14,7 +14,38 @@
 
   // AI CAMP
   // TBA
-
+    {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"10:00",
+		"timeStop":"10:40",
+		"sessionTitle":"Describing contextual behavior with CAVE Language",
+		"sessionSubTitle":"",
+		"sessionSummary":"As more and more contextual and conversational systems appear, there is demand to create new applications for them. However we lack a language to describe these applications. Conversational Architecture Visual Expression (CAVE) Language is a whiteboard-friendly visual design language for contextual and conversational systems. It is especially good for voice agents (like Amazon's Alexa), chat bots and other emerging platforms.
+http://www.cavelanguage.org/",
+		"sessionType":"full",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    		"speakers": {
+      		"speaker": [
+			  {
+ 				  "nameFirst":"Loren",
+				  "nameLast":"Davie",
+				  "photo":"https://www.lorendavie.com/loren.jpg",
+				  "linkedin":"https://www.linkedin.com/in/lorendavie",
+				  "twitter":"https://twitter.com/LorenDavie",
+				  "github":"https://github.com/LorenDavie",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"Loren is a creative technology professional with 20 years of industry experience. As a leader, a manager, a developer, and a thinker, Loren has made tech organizations more effective while leveraging technology for competitive advantage.  Loren is the founder of Axilent, a consulting firm specializing in product strategy and contextual technology.",
+        }
+      ]
+    }  
+	},
   {
 		"camp":"AI Camp",
 		"tech":"ai",
