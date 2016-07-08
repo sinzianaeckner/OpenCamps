@@ -14,6 +14,37 @@
 
   // AI CAMP
   // TBA
+  {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
+		"timeStart":"08:30",
+		"timeStop":"09:00",
+		"sessionTitle":"Registration & Breakfast",
+		"sessionSubTitle":"",
+		"sessionSummary":"",
+		"sessionType":"logistical",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"",
+				  "nameLast":"",
+				  "photo":"",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"",
+				  "role":"",
+				  "bio":"",
+        }
+      ]
+    }  
+	},
     {
 		"camp":"AI Camp",
 		"tech":"ai",
