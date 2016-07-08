@@ -18,6 +18,37 @@
 		"camp":"AI Camp",
 		"tech":"ai",
 		"date":"2016-07-12",
+		"timeStart":"9:15",
+		"timeStop":"9:55",
+		"sessionTitle":"Keynote",
+		"sessionSubTitle":"",
+		"sessionSummary":"TBA",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    		"speakers": {
+      		"speaker": [
+			  {
+ 				  "nameFirst":"Chris",
+				  "nameLast":"Welty",
+				  "photo":"speaker-chris-welty.jpg",
+				  "linkedin":"",
+				  "twitter":"https://twitter.com/cawelty",
+				  "github":"",
+				  "facebook":"",
+				  "website":"https://research.google.com/pubs/104789.html",
+				  "openSourceRole":"",
+				  "organization":"Google",
+				  "role":"Research Scientist",
+				  "bio":"Chris is a Research Scientist at Google and an Endowed Professor of Cognitive Systems at the VU University, Amsterdam",
+        }
+      ]
+    }  
+	},
+    {
+		"camp":"AI Camp",
+		"tech":"ai",
+		"date":"2016-07-12",
 		"timeStart":"10:00",
 		"timeStop":"10:40",
 		"sessionTitle":"Describing contextual behavior with CAVE Language",
