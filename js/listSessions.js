@@ -1012,6 +1012,51 @@
     "camp": "Data Viz Camp",
     "tech": "dataviz",
     "date": "2016-07-09",
+    "timeStart": "09:45",
+    "timeStop": "10:30",
+    "sessionTitle": "Visualizing Science for Museum Visitors at AMNH",
+    "sessionSubTitle": "",
+    "sessionSummary": "<p>The first half of the talk will cover how AMNH’s scientists, engineers, and animators collaborate to visualize data in a museum context and how that is different from visualizing infographics or news, and the second portion will focus on how data visualization serves as a tool to spark interest in introductory computer science.</p>",
+    "sessionType": "Session",
+    "sessionSlides": "",
+    "sessionVideo": "",
+    "speakers": {
+      "speaker": [
+        {
+          "nameFirst": "Natalia",
+          "nameLast": "Rodriguez",
+          "photo": "speaker-natalia-rodriguez.jpg",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": "Natalia Rodriguez is the Helen Fellow in Data Visualization at the American Museum of Natural History. In addition to collaborating with the team on data visualizations for museum visitors, she co-teaches a data visualization course to high school girls in the Museum's Bridge-Up program. She has written and tinkered with Co.Labs at Fast Company, as well as authored the course for Sass recently released at Codecademy."
+        },
+        {
+          "nameFirst": "Eozin",
+          "nameLast": "Che",
+          "photo": "speaker-eozin-che.jpg",
+          "linkedin": "",
+          "twitter": "",
+          "github": "",
+          "facebook": "",
+          "website": "http://www.eozin.me/",
+          "openSourceRole": "",
+          "organization": "",
+          "role": "",
+          "bio": "Eozin Che is a creative technologist and interactive installation artist. Her work spans multiple artistic platforms including interactive exhibit, live performance and 3D animated visualization. She is currently a Lead Digital Artist at American Museum of Natural History. Eozin received her master’s degrees in architecture from University of Pennsylvania, and in interactive technologies from ITP at New York University."
+        }
+      ]
+    }
+  },
+  {
+    "camp": "Data Viz Camp",
+    "tech": "dataviz",
+    "date": "2016-07-09",
     "timeStart": "10:45",
     "timeStop": "11:30",
     "sessionTitle": "How to Avoid Some Common Graphical Mistakes",
