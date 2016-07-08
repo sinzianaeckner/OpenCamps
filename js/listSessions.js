@@ -489,8 +489,197 @@
   // CIVIC CAMP
   
   
+  {
+		"camp":"Civic Camp",
+		"tech":"civic",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"",
+		"sessionSubTitle":"",		
+		"sessionSummary":"",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Andrew",
+				  "nameLast":"Hoppin",
+				  "photo":"speaker-andrew-hoppin.jpg",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"NuCivic",
+				  "role":"President & Co-Founder",
+				  "bio":""
+        }
+      ]
+    }  
+	},
+   
+  {
+		"camp":"Civic Camp",
+		"tech":"civic",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"",
+		"sessionSubTitle":"",		
+		"sessionSummary":"",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Ben",
+				  "nameLast":"Kallos",
+				  "photo":"speaker-ben-kallos.jpg",
+				  "linkedin":"",
+				  "twitter":"",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"NYC City Council",
+				  "role":"Chair of Governmental Operations Committee",
+				  "bio":""
+        }
+      ]
+    }  
+	},   
   
+  {
+		"camp":"Civic Camp",
+		"tech":"civic",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"The Civic Graph: Put Yourself On The Map",
+		"sessionSubTitle":"",		
+		"sessionSummary":"<p>Civic Graph is a knowledge graph that maps people & organizations doing work in civic tech, defined as the use of technology for the public good. Initiated by Microsoft's Technology & Civic Innovation team, the purpose of Civic Graph is to help facilitate the evolution of civic tech's respective focus areas and the connections between its entities. Its usage is extended as an educational tool, an open information platform, and a resource for transparency within the field.</p> <p>You can help build the most robust database of people and organizations working in civic tech by adding yourself to the graph or adding an organization or individual who works in the space at civicgraph.io.  (This session summary may be subject to change if being published anywhere).</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Briana",
+				  "nameLast":"Vecchione",
+				  "photo":"speaker-briana-vecchione.jpg",
+				  "linkedin":"https://www.linkedin.com/in/brianavecchione",
+				  "twitter":"https://twitter.com/brianavecchione",
+				  "github":"https://github.com/MicrosoftTCE",
+				  "facebook":"",
+				  "website":"http://brianavecchione.com",
+				  "openSourceRole":"",
+				  "organization":"Microsoft",
+				  "role":"Civic Tech Fellow",
+				  "bio":"<p>Briana Vecchione serves as a Microsoft Civic Tech Fellow, where she works as a software engineer and data scientist. A recent computer science graduate from Pace University, Briana has worked on various projects at Microsoft Research, the Federal Reserve Board of Governors, ABB, and Square and is a recipient of over 20 grants and awards from institutions like the National Science Foundation, the Association of Computing Machinery, and the Anita Borg Institute.Briana also serves as the head of wogrammer New York, an organization dedicated to celebrating, supporting, and connecting accomplished women in tech in the New York area. An avid public speaker, she often speaks at venues like Microsoft Research, Bloomberg, TedX, Sony Wonder Lab, Facebook, and Carnegie Mellon. She is a recipient of the ACM Tapia Research Award, a 2-time scholar of the ABI Grace Hopper Celebration, National Science Foundation Tapia Celebration scholar, and the founder the Pace University Women in Tech community. More at <a href=\"http://brianavecchione.com\" targe=\"_blank\">http://brianavecchione.com</a>.</p>"
+        }
+      ]
+    }  
+	},
   
+  {
+		"camp":"Civic Camp",
+		"tech":"civic",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Open Data Durban - Using Open Source Tools to develop South Africa",
+		"sessionSubTitle":"",		
+		"sessionSummary":"<p>Civic Graph is a knowledge graph that maps people & organizations doing work in civic tech, defined as the use of technology for the public good. Initiated by Microsoft's Technology & Civic Innovation team, the purpose of Civic Graph is to help facilitate the evolution of civic tech's respective focus areas and the connections between its entities. Its usage is extended as an educational tool, an open information platform, and a resource for transparency within the field.</p> <p>You can help build the most robust database of people and organizations working in civic tech by adding yourself to the graph or adding an organization or individual who works in the space at civicgraph.io.  (This session summary may be subject to change if being published anywhere).</p>",
+		"sessionType":"Lightning Talk",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Tricia",
+				  "nameLast":"Govindasamy",
+				  "photo":"speaker-tricia-govindasamy.jpg",
+				  "linkedin":"",
+				  "twitter":"https://twitter.com/openENVIRO",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"Open Data Durban",
+				  "role":"Open Government Fellow",
+				  "bio":""
+        }
+      ]
+    }  
+	},  
+
+  {
+		"camp":"Civic Camp",
+		"tech":"civic",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"Open Source Law Enforcement",
+		"sessionSubTitle":"",		
+		"sessionSummary":"<p>The goal of this session would be to introduce participants to systems I've built to find and catch victims of human trafficking.  And then to pivot more broadly to how to build technology open source for law enforcement.</p>",
+		"sessionType":"Session",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Eric",
+				  "nameLast":"Schles",
+				  "photo":"speaker-eric-schles.jpg",
+				  "linkedin":"https://www.linkedin.com/in/ericschles",
+				  "twitter":"https://twitter.com/EricSchles",
+				  "github":"https://github.com/EricSchles/",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"US Digital Service",
+				  "role":"Data Scientist",
+				  "bio":"<p>Eric Schles is an expert in anti human trafficking efforts, data scientist and Python enthusiast.  He is deeply passionate about bringing open source to the government land scape and creating civic technology.</p>"
+        }
+      ]
+    }  
+	},  
+
+  {
+		"camp":"Civic Camp",
+		"tech":"civic",
+		"date":"2016-07-10",
+		"timeStart":"",
+		"timeStop":"",
+		"sessionTitle":"A Journey In the Cloud",
+		"sessionSubTitle":"",		
+		"sessionSummary":"<p>Empowering educators and school administrators through flexible, ​open-source tools and resources the, New Visions CloudLab is a home for community driven tool development and support. This session will give an overview of our journey to creating these tools with our users and demo one of our most popular Add-Ons used both in schools and government-Autocrat!</p>",
+		"sessionType":"Lightning Talk",
+		"sessionSlides":"",
+		"sessionVideo":"",
+    "speakers": {
+      "speaker": [
+			  {
+ 				  "nameFirst":"Danieta",
+				  "nameLast":"Danieta Morgan",
+				  "photo":"speaker-danieta-morgan.jpg",
+				  "linkedin":"",
+				  "twitter":"https://twitter.com/youthinnovator",
+				  "github":"",
+				  "facebook":"",
+				  "website":"",
+				  "openSourceRole":"",
+				  "organization":"New Visions for Public Schools-CloudLab",
+				  "role":"Lead of Instructional Systems",
+				  "bio":""
+        }
+      ]
+    }  
+	},   
   
   
   
