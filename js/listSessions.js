@@ -40,7 +40,7 @@
 				  "openSourceRole":"",
 				  "organization":"NYU",
 				  "role":"Professor",
-				  "bio":"Dr. Bud Mishra is a Professor of Computer Science & Mathematics at the Courant Institute, New York University.  His most recent research and publication involves a new DNA Sequencing Method that is precise enough to reveal hidden mechanisms by which bacteria resist antibiotics.",
+				  "bio":"<p>Dr. Bud Mishra is a Professor of Computer Science & Mathematics at the Courant Institute, New York University.  His most recent research and publication involves a new DNA Sequencing Method that is precise enough to reveal hidden mechanisms by which bacteria resist antibiotics.</p>",
         }
       ]
     }  
