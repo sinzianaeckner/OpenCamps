@@ -40,35 +40,7 @@
 				  "openSourceRole":"",
 				  "organization":"NYU",
 				  "role":"Professor",
-				  "bio":"<p>Professor Bud Mishra is a professor of computer science and mathematics at 
-				  NYU Courant Institute of Mathematical Sciences, professor of engineering at NYU’s Tandon School 
-				  of engineering, professor of human genetics at Mt. Sinai School of Medicine, visiting scholar at 
-				  Cold Spring Harbor Laboratory and a professor of cell biology at NYU School of Medicine. 
-				  He founded the NYU/Courant Bioinformatics Group, a multi-disciplinary group working on research 
-				  at the interface of computer science, applied mathematics, biology, biomedicine and 
-				  bio/nano-technologies. Prof. Mishra has a degree in Science from Utkal University, in 
-				  Electronics and Communication Engineering from IIT, Kharagpur, and MS and PhD degrees in 
-				  Computer Science from Carnegie-Mellon University. He has industrial experience in 
-				  Computer and Data Science (ATTAP, brainiad, Genesis Media, Pypestream, and Tartan Laboratories), 
-				  Finance (Instadat, PRF, LLC, and Tudor Investment), Robotics and Bio- and 
-				  Nanotechnologies (Abraxis, Bioarrays, InSilico, MRTech, OpGen and Seqster). 
-				  He is the author of a textbook on algorithmic algebra and more than two hundred archived publications.
-				  He has advised and mentored more than 35 graduate students and post-docs in the areas of computer 
-				  science, robotics and control engineering, applied mathematics, finance, biology and medicine. 
-				  He holds 21 issued and 23 pending patents in areas
-				  ranging over robotics, model checking, intrusion detection, cyber security,
-				  emergency response, disaster management, data analysis, biotechnology,
-				  nanotechnology, genome mapping and sequencing, mutation calling, cancer
-				  biology, fintech, adtech, internet architecture and linguistics. His pioneering work
-				  includes: first application of model checking to hardware verification; first robotics
-				  technologies for grasping, reactive grippers and work holding; first single molecule
-				  genotype/haplotype mapping technology (Optical Mapping); first analysis of copy
-				  number variants with a segmentation algorithm, first whole-genome haplotype
-				  assembly technology (SUTTA), first clinical-genomic variant/base calling
-				  technology (TotalRecaller), and current work in progress continuing in the areas of
-				  liquid biopsies, cancer data, cyber security, cryptography, financial engineering and
-				  internet of the future. He is a fellow of IEEE, ACM and AAAS, a Distinguished
-				  Alumnus of IIT-Kgp, and a NYSTAR Distinguished Professor.</p>",
+				  "bio":"Dr. Bud Mishra is a Professor of Computer Science & Mathematics at the Courant Institute, New York University.  His most recent research and publication involves a new DNA Sequencing Method that is precise enough to reveal hidden mechanisms by which bacteria resist antibiotics.",
         }
       ]
     }  
